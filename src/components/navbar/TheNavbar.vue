@@ -1,8 +1,8 @@
 <template>
-  <navbar>
-  <BuzzRxLogo />
-  <HamburgerBtn />
-  </navbar>
+  <div class='navbar'>
+    <BuzzRxLogo />
+    <HamburgerBtn />
+  </div>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;

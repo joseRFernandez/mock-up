@@ -1,13 +1,16 @@
 <template>
-  <NavbarMain />
+  <body class="mobile">
+    <TheNavbar />
+    <TheFooter />
+  </body>
 </template>
 
 <script>
-import NavbarMain from './components/navbar/NavbarMain.vue';
-
+import TheNavbar from './components/navbar/TheNavbar.vue';
+import TheFooter from './components/footer/TheFooter.vue';
 export default {
   name: 'App',
-  components: { NavbarMain },
+  components: { TheNavbar, TheFooter },
 };
 </script>
 
@@ -15,5 +18,14 @@ export default {
 html {
   font-family: 'Lato', sans-serif;
   /* font-family: 'Omnes', sans-serif; */
+}
+.mobile {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 4796px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 </style>
