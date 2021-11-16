@@ -1,11 +1,13 @@
 <template>
-  <p>Navbar coming soon...</p>
+  <NavbarMain />
 </template>
 
 <script>
+import NavbarMain from './components/navbar/NavbarMain.vue';
+
 export default {
   name: 'App',
-  components: {},
+  components: { NavbarMain },
 };
 </script>
 
