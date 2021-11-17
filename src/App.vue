@@ -2,6 +2,7 @@
   <body class="mobile">
     <TheNavbar />
     <TheHeader />
+    <TheGetACardSection />
     <TheCeoMessage />
     <TheFooter />
   </body>
@@ -12,9 +13,17 @@ import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheFooter from './components/footer/TheFooter.vue';
 import TheHeader from './components/header/TheHeader.vue';
 import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
+import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+
 export default {
   name: 'App',
-  components: { TheNavbar, TheFooter, TheHeader, TheCeoMessage },
+  components: {
+    TheNavbar,
+    TheFooter,
+    TheHeader,
+    TheCeoMessage,
+    TheGetACardSection,
+  },
 };
 </script>
 
