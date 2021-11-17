@@ -1,18 +1,20 @@
 <template>
   <section class="ceo">
     <MessageText class="inner-text" />
-    <CeoImage />
+    <div>
+      <CeoSignature />
+    </div>
   </section>
 </template>
 
 <script>
 import MessageText from './MessageText.vue';
-import CeoImage from './CeoImage.vue';
+import CeoSignature from './CeoSignature.vue';
 
 export default {
   components: {
     MessageText,
-    CeoImage,
+    CeoSignature,
   },
 };
 </script>
