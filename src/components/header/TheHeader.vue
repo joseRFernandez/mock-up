@@ -1,21 +1,20 @@
 <template>
   <header>
-   <HeaderTitle />
-    <p>header-image section coming soon...</p>
+    <HeaderTitle />
+    <HeaderImageMobile />
   </header>
 </template>
 
 <script>
-  import HeaderTitle from './HeaderTitle.vue'
+import HeaderTitle from './HeaderTitle.vue';
+import HeaderImageMobile from './HeaderImageMobile.vue';
 
-  export default {
-    components: {
-      HeaderTitle
-    }
-  }
-
+export default {
+  components: {
+    HeaderTitle,
+    HeaderImageMobile,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
