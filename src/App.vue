@@ -24,6 +24,7 @@ html {
   left: 0px;
   width: 375px;
   height: 4796px;
+  margin: 0;
 
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;

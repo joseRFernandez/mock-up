@@ -12,14 +12,16 @@
       respective owners and rights holders and are used solely to represent the
       products of these rights holders.
     </p>
-    <p>footer image coming soon...</p>
+    <DotPharmacyLogo class="dotLogo-mobile"/>
   </div>
 </template>
 
 <script>
 import BuzzRxLogo from '../BuzzRxLogo.vue';
+import DotPharmacyLogo from './DotPharmacyLogo.vue';
+
 export default {
-  components: { BuzzRxLogo },
+  components: { BuzzRxLogo, DotPharmacyLogo },
 };
 </script>
 
@@ -56,4 +58,9 @@ export default {
   font-weight: 500;
   line-height: 14px;
 }
+.dotLogo-mobile {
+width: 71.04px;
+height: 13.28px;
+}
+
 </style>
