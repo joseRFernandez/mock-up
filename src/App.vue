@@ -1,6 +1,7 @@
 <template>
   <body class="mobile">
     <TheNavbar />
+    <TheHeader />
     <TheFooter />
   </body>
 </template>
@@ -8,9 +9,10 @@
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheFooter from './components/footer/TheFooter.vue';
+import TheHeader from './components/header/TheHeader.vue';
 export default {
   name: 'App',
-  components: { TheNavbar, TheFooter },
+  components: { TheNavbar, TheFooter, TheHeader },
 };
 </script>
 
@@ -18,6 +20,9 @@ export default {
 html {
   font-family: 'Lato', sans-serif;
   /* font-family: 'Omnes', sans-serif; */
+}
+body {
+  margin: 0;
 }
 .mobile {
   top: 0px;
