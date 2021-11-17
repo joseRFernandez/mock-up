@@ -2,6 +2,7 @@
   <body class="mobile">
     <TheNavbar />
     <TheHeader />
+    <TheCeoMessage />
     <TheFooter />
   </body>
 </template>
@@ -10,9 +11,10 @@
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheFooter from './components/footer/TheFooter.vue';
 import TheHeader from './components/header/TheHeader.vue';
+import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 export default {
   name: 'App',
-  components: { TheNavbar, TheFooter, TheHeader },
+  components: { TheNavbar, TheFooter, TheHeader, TheCeoMessage },
 };
 </script>
 
