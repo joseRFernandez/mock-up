@@ -31,14 +31,14 @@
 section {
   width: 332px;
   height: 727px;
+  margin: 24px;
+}
+p {
   text-align: left;
+  font: normal normal normal 16px/24px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin: 0 19px 0 24px;
-}
-p {
-  font-size: 16px;
-  line-height: 24px;
+  margin: 0;
 }
 </style>
