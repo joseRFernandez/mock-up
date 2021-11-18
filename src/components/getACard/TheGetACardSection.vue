@@ -2,20 +2,20 @@
   <div class="getACardContainer">
     <GetACardText />
     <BuzzRxCard />
-    <OptionButton />
+    <BadgeList />
   </div>
 </template>
 
 <script>
 import GetACardText from './GetACardText.vue';
 import BuzzRxCard from './BuzzRxCard.vue';
-import OptionButton from './OptionButton.vue';
+import BadgeList from './BadgeList.vue';
 
 export default {
   components: {
     GetACardText,
     BuzzRxCard,
-    OptionButton,
+    BadgeList,
   },
 };
 </script>

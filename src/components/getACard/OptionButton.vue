@@ -1,14 +1,19 @@
 <template>
   <span>
     <div class="btn">
-      <img src="assets/text/text.png" />
+      <img :src="icon" />
     </div>
-    <div class="button-img-container"></div>
-    <div>
-      <p>TEXT CARD</p>
+    <div class="caption">
+      {{ caption }}
     </div>
   </span>
 </template>
+
+<script>
+export default {
+  props: ['icon', 'caption'],
+};
+</script>
 
 <style scoped>
 span {
@@ -25,7 +30,7 @@ span {
 .btn {
   padding: 10.29px 18.8px 9.45px 100.75px;
 }
-p {
+.caption {
   text-align: left;
   font: normal normal 16px Lato;
   letter-spacing: 0px;
