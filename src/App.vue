@@ -2,6 +2,7 @@
   <body class="mobile">
     <TheNavbar />
     <TheHeader />
+    <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
     <TheFooter />
@@ -14,6 +15,7 @@ import TheFooter from './components/footer/TheFooter.vue';
 import TheHeader from './components/header/TheHeader.vue';
 import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue'
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     TheHeader,
     TheCeoMessage,
     TheGetACardSection,
+    TheMAWPartnershipSection
   },
 };
 </script>
