@@ -11,6 +11,10 @@
 import OptionButton from './OptionButton.vue';
 
 export default {
+  components: {
+    OptionButton,
+  },
+  props: ['icon', 'caption'],
   data() {
     return {
       badges: [
@@ -27,10 +31,6 @@ export default {
       ],
     };
   },
-  components: {
-    OptionButton,
-  },
-  props: ['icon', 'caption'],
 };
 </script>
 
