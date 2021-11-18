@@ -23,5 +23,6 @@ export default {
 <style scoped>
 .getACardContainer {
   height: 500px;
+  margin: 50px 0 0px;
 }
 </style>

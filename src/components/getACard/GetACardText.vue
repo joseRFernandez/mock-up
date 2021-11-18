@@ -8,4 +8,8 @@
 span {
   color: #b33cc8;
 }
+p {
+  line-height: 46px;
+  text-align: center;
+}
 </style>
