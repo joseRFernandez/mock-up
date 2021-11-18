@@ -10,6 +10,5 @@ section {
   height: 563px;
   width: 375px;
   background-size: 375px;
-
 }
 </style>
