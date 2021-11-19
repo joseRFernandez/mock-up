@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import OptionButton from './OptionButton.vue';
+import OptionButton from '../../OptionButton.vue';
 
 export default {
   components: {
@@ -29,6 +29,7 @@ export default {
           caption: 'EMAIL CARD',
         },
       ],
+      signups: [{ id: 1, caption: 'Sign Up To Give Back' }],
     };
   },
 };

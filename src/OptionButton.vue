@@ -1,6 +1,6 @@
 <template>
   <span>
-    <div class="btn">
+    <div class="btn" v-if="icon">
       <img :src="icon" />
     </div>
     <div class="caption">

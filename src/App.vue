@@ -2,6 +2,7 @@
   <body class="mobile">
     <TheNavbar />
     <TheHeader />
+    <TheSignUpForm />
     <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
@@ -12,12 +13,13 @@
 
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
-import TheFooter from './components/footer/TheFooter.vue';
 import TheHeader from './components/header/TheHeader.vue';
+import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
     TheGetACardSection,
     TheMAWPartnershipSection,
     TheMeetAudreySection,
+    TheSignUpForm,
   },
 };
 </script>

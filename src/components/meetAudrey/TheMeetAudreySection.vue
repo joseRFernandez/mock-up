@@ -1,8 +1,10 @@
 <template>
-  <MeetAudreyTitle />
-  <MeetAudreyImage />
-  <MeetAudreyQuote />
-  <MeetAudreyText />
+  <section>
+    <MeetAudreyTitle />
+    <MeetAudreyImage />
+    <MeetAudreyQuote />
+    <MeetAudreyText />
+  </section>
 </template>
 
 <script>
@@ -21,4 +23,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+section {
+  margin-top: 61px;
+}
+</style>
