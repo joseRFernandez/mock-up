@@ -18,7 +18,6 @@
 <style scoped>
 div {
   width: 331px;
-  margin: 0 22px;
 }
 .lightText {
   height: 74px;
@@ -34,6 +33,7 @@ p.first {
   font-size: 15px;
   line-height: 17px;
   font-weight: 100;
+  padding: 3px 0;
 }
 p.second {
   text-align: center;

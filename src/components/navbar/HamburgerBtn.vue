@@ -1,5 +1,4 @@
 <template>
-  <!-- <p>burger icon coming soon...</p> -->
   <img src="/assets/hamburger_icon.png" class="hamburger" />
 </template>
 
