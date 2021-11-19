@@ -23,7 +23,7 @@ p {
   opacity: 1;
 }
 sup {
-  font-size: 28px;
+  font-size: 14px;
 }
 .purple {
   color: #b33cc8;
