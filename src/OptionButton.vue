@@ -1,6 +1,6 @@
 <template>
-  <span>
-    <div class="btn">
+  <span @click="displayProps()">
+    <div class="btn" v-if="icon">
       <img :src="icon" />
     </div>
     <div class="caption">
@@ -12,6 +12,11 @@
 <script>
 export default {
   props: ['icon', 'caption'],
+  methods: {
+    displayProps() {
+      console.log(this.$props);
+    },
+  },
 };
 </script>
 

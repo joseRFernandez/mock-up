@@ -23,6 +23,7 @@ p {
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;
   opacity: 1;
+  color: #595959;
 }
 span {
   color: #b33cc8;
