@@ -1,5 +1,5 @@
 <template>
-  <div>Sign up text coming soon...</div>
+  <SignUpMainText />
   <div>Input Forms coming soon...</div>
   <AgreeToVisit />
   <SignUpBadge />
@@ -7,12 +7,14 @@
   <MakeAWishLogo />
 </template>
 <script>
+import SignUpMainText from './SIgnUpMainText.vue';
 import AgreeToVisit from './AgreeToVisit.vue';
 import SignUpBadge from './SignUpBadge.vue';
 import SignupFinePrint from './SignupFinePrint.vue';
 import MakeAWishLogo from './MakeAWishLogo.vue';
 export default {
   components: {
+    SignUpMainText,
     AgreeToVisit,
     SignUpBadge,
     MakeAWishLogo,
