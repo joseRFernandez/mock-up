@@ -9,8 +9,8 @@
 .hamburger {
   width: 16.14px;
   height: 12.25px;
-  padding-right: 1rem;
   background-position: 334.13px 28px;
   opacity: 100%;
+  margin-right: 24px;
 }
 </style>

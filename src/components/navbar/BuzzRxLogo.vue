@@ -4,8 +4,9 @@
 
 <style scoped>
 .logo {
-  width: 154.2px;
-  height: 37.2px;
+  width: 154px;
+  height: 37px;
   background-position: 8.21px 15.62px;
+  opacity: 1;
 }
 </style>

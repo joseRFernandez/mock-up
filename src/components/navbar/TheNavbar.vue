@@ -1,5 +1,5 @@
 <template>
-  <div class='navbar'>
+  <div class="navbar">
     <BuzzRxLogo />
     <HamburgerBtn />
   </div>
@@ -22,10 +22,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0px;
-  left: 0px;
-  /* width: 375px; */
-  height: 70px;
+  height: 38px;
   opacity: 1;
+  padding: 15px 0 17px 8px;
 }
 </style>
