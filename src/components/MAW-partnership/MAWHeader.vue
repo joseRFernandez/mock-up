@@ -23,5 +23,6 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+  line-height: 22px;
 }
 </style>
