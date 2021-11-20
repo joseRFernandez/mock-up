@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <div class="audrey-text">
     <p>
       Audrey is a 12-year-old girl from Arizona with a passion for fashion. She
       spends her free time flipping through style magazines and listening to her
@@ -24,14 +24,14 @@
       like, ‘I got this,’ and it makes you appreciate the life that you have,”
       said Lisa, Audrey’s mom.
     </p>
-  </section>
+  </div>
 </template>
 
 <style scoped>
-section {
+.audrey-text {
   width: 332px;
   height: 727px;
-  margin: 24px;
+  margin: 0 19px 0 24px;
 }
 p {
   text-align: left;
@@ -40,5 +40,6 @@ p {
   color: #262626;
   opacity: 1;
   margin: 0;
+  line-height: 24px;
 }
 </style>
