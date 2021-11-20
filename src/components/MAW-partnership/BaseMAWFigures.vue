@@ -19,6 +19,7 @@ p {
   color: #262626;
   opacity: 1;
   line-height: 24px;
+  margin: 0%;
 }
 
 p.stat {
@@ -29,6 +30,6 @@ p.stat {
   letter-spacing: 0px;
   color: #b33cc8;
   opacity: 1;
-  margin: 0;
+  margin: 8px 0 35px;
 }
 </style>

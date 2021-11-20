@@ -16,7 +16,6 @@
 div {
   width: 329px;
   height: 147.16px;
-  margin: 23px 24px 0 22px;
 }
 p {
   text-align: left;
@@ -24,6 +23,7 @@ p {
   letter-spacing: 0px;
   opacity: 1;
   color: #595959;
+  padding: 1.5px 0;
 }
 span {
   color: #b33cc8;

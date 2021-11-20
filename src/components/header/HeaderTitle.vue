@@ -1,14 +1,14 @@
 <template>
   <div class="header-title">
-    <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+    <div class="header-caption">
+      <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+    </div>
   </div>
 </template>
 
 <style scoped>
 /* below styles are set for mobile */
 p {
-  width: 351px;
-  height: 76px;
   text-align: center;
   font-weight: 500;
   font-size: 32px;
@@ -16,13 +16,10 @@ p {
   letter-spacing: 0px;
   opacity: 1;
   margin: 0;
-  padding: 31px 12px 22px;
 }
 
 .header-title {
-  top: 70px;
-  left: 0px;
-  width: 375px;
+  width: 100%;
   height: 129px;
   background: #ffc700 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -31,5 +28,14 @@ p {
 span {
   color: #b33cc8;
 }
-/* above are set for mobile  */
+@media screen and (max-width: 768px) {
+  .header-title {
+    height: 84px;
+  }
+  .header-caption {
+    width: 736px;
+    height: 40px;
+    padding: 25px 16px 19px;
+  }
+}
 </style>

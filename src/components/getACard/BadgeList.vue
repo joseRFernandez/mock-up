@@ -29,7 +29,6 @@ export default {
           caption: 'EMAIL CARD',
         },
       ],
-      signups: [{ id: 1, caption: 'Sign Up To Give Back' }],
     };
   },
 };

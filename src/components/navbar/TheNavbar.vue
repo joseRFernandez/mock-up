@@ -1,6 +1,6 @@
 <template>
-  <div class='navbar'>
-    <BuzzRxLogo />
+  <div class="navbar-container">
+    <BuzzRxLogo class="navbar-buzz-logo" />
     <HamburgerBtn />
   </div>
 </template>
@@ -18,14 +18,25 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
+.navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0px;
-  left: 0px;
-  /* width: 375px; */
   height: 70px;
+}
+.navbar-buzz-logo {
+  width: 154.2px;
+  height: 37.2px;
+  margin-left: 10px;
+}
+.logo-navbar {
+  width: 300px;
+  height: 37px;
+  background-position: 8.21px 15.62px;
   opacity: 1;
+  margin-left: 8.21px;
+}
+
+@media screen and (max-width: 765px) {
 }
 </style>

@@ -28,16 +28,14 @@ export default {
 </script>
 <style scoped>
 input {
-  width: 331px;
-  height: 40px;
+  width: 325px;
+  height: 36px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   opacity: 1;
-  margin: 5px 22px 0;
+  margin: 5px 0 0;
   color: #b2b2b2;
-}
-input[placeholder] {
   font-size: 16px;
   opacity: 50%;
 }

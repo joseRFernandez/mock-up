@@ -1,5 +1,5 @@
 <template>
-  <body class="mobile">
+  <body class="body-container">
     <TheNavbar />
     <TheHeader />
     <TheSignUpForm />
@@ -39,19 +39,20 @@ export default {
 <style>
 html {
   font-family: 'Lato', sans-serif;
-  /* font-family: 'Omnes', sans-serif; */
 }
 body {
   margin: 0;
 }
-.mobile {
-  top: 0px;
-  left: 0px;
-  width: 375px;
+.body-container {
+  width: 100%;
   height: 4796px;
   margin: 0;
-
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .body-container {
+    height: 4107px;
+  }
 }
 </style>

@@ -1,19 +1,19 @@
 <template>
   <section>
-    <div class="header"><p>PROUD SPONSOR OF</p></div>
+    <div class="header"><p>PROUD SUPPORTER OF</p></div>
     <img src="assets/Make-A-Wish-Logo.png" />
   </section>
 </template>
 
 <style scoped>
 section {
-  margin: 28px 95px 0 93.88px;
   width: 186px;
   height: 64px;
   opacity: 1;
+  margin: 28px 72px 0;
 }
 p {
-  font-size: 7.8px;
+  font-size: 8px;
   color: #006fba;
   text-align: center;
 }

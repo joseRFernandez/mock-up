@@ -13,6 +13,8 @@
 <style scoped>
 div {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .checkbox {
   width: 13px;
@@ -20,7 +22,7 @@ div {
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
-  margin: 26px 0 0 27px;
+  margin-right: 5px;
 }
 .text {
   width: 298px;
@@ -30,6 +32,6 @@ div {
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin: 8px 0 0 14.6px;
+  line-height: 18px;
 }
 </style>
