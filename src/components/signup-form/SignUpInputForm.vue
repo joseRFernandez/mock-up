@@ -37,6 +37,14 @@ input {
   margin: 5px 0 0;
   color: #b2b2b2;
   font-size: 16px;
-  opacity: 50%;
+  opacity: 75%;
+}
+@media screen and (max-width: 768px) {
+  input {
+    width: 547px;
+    height: 40px;
+    line-height: 19px;
+    margin: 7px 110px;
+  }
 }
 </style>
