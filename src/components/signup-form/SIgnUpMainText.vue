@@ -21,19 +21,16 @@ div {
 }
 .lightText {
   height: 74px;
-  margin-top: 20px;
   text-align: center;
 }
 .boldText {
   height: 61px;
-  margin-bottom: 5px;
 }
 p.first {
   margin: 0;
   font-size: 15px;
   line-height: 17px;
   font-weight: 100;
-  padding: 3px 0;
 }
 p.second {
   text-align: center;
@@ -41,6 +38,15 @@ p.second {
   letter-spacing: 0px;
   color: #262626;
   margin: 0;
-  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .lightText {
+    width: 683px;
+    height: 34px;
+  }
+  .boldText {
+    width: 683px;
+    margin-top: 13px
+  }
 }
 </style>
