@@ -1,6 +1,5 @@
 <template>
-  <div class="image-container">
-    <img src="assets/ceo-picture.png" class="mobile-image" />
+  <div class="ceo-signature">
     <p>
       Richard K. Davis<br />
       President and CEO<br />
@@ -10,21 +9,17 @@
 </template>
 
 <style scoped>
-.image-container {
-  height: 88px;
-  display: flex;
+.ceo-signature {
+  width: 183px;
+  height: 59px;
   text-align: left;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 45px;
+  margin-left: 24px;
+
 }
-.mobile-image {
-  height: 88px;
-  width: 88px;
-  padding-left: 12px;
+p {
+  margin: 0;
 }
 </style>
