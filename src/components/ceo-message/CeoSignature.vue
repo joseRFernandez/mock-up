@@ -11,7 +11,7 @@
 
 <style scoped>
 .image-container {
-  height: 128px;
+  height: 88px;
   display: flex;
   text-align: left;
   letter-spacing: 0px;
@@ -20,10 +20,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 45px;
 }
 .mobile-image {
   height: 88px;
   width: 88px;
-  padding-left: 10px;
+  padding-left: 12px;
 }
 </style>
