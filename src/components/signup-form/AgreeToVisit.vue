@@ -22,7 +22,6 @@ div {
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
-  margin-right: 5px;
 }
 .text {
   width: 298px;
@@ -33,5 +32,10 @@ div {
   color: #262626;
   opacity: 1;
   line-height: 18px;
+}
+@media screen and (min-width: 768px) {
+  .checkbox {
+    margin: 26px 15px 48px 223px;
+  }
 }
 </style>
