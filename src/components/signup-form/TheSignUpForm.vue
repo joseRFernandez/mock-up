@@ -29,11 +29,6 @@ export default {
 
 <style scoped>
 form {
-  width: 331px;
-}
-@media screen and (max-width: 768px) {
-  form {
-    width: 683px;
-  }
+  width: 100%;
 }
 </style>
