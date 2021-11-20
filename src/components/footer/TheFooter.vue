@@ -1,8 +1,6 @@
 <template>
   <div class="footer">
-    <div class="footer-logo">
-      <BuzzRxLogo />
-    </div>
+    <BuzzRxLogo class="footer-logo" />
     <p class="text">© 2020 <strong>BuzzRx.com</strong></p>
     <p class="text">This is not insurance. Full Disclaimer</p>
     <p class="small-print">
@@ -36,10 +34,11 @@ export default {
   opacity: 1;
   height: 320px;
 }
+
 .footer-logo {
-  width: 80.12px;
-  height: 20.12px;
-  margin: 32px 148.9px 0 145px;
+  height: 20px;
+  width: 81px;
+  margin: 33px 149px 33px 146px;
 }
 
 .footer .text {
@@ -53,12 +52,13 @@ export default {
   line-height: 16px;
 }
 .small-print.medium {
-  margin-left: 88px;
-  width: 198px;
-  height: 14px;
+  line-height: 8px;
+  font-size: 5px;
+  margin: 1.7px 86px 27px;
+  text-align: center;
 }
 .dotLogo-mobile {
-  width: 71.04px;
+  width: 71px;
   height: 13.28px;
 }
 </style>

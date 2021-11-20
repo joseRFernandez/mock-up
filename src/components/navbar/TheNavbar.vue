@@ -29,8 +29,9 @@ export default {
   padding: 15px 0 17px 8px;
 }
 .navbar-buzz-logo {
-  height: 37.2px;
   width: 154.2px;
+  height: 37.2px;
+  background-position: 8.21px 15.62px;
 }
 .logo-navbar {
   width: 154px;
