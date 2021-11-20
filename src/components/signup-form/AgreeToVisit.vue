@@ -1,20 +1,21 @@
 <template>
-  <div>
-    <section class="checkbox"></section>
-    <section class="text">
+  <div class="agree-container">
+    <div class="checkbox"></div>
+    <div class="text">
       <p>
         YES, I would like a BuzzRx Representative to visit my pharmacy and
         occasionally bring FREE
       </p>
-    </section>
+    </div>
   </div>
 </template>
 
 <style scoped>
-div {
-  display: flex;
-  justify-content: space-between;
+.agree-container {
+  width: 100%;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
 }
 .checkbox {
   width: 13px;
@@ -22,10 +23,13 @@ div {
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
-  margin-right: 5px;
+}
+p {
+  margin: 0;
+  width: 298px;
 }
 .text {
-  width: 298px;
+  min-width: 298px;
   height: 36px;
   text-align: left;
   font: normal normal normal 14px/18px Lato;
@@ -33,5 +37,14 @@ div {
   color: #262626;
   opacity: 1;
   line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox {
+    margin: 26px 15px 48px;
+  }
+  .text {
+    margin: 0;
+  }
 }
 </style>

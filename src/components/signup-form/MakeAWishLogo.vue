@@ -1,16 +1,16 @@
 <template>
-  <section>
+  <section class="maw-logo-container">
     <div class="header"><p>PROUD SUPPORTER OF</p></div>
     <img src="assets/Make-A-Wish-Logo.png" />
   </section>
 </template>
 
 <style scoped>
-section {
+.maw-logo-container {
   width: 186px;
   height: 64px;
   opacity: 1;
-  margin: 28px 72px 0;
+  margin: 21px 292px 0 290px;
 }
 p {
   font-size: 8px;

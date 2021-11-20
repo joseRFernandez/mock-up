@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="signup-container">
     <p>
       By submitting this form, you agree to BuzzRx’s
       <span>terms of use</span> and <span> policy</span>. By providing BuzzRx
@@ -13,7 +13,7 @@
 </template>
 
 <style scoped>
-div {
+.signup-container {
   width: 329px;
   height: 147.16px;
 }
@@ -23,9 +23,15 @@ p {
   letter-spacing: 0px;
   opacity: 1;
   color: #595959;
-  padding: 1.5px 0;
 }
 span {
   color: #b33cc8;
+}
+@media screen and (max-width: 768px) {
+  .signup-container {
+    width: 547px;
+    height: 108px;
+    margin: 15px 111px 0 110px;
+  }
 }
 </style>
