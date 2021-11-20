@@ -13,6 +13,7 @@
   width: 16.14px;
   height: 12.25px;
   opacity: 100%;
+  margin-top: 5px;
 }
 @media screen and (min-width: 765px) {
   .hamburger {
