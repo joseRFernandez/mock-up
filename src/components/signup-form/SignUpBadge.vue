@@ -1,12 +1,17 @@
 <template>
-  <div class="badge">
-    <p>Sign Up To Give Back</p>
+  <div class="badge-container">
+    <div class="badge">
+      <p>Sign Up To Give Back</p>
+    </div>
   </div>
 </template>
 
 <script></script>
 
 <style scoped>
+.badge-container {
+  margin-left: 204px;
+}
 .badge {
   width: 332px;
   height: 40px;
@@ -21,5 +26,10 @@ p {
   line-height: 19px;
   padding: 9.15px 64.22px 12.85px 64.22px;
   color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .badge {
+    width: 360px;
+  }
 }
 </style>
