@@ -1,8 +1,8 @@
 <template>
-  <p>
+  <p class="maw-paragraph">
     <strong>{{ caption }}</strong>
   </p>
-  <p class="stat">{{ amount }}</p>
+  <p class="maw-paragraph-stat">{{ amount }}</p>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-p {
+.maw-paragraph {
   text-align: center;
   font: normal normal 20px Lato;
   letter-spacing: 0px;
@@ -22,7 +22,7 @@ p {
   margin: 0%;
 }
 
-p.stat {
+.maw-paragraph-stat {
   width: 180px;
   height: 39px;
   text-align: center;
