@@ -19,7 +19,7 @@
       doctor’s appointments on the same day.
     </p>
     <p class="audrey-text-conditional">
-      > “My daughter is probably one of the strongest people I know. She never
+      “My daughter is probably one of the strongest people I know. She never
       complains about anything. Even if she’s having a bad seizure day, she’s
       like, ‘I got this,’ and it makes you appreciate the life that you have,”
       said Lisa, Audrey’s mom.
@@ -31,7 +31,7 @@
 .audrey-text {
   width: 332px;
   height: 727px;
-  margin-top: 17px;
+  margin: 17px 24px 0 19px;
 }
 p {
   text-align: left;
@@ -40,6 +40,5 @@ p {
   color: #262626;
   opacity: 1;
   margin: 0;
-  line-height: 24px;
 }
 </style>
