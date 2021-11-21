@@ -29,14 +29,13 @@ p {
 span {
   color: #b33cc8;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (min-width: 376px) {
   .header-title {
+    width: 768px;
     height: 84px;
   }
-  .header-caption {
-    width: 736px;
-    height: 40px;
-    padding: 25px 16px 19px;
+  .header-p-container {
+    padding: 20px 16px 19px;
   }
-} */
+}
 </style>

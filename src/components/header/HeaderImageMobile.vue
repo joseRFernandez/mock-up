@@ -12,10 +12,10 @@
   opacity: 1;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (min-width: 376px) {
   .header-mobile-image {
     width: 768px;
     height: 334px;
   }
-} */
+}
 </style>
