@@ -2,19 +2,19 @@
   <body class="body-container">
     <TheNavbar />
     <TheHeader />
-    <!-- <TheSignUpForm />
-    <TheMeetAudreySection />
+    <TheSignUpForm />
+    <!-- <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
-    <TheFooter />  -->
+    <TheFooter />   -->
   </body>
 </template>
 
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
-// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
@@ -26,12 +26,12 @@ export default {
   components: {
     TheNavbar,
     TheHeader,
+    TheSignUpForm,
     // TheFooter,
     // TheCeoMessage,
     // TheGetACardSection,
     // TheMAWPartnershipSection,
     // TheMeetAudreySection,
-    // TheSignUpForm,
   },
 };
 </script>

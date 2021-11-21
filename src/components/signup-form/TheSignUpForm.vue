@@ -1,11 +1,13 @@
 <template>
-  <form>
-    <SignUpMainText />
-    <SignUpInputForm />
-    <AgreeToVisit />
-    <SignUpBadge />
-    <SignupFinePrint />
-    <MakeAWishLogo />
+  <form class="signup-form-main-container">
+    <div class="signup-content-container">
+      <SignUpMainText />
+      <SignUpInputForm />
+      <AgreeToVisit />
+      <SignUpBadge />
+      <SignupFinePrint />
+      <MakeAWishLogo />
+    </div>
   </form>
 </template>
 <script>
@@ -28,7 +30,12 @@ export default {
 </script>
 
 <style scoped>
-form {
-  width: 100%;
+.signup-form-main-container {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+}
+.signup-content-container {
+  padding: 20px 22px 61px;
 }
 </style>

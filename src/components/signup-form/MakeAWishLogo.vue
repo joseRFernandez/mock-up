@@ -10,9 +10,11 @@
   width: 186px;
   height: 64px;
   opacity: 1;
-  margin: 21px 292px 0 290px;
+  padding-top: 28px;
+  margin-left: 72px;
 }
 p {
+  margin: 0;
   font-size: 8px;
   color: #006fba;
   text-align: center;

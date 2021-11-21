@@ -16,6 +16,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-top: 22px;
 }
 .checkbox {
   width: 13px;
@@ -23,6 +24,7 @@
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
+  margin-right: 15px;
 }
 p {
   margin: 0;

@@ -1,5 +1,5 @@
 <template>
-  <div class="header-mobile-image"></div>
+    <div class="header-mobile-image"></div>
 </template>
 
 <style scoped>

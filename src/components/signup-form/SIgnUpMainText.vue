@@ -14,9 +14,6 @@
 </template>
 
 <style scoped>
-div {
-  width: 331px;
-}
 .lightText {
   height: 74px;
   text-align: center;
@@ -24,8 +21,10 @@ div {
 .boldText {
   height: 61px;
 }
-p.first {
+p {
   margin: 0;
+}
+p.first {
   font-size: 15px;
   line-height: 17px;
   font-weight: 100;
@@ -37,7 +36,7 @@ p.second {
   color: #262626;
   margin: 0;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .lightText {
     width: 683px;
     height: 34px;
@@ -48,5 +47,5 @@ p.second {
     margin-top: 13px;
     padding: 13px 43px 0 42px;
   }
-}
+} */
 </style>
