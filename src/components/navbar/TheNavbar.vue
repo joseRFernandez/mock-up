@@ -37,6 +37,6 @@ export default {
   margin-left: 8.21px;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 768px) {
 }
 </style>

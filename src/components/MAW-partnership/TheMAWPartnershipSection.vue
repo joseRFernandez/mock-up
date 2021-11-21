@@ -30,4 +30,9 @@ section {
   height: 584px;
   background-color: #ffc60b;
 }
+@media screen and (max-width: 768px) {
+  .MAW-container {
+    height: 34px;
+  }
+}
 </style>

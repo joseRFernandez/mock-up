@@ -12,7 +12,7 @@ header {
   height: 60px;
   background-color: #b33cc8;
   height: 44px;
-  padding: 9px 24px 7px;
+  /* padding: 9px 24px 7px; */
 }
 p {
   margin: 0;
@@ -24,5 +24,10 @@ p {
   text-transform: uppercase;
   opacity: 1;
   line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+  p {
+    height: 22px
+  }
 }
 </style>

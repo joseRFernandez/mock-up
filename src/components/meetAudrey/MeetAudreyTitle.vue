@@ -2,8 +2,8 @@
   <div class="top">
     <p class="purple">Meet Audrey</p>
   </div>
-  <div>
-    <p class="bottom">Our 500<sup>th</sup> Wish Granted</p>
+  <div class="bottom">
+    <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
   </div>
 </template>
 
@@ -29,8 +29,23 @@ sup {
   color: #b33cc8;
 }
 .bottom {
-  margin-bottom: 30px;
   height: 35px;
   font-size: 28px;
+}
+@media screen and (max-width: 768px) {
+  .top {
+    width: 391px;
+    height: 42px;
+    margin: 0 188px;
+  }
+  .bottom {
+    width: 391px;
+    height: 35px;
+    margin: 0 188px;
+  }
+  .bottom-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 </style>

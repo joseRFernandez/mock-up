@@ -1,9 +1,11 @@
 <template>
-  <section>
+  <section class="meet-audrey-container">
     <MeetAudreyTitle />
-    <MeetAudreyImage />
-    <MeetAudreyQuote />
-    <MeetAudreyText />
+    <div class="inline">
+      <MeetAudreyQuote />
+      <MeetAudreyText />
+      <MeetAudreyImage />
+    </div>
   </section>
 </template>
 
@@ -24,7 +26,15 @@ export default {
 </script>
 
 <style scoped>
-section {
+.meet-audrey-container {
   margin-top: 61px;
+}
+@media screen and (max-width: 768px) {
+  .meet-audrey-container {
+    margin-top: 76px;
+  }
+  .inline {
+    display: inline;
+  }
 }
 </style>
