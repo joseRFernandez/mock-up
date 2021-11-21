@@ -10,8 +10,9 @@
   height: 563px;
   width: 375px;
   background-size: 375px;
+  margin-top: 30px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .meet-audrey-body {
     width: 453px;
     height: 680px;
@@ -19,5 +20,5 @@
     background-position: center;
     margin-top: 59px;
   }
-}
+} */
 </style>

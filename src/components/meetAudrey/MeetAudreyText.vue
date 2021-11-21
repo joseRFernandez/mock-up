@@ -18,8 +18,8 @@
       to adjust her leg braces or medication. Sometimes, she has multiple
       doctor’s appointments on the same day.
     </p>
-    <p class="audrey-text-conditional">>
-      “My daughter is probably one of the strongest people I know. She never
+    <p class="audrey-text-conditional">
+      > “My daughter is probably one of the strongest people I know. She never
       complains about anything. Even if she’s having a bad seizure day, she’s
       like, ‘I got this,’ and it makes you appreciate the life that you have,”
       said Lisa, Audrey’s mom.
@@ -27,12 +27,11 @@
   </div>
 </template>
 
-
 <style scoped>
 .audrey-text {
   width: 332px;
   height: 727px;
-  margin-right: 19px;
+  margin-top: 17px;
 }
 p {
   text-align: left;
@@ -42,15 +41,5 @@ p {
   opacity: 1;
   margin: 0;
   line-height: 24px;
-}
-@media screen and (max-width: 768px) {
-  .audrey-text {
-    width: 266px;
-    height: 476px;
-    /* margin: 0 24px 140px; */
-  }
-  .audrey-text-conditional {
-    display: none;
-  }
 }
 </style>

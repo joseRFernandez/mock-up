@@ -1,12 +1,10 @@
 <template>
-  <section class="meet-audrey-container">
-    <MeetAudreyTitle />
-    <div class="inline">
-      <MeetAudreyQuote />
-      <MeetAudreyText />
-      <MeetAudreyImage />
-    </div>
-  </section>
+  <MeetAudreyTitle />
+  <div class="inline">
+    <MeetAudreyImage />
+    <MeetAudreyQuote />
+    <MeetAudreyText />
+  </div>
 </template>
 
 <script>
@@ -26,15 +24,12 @@ export default {
 </script>
 
 <style scoped>
-.meet-audrey-container {
-  margin-top: 61px;
-}
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .meet-audrey-container {
     margin-top: 76px;
   }
   .inline {
     display: inline;
   }
-}
+} */
 </style>

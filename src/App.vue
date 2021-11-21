@@ -3,11 +3,11 @@
     <TheNavbar />
     <TheHeader />
     <TheSignUpForm />
-    <!-- <TheMeetAudreySection />
-    <TheMAWPartnershipSection />
+     <TheMeetAudreySection />
+    <!-- <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
-    <TheFooter />   -->
+    <TheFooter /> -->
   </body>
 </template>
 
@@ -18,7 +18,7 @@ import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
-// import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
@@ -31,7 +31,7 @@ export default {
     // TheCeoMessage,
     // TheGetACardSection,
     // TheMAWPartnershipSection,
-    // TheMeetAudreySection,
+    TheMeetAudreySection,
   },
 };
 </script>

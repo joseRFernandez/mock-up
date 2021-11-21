@@ -28,11 +28,11 @@ sup {
 .purple {
   color: #b33cc8;
 }
-.bottom {
+.bottom-text {
   height: 35px;
   font-size: 28px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .top {
     width: 391px;
     height: 42px;
@@ -47,5 +47,5 @@ sup {
     font-size: 28px;
     line-height: 36px;
   }
-}
+} */
 </style>
