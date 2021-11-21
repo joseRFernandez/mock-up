@@ -1,19 +1,19 @@
 <template>
   <body class="body-container">
     <TheNavbar />
-    <!-- <TheHeader />
-    <TheSignUpForm />
+    <TheHeader />
+    <!-- <TheSignUpForm />
     <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
-    <TheFooter /> -->
+    <TheFooter />  -->
   </body>
 </template>
 
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
-// import TheHeader from './components/header/TheHeader.vue';
+import TheHeader from './components/header/TheHeader.vue';
 // import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
@@ -25,8 +25,8 @@ export default {
   name: 'App',
   components: {
     TheNavbar,
+    TheHeader,
     // TheFooter,
-    // TheHeader,
     // TheCeoMessage,
     // TheGetACardSection,
     // TheMAWPartnershipSection,
@@ -39,10 +39,10 @@ export default {
 <style>
 html {
   font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 body {
   margin: 0;
-  box-sizing: border-box;
 }
 .body-container {
   width: 100%;
