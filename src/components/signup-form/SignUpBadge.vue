@@ -9,16 +9,12 @@
 <script></script>
 
 <style scoped>
-.badge-container {
-  margin-left: 204px;
-}
 .badge {
   width: 332px;
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  margin-top: 29px;
 }
 p {
   font-size: 16px;
@@ -27,9 +23,9 @@ p {
   padding: 9.15px 64.22px 12.85px 64.22px;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .badge {
     width: 360px;
   }
-}
+} */
 </style>

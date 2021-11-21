@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <BuzzRxLogo class="footer-logo" />
-    <p class="text">© 2020 <strong>BuzzRx.com</strong></p>
-    <p class="text">This is not insurance. Full Disclaimer</p>
+    <p class="footer-text">© 2020 <strong>BuzzRx.com</strong></p>
+    <p class="footer-text">This is not insurance. Full Disclaimer</p>
     <p class="small-print">
       The BuzzRx prescription discount program is not available for use in the
       state of Tennessee.
@@ -32,16 +32,16 @@ export default {
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  height: 320px;
+  height: 211px;
 }
 
 .footer-logo {
   height: 20px;
   width: 81px;
-  margin: 33px 149px 33px 146px;
+  margin: 33px 149px 34px 146px;
 }
 
-.footer .text {
+.footer-text {
   font-size: 7px;
   font-weight: 500;
   line-height: 8px;
@@ -54,11 +54,12 @@ export default {
 .small-print.medium {
   line-height: 8px;
   font-size: 5px;
-  margin: 1.7px 86px 27px;
+  margin: 1.7px 86px 0;
   text-align: center;
 }
 .dotLogo-mobile {
   width: 71px;
   height: 13.28px;
+  margin: 27px 152px 27px 152px;
 }
 </style>

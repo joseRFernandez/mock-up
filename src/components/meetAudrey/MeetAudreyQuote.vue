@@ -8,7 +8,7 @@
 .quote {
   width: 375px;
   height: 30px;
-  margin: 28px 0 17px;
+  margin-top: 28px;
 }
 p {
   text-align: center;
@@ -18,4 +18,13 @@ p {
   opacity: 1;
   margin: 0;
 }
+/* @media screen and (max-width: 768px) {
+  .quote {
+    width: 266px;
+    height: 71px;
+  }
+  p {
+    text-align: left;
+  }
+} */
 </style>

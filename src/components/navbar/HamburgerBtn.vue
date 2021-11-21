@@ -9,29 +9,30 @@
 <script></script>
 
 <style scoped>
+.navbar-hamburger-container {
+  display: flex;
+  align-items: center;
+  padding: 28px 25px 30px 171px;
+}
 .hamburger {
   width: 16.14px;
   height: 12.25px;
   opacity: 100%;
-  margin-top: 5px;
 }
-@media screen and (min-width: 765px) {
+
+@media screen and (min-width: 768px) {
+  .navbar-hamburger-container {
+    width: 544px;
+    height: 50px;
+    padding: 25px 27px 28px 600px;
+  }
   .hamburger {
     width: 24.81px;
     height: 16.54px;
   }
-  .navbar-hamburger-container {
-    width: 544px;
-    height: 50px;
-    padding: 17px 23px 8px 0px;
-  }
-  .navbar-inner-hamburger-container {
-    width: 33px;
-    height: 33px;
-    padding: 8.27px 4.14px;
-    text-align: center;
-    padding: 9px 13px 8px 498px;
-  }
-
 }
+
+/* @media screen and (max-width: ) {
+
+} */
 </style>

@@ -3,7 +3,7 @@
     <TheNavbar />
     <TheHeader />
     <TheSignUpForm />
-    <TheMeetAudreySection />
+     <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
@@ -25,13 +25,13 @@ export default {
   name: 'App',
   components: {
     TheNavbar,
-    TheFooter,
     TheHeader,
+    TheSignUpForm,
+    TheFooter,
     TheCeoMessage,
     TheGetACardSection,
     TheMAWPartnershipSection,
     TheMeetAudreySection,
-    TheSignUpForm,
   },
 };
 </script>
@@ -39,6 +39,7 @@ export default {
 <style>
 html {
   font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 body {
   margin: 0;
@@ -53,6 +54,12 @@ body {
 @media screen and (max-width: 768px) {
   .body-container {
     height: 4107px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .body-container {
+    height: 3987px;
   }
 }
 </style>

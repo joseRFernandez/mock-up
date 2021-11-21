@@ -1,7 +1,7 @@
 <template>
   <div class="MAW-container">
     <MAWHeader />
-    <section>
+    <section class="MAW-figures-and-text-container">
       <MAWText />
       <MAWFigures />
     </section>
@@ -26,8 +26,13 @@ export default {
 .MAW-container {
   height: 644px;
 }
-section {
+.MAW-figures-and-text-container {
   height: 584px;
   background-color: #ffc60b;
 }
+/* @media screen and (max-width: 768px) {
+  .MAW-container {
+    height: 34px;
+  }
+} */
 </style>

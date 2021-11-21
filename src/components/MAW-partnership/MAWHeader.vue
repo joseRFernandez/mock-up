@@ -25,4 +25,9 @@ p {
   opacity: 1;
   line-height: 22px;
 }
+/* @media screen and (max-width: 768px) {
+  p {
+    height: 22px
+  }
+} */
 </style>

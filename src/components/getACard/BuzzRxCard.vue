@@ -1,11 +1,11 @@
 <template>
-  <img src="/assets/buzzCards/buzzCard.png" />
+  <img class="buzz-card" src="/assets/buzzCards/buzzCard.png" />
 </template>
 
 <style scoped>
-img {
+.buzz-card {
   width: 283.03px;
   height: 178.26px;
-  margin: 0 40px;
+  margin: 0 39px 0 50px;
 }
 </style>
