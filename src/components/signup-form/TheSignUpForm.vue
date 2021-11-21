@@ -11,6 +11,7 @@
   </form>
 </template>
 <script>
+
 import SignUpMainText from './SignUpMainText.vue';
 import SignUpInputForm from './SignUpInputForm.vue';
 import AgreeToVisit from './AgreeToVisit.vue';
