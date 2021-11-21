@@ -56,4 +56,10 @@ body {
     height: 4107px;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  .body-container {
+    height: 3987px;
+  }
+}
 </style>
