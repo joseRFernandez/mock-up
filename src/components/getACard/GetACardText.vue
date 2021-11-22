@@ -1,19 +1,15 @@
 <template>
-  <p class="get-a-card-paragraph">
-    <strong>Get a <span>FREE</span> Prescription Discount Card</strong>
-  </p>
+  <div class="GAC-text-container">
+    <p class="get-a-card-paragraph">
+      <strong>Get a <span>FREE</span> Prescription Discount Card</strong>
+    </p>
+  </div>
 </template>
 
 <style scoped>
 span {
   color: #b33cc8;
 }
-/* .get-a-card-paragraph {
-  line-height: 46px;
-  text-align: center;
-  margin: 0;
-  font-size: 19px;
-} */
 .get-a-card-paragraph {
   position: absolute;
   top: 3676px;

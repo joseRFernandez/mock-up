@@ -1,9 +1,7 @@
 <template>
-  <div class="getACardContainer">
     <GetACardText />
     <BuzzRxCard />
     <BadgeList />
-  </div>
 </template>
 
 <script>
@@ -21,7 +19,4 @@ export default {
 </script>
 
 <style scoped>
-/* .getACardContainer {
-  margin: 87px 0 89px;
-} */
 </style>

@@ -4,6 +4,7 @@
     :key="badge.id"
     :icon="badge.icon"
     :caption="badge.caption"
+    class="GAC-badge-wrapper"
   />
 </template>
 
@@ -34,4 +35,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.GAC-badge-wrapper {
+  position: absolute;
+  top: 3933px;
+  left: 10px;
+  width: 319px;
+  height: 40px;
+  background: #b33cc8 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+}
+</style>
