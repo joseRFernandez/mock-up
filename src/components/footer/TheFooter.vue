@@ -18,7 +18,7 @@
     </p>
   </div>
 
-  <DotPharmacyLogo class="dotLogo-mobile" />
+  <DotPharmacyLogo />
 </template>
 
 <script>
@@ -82,6 +82,16 @@ export default {
   font: normal normal 5px Lato;
   letter-spacing: 0px;
   color: #262626;
+  opacity: 1;
+}
+.dot-logo-mobile {
+  position: absolute;
+  top: 4756px;
+  left: 152px;
+  width: 71px;
+  height: 13px;
+  background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
+    0% no-repeat padding-box;
   opacity: 1;
 }
 </style>
