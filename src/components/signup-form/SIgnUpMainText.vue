@@ -1,22 +1,22 @@
 <template>
-  <div class="lightText">
-    <p class="first">
+  <div class="signup-first-container">
+    <p class="signup-text-paragraph-1">
       Sign up for the BuzzRx Pharmacist Newsletter to receive updates on our
       charitable giving program, our local community impact and how you can be a
       part of our mission to give back.
     </p>
   </div>
-  <div class="boldText">
-    <p class="second">
+  <div class="signup-second-container">
+    <p class="signup-text-paragraph-2">
       For every entry we receive we’ll donate $5, up to $10K, to Make-A-Wish®
     </p>
   </div>
 </template>
 
 <style scoped>
-.first {
+.signup-first-container {
   position: absolute;
-  top: 374px;
+  top: 20px;
   left: 22px;
   width: 331px;
   height: 74px;
@@ -26,14 +26,14 @@
   color: #262626;
   opacity: 1;
 }
-.second {
+.signup-second-container {
   position: absolute;
-  top: 453px;
+  top: 94px;
   left: 22px;
   width: 331px;
-  height: 61px;
+  height: 74px;
   text-align: center;
-  font: normal normal bold 18px/22px Lato;
+  font: normal normal bold 17px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;

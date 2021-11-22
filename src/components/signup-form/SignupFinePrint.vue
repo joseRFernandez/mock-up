@@ -1,6 +1,6 @@
 <template>
   <div class="signup-container">
-    <p>
+    <!-- <p>
       By submitting this form, you agree to BuzzRx’s
       <span>terms of use</span> and <span> policy</span>. By providing BuzzRx
       with your phone number and email address, you agree to receive
@@ -8,12 +8,12 @@
       consent to receive SMS text messages from BuzzRx is not a condition of
       purchase of BuzzRx products or services. You may opt out of receiving SMS
       text messages from BuzzRx at any time by replying “STOP”.
-    </p>
+    </p> -->
   </div>
 </template>
 
 <style scoped>
-.signup-container {
+/* .signup-container {
   position: absolute;
   top: 1131px;
   left: 22px;
@@ -23,5 +23,5 @@
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;
   opacity: 1;
-}
+} */
 </style>

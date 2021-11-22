@@ -1,41 +1,37 @@
 <template>
-  <form class="signup-form-main-container">
-    <div class="signup-content-container">
-      <SignUpMainText />
-      <SignUpInputForm />
+  <div class="signup-wrapper">
+    <SignUpMainText />
+    <!-- <SignUpInputForm />
       <AgreeToVisit />
-      <SignUpBadge />
-      <SignupFinePrint />
-      <MakeAWishLogo />
-    </div>
-  </form>
+      <SignUpBadge /> -->
+    <!-- <SignupFinePrint /> -->
+    <!-- <MakeAWishLogo /> -->
+  </div>
 </template>
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';
-import SignUpInputForm from './SignUpInputForm.vue';
-import AgreeToVisit from './AgreeToVisit.vue';
-import SignUpBadge from './SignUpBadge.vue';
-import SignupFinePrint from './SignupFinePrint.vue';
-import MakeAWishLogo from './MakeAWishLogo.vue';
+// import SignUpInputForm from './SignUpInputForm.vue';
+// import AgreeToVisit from './AgreeToVisit.vue';
+// import SignUpBadge from './SignUpBadge.vue';
+// import SignupFinePrint from './SignupFinePrint.vue';
+// import MakeAWishLogo from './MakeAWishLogo.vue';
 export default {
   components: {
     SignUpMainText,
-    SignUpInputForm,
-    AgreeToVisit,
-    SignUpBadge,
-    MakeAWishLogo,
-    SignupFinePrint,
+    // SignUpInputForm,
+    // AgreeToVisit,
+    // SignUpBadge,
+    // MakeAWishLogo,
+    // SignupFinePrint,
   },
 };
 </script>
 
 <style scoped>
-.signup-form-main-container {
-  width: 375px;
-  display: flex;
-  justify-content: center;
-}
-.signup-content-container {
-  padding: 20px 22px 61px;
+.signup-wrapper {
+  position: absolute;
+  top: 354px;
+  width: 100%;
+  height: 952px;
 }
 </style>

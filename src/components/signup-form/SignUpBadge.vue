@@ -9,7 +9,7 @@
 <script></script>
 
 <style scoped>
-.badge {
+/* .badge {
   position: absolute;
   top: 1068px;
   left: 22px;
@@ -30,5 +30,5 @@
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-}
+} */
 </style>

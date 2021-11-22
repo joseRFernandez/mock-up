@@ -6,7 +6,7 @@
 </template>
 
 <style scoped>
-.maw-logo-container {
+/* .maw-logo-container {
   position: absolute;
   top: 1306px;
   left: 94px;
@@ -16,5 +16,5 @@
 }
 img {
   max-height: 39.03px;
-}
+} */
 </style>

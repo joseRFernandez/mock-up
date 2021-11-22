@@ -11,7 +11,7 @@
 </template>
 
 <style scoped>
-.checkbox {
+/* .checkbox {
   position: absolute;
   top: 1002px;
   left: 27px;
@@ -32,5 +32,5 @@
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-}
+} */
 </style>

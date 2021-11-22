@@ -27,7 +27,7 @@ export default {
 };
 </script>
 <style scoped>
-input {
+/* input {
   position: absolute;
   top: 519px;
   left: 22px;
@@ -37,5 +37,5 @@ input {
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   opacity: 1;
-}
+} */
 </style>
