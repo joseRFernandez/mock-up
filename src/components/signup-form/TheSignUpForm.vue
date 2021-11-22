@@ -11,8 +11,7 @@
   </form>
 </template>
 <script>
-
-import SignUpMainText from './SignUpMainText.vue';
+import SignUpMainText from './SIgnUpMainText.vue';
 import SignUpInputForm from './SignUpInputForm.vue';
 import AgreeToVisit from './AgreeToVisit.vue';
 import SignUpBadge from './SignUpBadge.vue';
@@ -38,5 +37,13 @@ export default {
 }
 .signup-content-container {
   padding: 20px 22px 61px;
+}
+@media screen and (min-width: 376px) {
+  .signup-form-main-container {
+    width: 765px;
+  }
+  .signup-content-container {
+    padding: 36px 42px 0;
+  }
 }
 </style>

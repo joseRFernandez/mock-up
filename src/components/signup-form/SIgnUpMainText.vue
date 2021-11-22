@@ -36,16 +36,14 @@ p.second {
   color: #262626;
   margin: 0;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lightText {
     width: 683px;
-    height: 34px;
-    padding: 36px 35px 0 42px;
+    height: 35px;
   }
   .boldText {
     width: 683px;
     margin-top: 13px;
-    padding: 13px 43px 0 42px;
   }
-} */
+}
 </style>
