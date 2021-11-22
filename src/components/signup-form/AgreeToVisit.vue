@@ -1,19 +1,17 @@
 <template>
-  <div class="agree-container">
-    <div class="checkbox"></div>
-    <div class="agree-text-container">
-      <p>
-        YES, I would like a BuzzRx Representative to visit my pharmacy and
-        occasionally bring FREE
-      </p>
-    </div>
+  <div class="checkbox"></div>
+  <div class="agree-text-container">
+    <p>
+      YES, I would like a BuzzRx Representative to visit my pharmacy and
+      occasionally bring FREE
+    </p>
   </div>
 </template>
 
 <style scoped>
-/* .checkbox {
+.checkbox {
   position: absolute;
-  top: 1002px;
+  top: 652px;
   left: 27px;
   width: 13px;
   height: 13px;
@@ -23,7 +21,7 @@
 }
 .agree-text-container {
   position: absolute;
-  top: 1002px;
+  top: 648px;
   left: 55px;
   width: 298px;
   height: 36px;
@@ -32,5 +30,5 @@
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-} */
+}
 </style>

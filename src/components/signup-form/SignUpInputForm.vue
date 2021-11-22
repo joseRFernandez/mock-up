@@ -27,9 +27,9 @@ export default {
 };
 </script>
 <style scoped>
-/* input {
+input {
   position: absolute;
-  top: 519px;
+  top: 165px;
   left: 22px;
   width: 331px;
   height: 40px;
@@ -37,5 +37,9 @@ export default {
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   opacity: 1;
-} */
+  text-align: left;
+  font: normal normal 16px/19px Lato;
+  letter-spacing: 0px;
+  color: #b2b2b2;
+}
 </style>
