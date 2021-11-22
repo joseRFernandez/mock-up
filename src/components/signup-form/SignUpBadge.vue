@@ -9,20 +9,20 @@
 <script></script>
 
 <style scoped>
-/* .badge {
+.badge-container {
   position: absolute;
-  top: 1068px;
+  top: 712px;
   left: 22px;
   width: 332px;
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.agree-badge-text {
+.badge {
+  position: absolute;
+  top: 9px;
+  left: 64.22px;
   width: 204px;
   height: 18px;
   text-align: center;
@@ -30,5 +30,5 @@
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-} */
+}
 </style>

@@ -1,12 +1,8 @@
 <template>
-  <section class="meet-audrey-section">
     <MeetAudreyTitle />
-    <div class="inline">
       <MeetAudreyImage />
       <MeetAudreyQuote />
       <MeetAudreyText />
-    </div>
-  </section>
 </template>
 
 <script>
