@@ -7,13 +7,6 @@
 </template>
 
 <style scoped>
-.header-title {
-  width: 375px;
-  height: 129px;
-  background: #ffc700 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
-}
 .header-p-container {
   padding: 31px 12px 22px;
 }
@@ -29,14 +22,13 @@ p {
 span {
   color: #b33cc8;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (min-width: 376px) {
   .header-title {
+    width: 768px;
     height: 84px;
   }
-  .header-caption {
-    width: 736px;
-    height: 40px;
-    padding: 25px 16px 19px;
+  .header-p-container {
+    padding: 20px 16px 19px;
   }
-} */
+}
 </style>

@@ -1,33 +1,35 @@
 <template>
-  <header>
-    <p>
-      OUR MAKE-A-WISH PARTNERSHIP:<br />
-      NATIONAL REACH, LOCAL IMPACT
-    </p>
+  <header class="maw-header">
+    <div class="maw-header-text-container">
+      <p class="maw-header-caption">
+        OUR MAKE-A-WISH PARTNERSHIP:<br />
+        NATIONAL REACH, LOCAL IMPACT
+      </p>
+    </div>
   </header>
 </template>
 
 <style scoped>
-header {
+.maw-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
   height: 60px;
+  opacity: 1;
   background-color: #b33cc8;
-  height: 44px;
-  padding: 9px 24px 7px;
 }
-p {
-  margin: 0;
+.maw-header-caption {
+  position: absolute;
+  top: 9px;
+  left: 24px;
+  width: 327px;
+  height: 44px;
   text-align: center;
-  font: normal normal 18px Omnes;
-  font-weight: 500;
+  font: normal normal medium 18px/22px Omnes;
   letter-spacing: 0px;
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
-  line-height: 22px;
 }
-/* @media screen and (max-width: 768px) {
-  p {
-    height: 22px
-  }
-} */
 </style>

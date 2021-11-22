@@ -1,51 +1,41 @@
 <template>
-  <div class="lightText">
-    <p class="first">
+  <div class="signup-first-container">
+    <p class="signup-text-paragraph-1">
       Sign up for the BuzzRx Pharmacist Newsletter to receive updates on our
       charitable giving program, our local community impact and how you can be a
       part of our mission to give back.
     </p>
   </div>
-  <div class="boldText">
-    <p class="second">
+  <div class="signup-second-container">
+    <p class="signup-text-paragraph-2">
       For every entry we receive we’ll donate $5, up to $10K, to Make-A-Wish®
     </p>
   </div>
 </template>
 
 <style scoped>
-.lightText {
+.signup-first-container {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  width: 331px;
   height: 74px;
   text-align: center;
-}
-.boldText {
-  height: 61px;
-}
-p {
-  margin: 0;
-}
-p.first {
-  font-size: 15px;
-  line-height: 17px;
-  font-weight: 100;
-}
-p.second {
-  text-align: center;
-  font: normal normal bold 18px/22px Lato;
+  font: normal normal normal 15px/17px Lato;
   letter-spacing: 0px;
   color: #262626;
-  margin: 0;
+  opacity: 1;
 }
-/* @media screen and (max-width: 768px) {
-  .lightText {
-    width: 683px;
-    height: 34px;
-    padding: 36px 35px 0 42px;
-  }
-  .boldText {
-    width: 683px;
-    margin-top: 13px;
-    padding: 13px 43px 0 42px;
-  }
-} */
+.signup-second-container {
+  position: absolute;
+  top: 94px;
+  left: 22px;
+  width: 331px;
+  height: 74px;
+  text-align: center;
+  font: normal normal bold 17px Lato;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
+}
 </style>

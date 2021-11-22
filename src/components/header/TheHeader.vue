@@ -1,8 +1,8 @@
 <template>
-  <div class="main-header">
+  <div class="header-title-container">
     <HeaderTitle />
-    <HeaderImageMobile />
   </div>
+  <HeaderImageMobile />
 </template>
 
 <script>
@@ -18,14 +18,14 @@ export default {
 </script>
 
 <style scoped>
-.main-header {
+.header-title-container {
+  position: absolute;
+  top: 70px;
+  left: 0px;
   width: 375px;
-  height: 284px;
+  height: 129px;
+  background: #ffc700 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
 }
-/* @media screen and (max-width: 768px) {
-  .main-header {
-    height: 418px;
-    width: 100%;
-  }
-} */
 </style>

@@ -1,10 +1,8 @@
 <template>
-  <MeetAudreyTitle />
-  <div class="inline">
-    <MeetAudreyImage />
-    <MeetAudreyQuote />
-    <MeetAudreyText />
-  </div>
+    <MeetAudreyTitle />
+      <MeetAudreyImage />
+      <MeetAudreyQuote />
+      <MeetAudreyText />
 </template>
 
 <script>
@@ -23,13 +21,3 @@ export default {
 };
 </script>
 
-<style scoped>
-/* @media screen and (max-width: 768px) {
-  .meet-audrey-container {
-    margin-top: 76px;
-  }
-  .inline {
-    display: inline;
-  }
-} */
-</style>

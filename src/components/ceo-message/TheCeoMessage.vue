@@ -1,10 +1,8 @@
 <template>
   <section class="ceo">
     <MessageText />
-    <div class="ceo-signature-container">
       <CeoImage />
       <CeoSignature />
-    </div>
   </section>
 </template>
 
@@ -23,14 +21,12 @@ export default {
 </script>
 <style scoped>
 .ceo {
-  width: 100%;
+  position: absolute;
+  top: 4115px;
+  left: 0px;
+  width: 375px;
   height: 470px;
   background: #1e5aaa 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.ceo-signature-container {
-  display: flex;
-  align-items: center;
-}
-
 </style>

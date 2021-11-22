@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="maw-text-wrapper">
     <p>
       After a successful program with three local Make-A-Wish chapters (Arizona,
       Nebraska, and Central & Northern Florida)—raising almost $90,000—the free
@@ -14,7 +14,10 @@
 </template>
 
 <style scoped>
-p {
+.maw-text-wrapper {
+  position: absolute;
+  top: 87px;
+  left: 24px;
   width: 327px;
   height: 307px;
   text-align: left;
@@ -22,7 +25,5 @@ p {
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin: 0 24px;
-  padding-top: 27px;
 }
 </style>

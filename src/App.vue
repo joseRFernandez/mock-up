@@ -3,7 +3,7 @@
     <TheNavbar />
     <TheHeader />
     <TheSignUpForm />
-     <TheMeetAudreySection />
+    <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
@@ -45,21 +45,15 @@ body {
   margin: 0;
 }
 .body-container {
-  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
   height: 4796px;
-  margin: 0;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-@media screen and (max-width: 768px) {
-  .body-container {
-    height: 4107px;
-  }
-}
-
-@media screen and (max-width: 1366px) {
-  .body-container {
-    height: 3987px;
-  }
+p {
+  margin: 0;
 }
 </style>

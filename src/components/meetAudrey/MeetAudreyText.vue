@@ -1,5 +1,5 @@
 <template>
-  <div class="audrey-text">
+  <div class="meet-audrey-text">
     <p>
       Audrey is a 12-year-old girl from Arizona with a passion for fashion. She
       spends her free time flipping through style magazines and listening to her
@@ -12,12 +12,14 @@
       she had a lifesaving surgery, but continues to have daily seizures, which
       began when she was 3 years old.
     </p>
+    <br>
     <p class="audrey-text-conditional">
       For the past five years, she has been educated by tutors from noon to 5
       p.m. When she’s not at school, Audrey has doctor or therapy appointments
       to adjust her leg braces or medication. Sometimes, she has multiple
-      doctor’s appointments on the same day.
+      doctor’s appointments on the same day.<br>
     </p>
+    <br>
     <p class="audrey-text-conditional">
       “My daughter is probably one of the strongest people I know. She never
       complains about anything. Even if she’s having a bad seizure day, she’s
@@ -28,17 +30,17 @@
 </template>
 
 <style scoped>
-.audrey-text {
+.meet-audrey-text {
+  position: absolute;
+  top: 2174px;
+  left: 24px;
   width: 332px;
   height: 727px;
-  margin: 17px 24px 0 19px;
-}
-p {
   text-align: left;
   font: normal normal normal 16px/24px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin: 0;
+  line-height: 24px;
 }
 </style>

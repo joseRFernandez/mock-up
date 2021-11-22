@@ -10,14 +10,15 @@
 
 <style scoped>
 .ceo-signature {
+  position: absolute;
+  top: 369px;
+  left: 171px;
   width: 183px;
   height: 59px;
   text-align: left;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  margin-left: 24px;
-
 }
 p {
   margin: 0;

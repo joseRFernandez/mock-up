@@ -1,7 +1,7 @@
 <template>
   <div class="badge-container">
     <div class="badge">
-      <p>Sign Up To Give Back</p>
+      <p class="agree-badge-text">Sign Up To Give Back</p>
     </div>
   </div>
 </template>
@@ -9,23 +9,26 @@
 <script></script>
 
 <style scoped>
-.badge {
+.badge-container {
+  position: absolute;
+  top: 712px;
+  left: 22px;
   width: 332px;
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
 }
-p {
-  font-size: 16px;
+.badge {
+  position: absolute;
+  top: 9px;
+  left: 64.22px;
+  width: 204px;
+  height: 18px;
   text-align: center;
-  line-height: 19px;
-  padding: 9.15px 64.22px 12.85px 64.22px;
+  font: normal normal bold 16px/19px Lato;
+  letter-spacing: 0px;
   color: #ffffff;
+  opacity: 1;
 }
-/* @media screen and (max-width: 768px) {
-  .badge {
-    width: 360px;
-  }
-} */
 </style>

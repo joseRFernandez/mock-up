@@ -3,8 +3,11 @@
 </template>
 <style>
 .ceo-image {
-  height: 88px;
+  position: absolute;
+  top: 354px;
+  left: 59px;
   width: 88px;
-  margin: 45px 0 28px 59px;
+  height: 88px;
+  opacity: 1;
 }
 </style>

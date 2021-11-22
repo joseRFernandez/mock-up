@@ -1,19 +1,24 @@
 <template>
-  <div class="footer">
-    <BuzzRxLogo class="footer-logo" />
-    <p class="footer-text">© 2020 <strong>BuzzRx.com</strong></p>
-    <p class="footer-text">This is not insurance. Full Disclaimer</p>
-    <p class="small-print">
+  <BuzzRxLogo class="footer-logo" />
+  <p class="footer-copyright">© 2020 <strong>BuzzRx.com</strong></p>
+  <p class="footer-copyright-not-insurance">
+    This is not insurance. Full Disclaimer
+  </p>
+  <div class="fine-print-container-bold">
+    <p class="small-print-text bold">
       The BuzzRx prescription discount program is not available for use in the
       state of Tennessee.
     </p>
-    <p class="small-print medium">
+  </div>
+  <div class="fine-print-container-normal">
+    <p class="small-print-text">
       All trademarks, brands, logos and copyright images are property of their
       respective owners and rights holders and are used solely to represent the
       products of these rights holders.
     </p>
-    <DotPharmacyLogo class="dotLogo-mobile" />
   </div>
+
+  <DotPharmacyLogo />
 </template>
 
 <script>
@@ -26,40 +31,67 @@ export default {
 </script>
 
 <style scoped>
-.footer {
-  width: 375px;
+.footer-logo {
+  position: absolute;
+  top: 4618px;
+  left: 146px;
+  width: 81px;
+  height: 20px;
+  opacity: 1;
+}
+.footer-copyright {
+  position: absolute;
+  top: 4672px;
+  left: 155px;
+  height: 8px;
   text-align: center;
+  font: normal normal 7px Lato;
+  letter-spacing: 0px;
+  color: #262626;
+}
+.footer-copyright-not-insurance {
+  position: absolute;
+  top: 4683px;
+  left: 132px;
+  width: 111px;
+  height: 8px;
+  text-align: left;
+  font: normal normal 7px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  height: 211px;
 }
-
-.footer-logo {
-  height: 20px;
-  width: 81px;
-  margin: 33px 149px 34px 146px;
-}
-
-.footer-text {
-  font-size: 7px;
-  font-weight: 500;
-  line-height: 8px;
+.fine-print-container-bold {
+  position: absolute;
+  top: 4697px;
+  left: 86.5px;
+  width: 202px;
+  height: 8px;
   text-align: center;
-}
-.small-print {
   font: normal normal bold 5px/8px Lato;
-  line-height: 16px;
+  letter-spacing: 0px;
+  color: #262626;
 }
-.small-print.medium {
-  line-height: 8px;
-  font-size: 5px;
-  margin: 1.7px 86px 0;
+.fine-print-container-normal {
+  position: absolute;
+  top: 4715px;
+  left: 89px;
+  width: 198px;
+  height: 14px;
   text-align: center;
+  font: normal normal 5px Lato;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
 }
-.dotLogo-mobile {
+.dot-logo-mobile {
+  position: absolute;
+  top: 4756px;
+  left: 152px;
   width: 71px;
-  height: 13.28px;
-  margin: 27px 152px 27px 152px;
+  height: 13px;
+  background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
+    0% no-repeat padding-box;
+  opacity: 1;
 }
 </style>
