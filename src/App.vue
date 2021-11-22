@@ -53,4 +53,7 @@ body {
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+p {
+  margin: 0;
+}
 </style>

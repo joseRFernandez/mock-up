@@ -7,17 +7,12 @@
 
 <style scoped>
 .maw-logo-container {
+  position: absolute;
+  top: 1306px;
+  left: 94px;
   width: 186px;
   height: 64px;
   opacity: 1;
-  padding-top: 28px;
-  margin-left: 72px;
-}
-p {
-  margin: 0;
-  font-size: 8px;
-  color: #006fba;
-  text-align: center;
 }
 img {
   max-height: 39.03px;

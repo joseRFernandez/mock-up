@@ -14,26 +14,14 @@
 
 <style scoped>
 .signup-container {
+  position: absolute;
+  top: 1131px;
+  left: 22px;
   width: 329px;
-  height: 147.16px;
-  margin: 23px 2px 0 0;
-}
-p {
-  margin: 0;
+  height: 147px;
   text-align: left;
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;
   opacity: 1;
-  color: #595959;
 }
-span {
-  color: #b33cc8;
-}
-/* @media screen and (max-width: 768px) {
-  .signup-container {
-    width: 547px;
-    height: 108px;
-    margin: 15px 111px 0 110px;
-  }
-} */
 </style>
