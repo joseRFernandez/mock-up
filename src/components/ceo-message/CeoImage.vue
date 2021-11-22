@@ -10,4 +10,13 @@
   height: 88px;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .ceo-image {
+    top: 225px;
+    left: 246px;
+    width: 88px;
+    height: 88px;
+    opacity: 1;
+  }
+}
 </style>

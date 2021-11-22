@@ -56,4 +56,10 @@ body {
 p {
   margin: 0;
 }
+@media screen and (min-width: 376px) {
+  .body-container {
+    width: 768px;
+    height: 4107px;
+  }
+}
 </style>
