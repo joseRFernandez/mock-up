@@ -8,40 +8,28 @@
 </template>
 
 <style scoped>
-div.top {
+.meet-audrey-title {
+  position: absolute;
+  top: 1431px;
+  left: 34px;
+  width: 308px;
   height: 42px;
-}
-p {
-  margin: 0;
   text-align: center;
   font: normal normal normal 34px/36px Omnes;
   letter-spacing: 0px;
+  color: #b33cc8;
   opacity: 1;
 }
-sup {
-  font-size: 14px;
-}
-.purple {
-  color: #b33cc8;
-}
-.bottom-text {
+.bottom {
+  position: absolute;
+  top: 1471px;
+  left: 34px;
+  width: 308px;
   height: 35px;
-  font-size: 28px;
+  text-align: center;
+  font: normal normal normal 28px/36px Omnes;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
 }
-/* @media screen and (max-width: 768px) {
-  .top {
-    width: 391px;
-    height: 42px;
-    margin: 0 188px;
-  }
-  .bottom {
-    width: 391px;
-    height: 35px;
-    margin: 0 188px;
-  }
-  .bottom-text {
-    font-size: 28px;
-    line-height: 36px;
-  }
-} */
 </style>

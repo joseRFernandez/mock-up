@@ -4,10 +4,10 @@
     <TheHeader />
     <TheSignUpForm />
     <TheMeetAudreySection />
-    <TheMAWPartnershipSection />
-    <TheGetACardSection />
+    <!-- <TheMAWPartnershipSection /> -->
+    <!-- <TheGetACardSection />
     <TheCeoMessage />
-    <TheFooter />
+    <TheFooter /> -->
   </body>
 </template>
 
@@ -15,11 +15,11 @@
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
 import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
-import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
-import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
-import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
+// import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
+// import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+// import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
-import TheFooter from './components/footer/TheFooter.vue';
+// import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
   name: 'App',
@@ -27,10 +27,10 @@ export default {
     TheNavbar,
     TheHeader,
     TheSignUpForm,
-    TheFooter,
-    TheCeoMessage,
-    TheGetACardSection,
-    TheMAWPartnershipSection,
+    // TheFooter,
+    // TheCeoMessage,
+    // TheGetACardSection,
+    // TheMAWPartnershipSection,
     TheMeetAudreySection,
   },
 };

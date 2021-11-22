@@ -1,5 +1,5 @@
 <template>
-  <div class="audrey-text">
+  <div class="meet-audrey-text">
     <p>
       Audrey is a 12-year-old girl from Arizona with a passion for fashion. She
       spends her free time flipping through style magazines and listening to her
@@ -28,17 +28,16 @@
 </template>
 
 <style scoped>
-.audrey-text {
+.meet-audrey-text {
+  position: absolute;
+  top: 2174px;
+  left: 24px;
   width: 332px;
   height: 727px;
-  margin: 17px 24px 0 19px;
-}
-p {
   text-align: left;
   font: normal normal normal 16px/24px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin: 0;
 }
 </style>

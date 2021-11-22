@@ -25,9 +25,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.meet-audrey-section {
-  width: 375px;
-  height: 1436px;
-}
-</style>
