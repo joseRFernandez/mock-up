@@ -14,36 +14,28 @@
 </template>
 
 <style scoped>
-.lightText {
+.first {
+  position: absolute;
+  top: 374px;
+  left: 22px;
+  width: 331px;
   height: 74px;
   text-align: center;
+  font: normal normal normal 15px/17px Lato;
+  letter-spacing: 0px;
+  color: #262626;
+  opacity: 1;
 }
-.boldText {
+.second {
+  position: absolute;
+  top: 453px;
+  left: 22px;
+  width: 331px;
   height: 61px;
-}
-p {
-  margin: 0;
-}
-p.first {
-  font-size: 15px;
-  line-height: 17px;
-  font-weight: 100;
-}
-p.second {
   text-align: center;
   font: normal normal bold 18px/22px Lato;
   letter-spacing: 0px;
   color: #262626;
-  margin: 0;
-}
-@media screen and (max-width: 768px) {
-  .lightText {
-    width: 683px;
-    height: 35px;
-  }
-  .boldText {
-    width: 683px;
-    margin-top: 13px;
-  }
+  opacity: 1;
 }
 </style>

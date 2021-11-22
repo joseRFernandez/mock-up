@@ -38,12 +38,4 @@ export default {
 .signup-content-container {
   padding: 20px 22px 61px;
 }
-@media screen and (min-width: 376px) {
-  .signup-form-main-container {
-    width: 765px;
-  }
-  .signup-content-container {
-    padding: 36px 42px 0;
-  }
-}
 </style>

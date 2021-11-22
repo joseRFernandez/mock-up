@@ -28,23 +28,14 @@ export default {
 </script>
 <style scoped>
 input {
-  width: 325px;
-  height: 36px;
+  position: absolute;
+  top: 519px;
+  left: 22px;
+  width: 331px;
+  height: 40px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   opacity: 1;
-  color: #b2b2b2;
-  font-size: 16px;
-  opacity: 75%;
-  margin: 5px 0 0;
 }
-/* @media screen and (max-width: 768px) {
-  input {
-    width: 547px;
-    height: 40px;
-    line-height: 19px;
-    margin: 7px 110px;
-  }
-} */
 </style>
