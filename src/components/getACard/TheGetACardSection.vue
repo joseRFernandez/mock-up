@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-.getACardContainer {
+/* .getACardContainer {
   margin: 87px 0 89px;
-}
+} */
 </style>

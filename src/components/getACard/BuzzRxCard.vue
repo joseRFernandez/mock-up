@@ -4,8 +4,13 @@
 
 <style scoped>
 .buzz-card {
-  width: 283.03px;
-  height: 178.26px;
-  margin: 0 39px 0 50px;
+  position: absolute;
+  top: 3733px;
+  left: 53px;
+  width: 283px;
+  height: 178px;
+  border: 1px solid #707070;
+  border-radius: 9px;
+  opacity: 1;
 }
 </style>
