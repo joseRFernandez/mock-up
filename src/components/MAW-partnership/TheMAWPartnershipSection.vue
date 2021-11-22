@@ -1,10 +1,8 @@
 <template>
-  <div class="MAW-container">
+  <div class="maw-partnership-wrapper">
     <MAWHeader />
-    <section class="MAW-figures-and-text-container">
-      <MAWText />
-      <MAWFigures />
-    </section>
+    <MAWText />
+    <MAWFigures />
   </div>
 </template>
 
@@ -23,16 +21,13 @@ export default {
 </script>
 
 <style scoped>
-.MAW-container {
+.maw-partnership-wrapper {
+  position: absolute;
+  top: 2945px;
+  left: 0px;
+  width: 375px;
   height: 644px;
-}
-.MAW-figures-and-text-container {
-  height: 584px;
+  opacity: 1;
   background-color: #ffc60b;
 }
-/* @media screen and (max-width: 768px) {
-  .MAW-container {
-    height: 34px;
-  }
-} */
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="maw-figures-wrapper">
     <BaseMAWFigures
       v-for="element in figures"
       :key="element.id"
@@ -36,10 +36,12 @@ export default {
 };
 </script>
 <style scoped>
-div {
+.maw-figures-wrapper {
+  position: absolute;
+  top: 433px;
+  left: 98px;
   width: 180px;
   height: 39px;
-  margin: 39px 98px 0;
   text-align: center;
 }
 </style>
