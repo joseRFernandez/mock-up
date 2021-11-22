@@ -13,7 +13,6 @@
   position: absolute;
   top: 369px;
   left: 171px;
-  bottom: 42px;
   width: 183px;
   height: 59px;
   text-align: left;
