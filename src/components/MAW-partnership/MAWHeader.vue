@@ -19,7 +19,7 @@
   opacity: 1;
   background-color: #b33cc8;
 }
-.maw-header-caption {
+.maw-header-text-container {
   position: absolute;
   top: 9px;
   left: 24px;
@@ -31,5 +31,22 @@
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+}
+@media screen and (min-width: 376px) {
+  .maw-header {
+    width: 768px;
+    height: 34px;
+  }
+  .maw-header-text-container {
+    left: 16px;
+    width: 736px;
+    height: 16px;
+    text-align: center;
+    font: normal normal medium 18px/22px Omnes;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
 }
 </style>

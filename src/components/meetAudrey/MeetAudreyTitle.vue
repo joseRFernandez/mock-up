@@ -35,4 +35,23 @@
   letter-spacing: 0px;
   color: #262626;
 }
+@media screen and (min-width: 376px) {
+  .meet-audrey-title {
+    top: 1511px;
+    left: 189px;
+    width: 391px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 34px/36px Omnes;
+    letter-spacing: 0px;
+    color: #b33cc8;
+    opacity: 1;
+  }
+  .meet-audrey-bottom-text {
+    top: 1551px;
+    left: 189px;
+    width: 391px;
+    opacity: 1;
+  }
+}
 </style>

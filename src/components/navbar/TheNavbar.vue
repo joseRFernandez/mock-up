@@ -36,4 +36,9 @@ export default {
   height: 37px;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .navbar-wrapper {
+    width: 768px;
+  }
+}
 </style>

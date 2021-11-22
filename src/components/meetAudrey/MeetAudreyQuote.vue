@@ -17,4 +17,14 @@
   color: #262626;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .quote {
+    top: 1696px;
+    left: 24px;
+    width: 266px;
+    height: 71px;
+    text-align: left;
+    font: normal normal normal 28px/36px Omnes;
+  }
+}
 </style>

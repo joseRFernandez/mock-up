@@ -21,4 +21,16 @@ span {
   letter-spacing: 0px;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .get-a-card-paragraph {
+    top: 2844px;
+    left: 160px;
+    width: 449px;
+    height: 29px;
+    text-align: center;
+    font: normal normal bold 24px/46px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+}
 </style>

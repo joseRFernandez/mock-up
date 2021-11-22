@@ -31,4 +31,22 @@
   color: #262626;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .checkbox {
+    position: absolute;
+    top: 1125px;
+    left: 223px;
+  }
+  .agree-text-container {
+    top: 1121px;
+    left: 251px;
+    width: 298px;
+    height: 36px;
+    text-align: left;
+    font: normal normal normal 14px/18px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+}
 </style>

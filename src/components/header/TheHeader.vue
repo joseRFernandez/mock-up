@@ -28,4 +28,10 @@ export default {
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .header-title-container {
+    width: 768px;
+    height: 84px;
+  }
+}
 </style>

@@ -38,4 +38,18 @@
   color: #262626;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .signup-first-container {
+    left: 42px;
+    width: 683px;
+    height: 74px;
+  }
+  .signup-second-container {
+    left: 49px;
+    width: 683px;
+    height: 61px;
+    text-align: center;
+    font: normal normal bold 18px/22px Lato;
+  }
+}
 </style>

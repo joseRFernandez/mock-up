@@ -24,4 +24,12 @@
   letter-spacing: 0px;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .signup-fine-print-container {
+    top: 1242px;
+    left: 110px;
+    width: 547px;
+    height: 108px;
+  }
+}
 </style>
