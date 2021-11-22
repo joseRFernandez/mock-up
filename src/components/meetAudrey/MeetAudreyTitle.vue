@@ -1,5 +1,5 @@
 <template>
-  <div class="top">
+  <div class="meet-audrey-title">
     <p class="purple">Meet Audrey</p>
   </div>
   <div class="bottom">
@@ -8,10 +8,6 @@
 </template>
 
 <style scoped>
-div {
-  width: 308px;
-  margin: 0 34px;
-}
 div.top {
   height: 42px;
 }
