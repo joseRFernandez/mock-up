@@ -3,8 +3,35 @@
     <div class="header-p-container">
       <p>Help us grant more wishes <span>like Audrey’s!</span></p>
     </div>
+    <button v-if="desktop">Desktop</button>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      desktop: false,
+    };
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width > 768) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
+  },
+};
+</script>
 
 <style scoped>
 .header-p-container {

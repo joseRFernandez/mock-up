@@ -1,17 +1,17 @@
 <template>
   <div class="header-title-container">
-    <!-- <HeaderTitle /> -->
+    <HeaderTitle />
   </div>
   <HeaderImageMobile />
 </template>
 
 <script>
-// import HeaderTitle from './HeaderTitle.vue';
+import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 
 export default {
   components: {
-    // HeaderTitle,
+    HeaderTitle,
     HeaderImageMobile,
   },
 };

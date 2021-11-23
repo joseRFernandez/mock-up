@@ -2,17 +2,20 @@
   <div class="navbar-wrapper">
     <BuzzRxLogo class="navbar-buzz-logo" />
     <HamburgerBtn />
+    <NavLinks />
   </div>
 </template>
 
 <script>
 import BuzzRxLogo from './BuzzRxLogo.vue';
 import HamburgerBtn from './HamburgerBtn.vue';
+import NavLinks from './NavLinks.vue';
 
 export default {
   components: {
     BuzzRxLogo,
     HamburgerBtn,
+    NavLinks,
   },
 };
 </script>
