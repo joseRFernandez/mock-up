@@ -2,8 +2,7 @@
   <header class="maw-header">
     <div class="maw-header-text-container">
       <p class="maw-header-caption">
-        OUR MAKE-A-WISH PARTNERSHIP:<br />
-        NATIONAL REACH, LOCAL IMPACT
+        OUR MAKE-A-WISH PARTNERSHIP: NATIONAL REACH, LOCAL IMPACT
       </p>
     </div>
   </header>

@@ -1,12 +1,10 @@
 <template>
-  <div class="signup-wrapper">
     <SignUpMainText />
     <SignUpInputForm />
     <AgreeToVisit />
     <SignUpBadge />
     <SignupFinePrint />
     <MakeAWishLogo />
-  </div>
 </template>
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';

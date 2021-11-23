@@ -49,4 +49,25 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 769px) {
+  .checkbox {
+    position: absolute;
+    top: 860px;
+    left: 148px;
+    width: 13px;
+    height: 13px;
+    opacity: 1;
+  }
+  .agree-text-container {
+    top: 856px;
+    left: 176px;
+    width: 336px;
+    height: 36px;
+    text-align: left;
+    font: normal normal normal 14px/18px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+}
 </style>

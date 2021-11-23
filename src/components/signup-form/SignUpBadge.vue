@@ -43,12 +43,19 @@
     width: 232px;
   }
 }
-@media screen and(min-width: 769px) {
+@media screen and (min-width: 769px) {
   .badge-container {
+    position: absolute;
     top: 915px;
     left: 193px;
     width: 267px;
     height: 40px;
+    background: #b33cc8 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+  }
+  .badge {
+    left: 25px;
   }
 }
 </style>

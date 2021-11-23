@@ -3,8 +3,8 @@
     <div class="header-p-container">
       <p>Help us grant more wishes <span>like Audrey’s!</span></p>
     </div>
-    <button v-if="desktop">Desktop</button>
   </div>
+  <div class="header-conditional-form-white-background"></div>
 </template>
 
 <script>
@@ -56,6 +56,29 @@ span {
   }
   .header-p-container {
     padding: 20px 16px 19px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .header-title {
+    position: absolute;
+    top: 109px;
+    left: 134px;
+    width: 384px;
+    height: 76px;
+    text-align: center;
+    font: normal normal medium 32px/36px Omnes;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .header-conditional-form-white-background {
+    position: absolute;
+    top: 208px;
+    left: 115px;
+    width: 423px;
+    height: 1019px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
   }
 }
 </style>

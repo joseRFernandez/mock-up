@@ -54,6 +54,7 @@
 }
 @media screen and (min-width: 769px) {
   .signup-first-container {
+    position: absolute;
     top: 228px;
     left: 134px;
     width: 384px;
@@ -94,6 +95,20 @@
     font: normal normal bold 18px/22px Lato;
     letter-spacing: 0px;
     color: #262626;
+  }
+}
+@media screen and (min-width: 769px) {
+  .signup-first-container {
+    position: absolute;
+    top: 228px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
   }
 }
 </style>

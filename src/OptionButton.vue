@@ -1,12 +1,12 @@
 <template>
-  <span>
-    <div class="btn" v-if="icon">
+  <div class="btn-wrapper">
+    <div v-if="icon" class="badge-icon">
       <img :src="icon" />
     </div>
-    <div class="caption">
+    <div class="badge-caption">
       {{ caption }}
     </div>
-  </span>
+  </div>
 </template>
 
 <script>
@@ -16,33 +16,20 @@ export default {
 </script>
 
 <style scoped>
-span {
+.btn-wrapper {
+  width: 227px;
+  height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 319px;
-  height: 40px;
-  margin: 21px;
+  /* text-align: center; */
 }
-.btn {
-  padding: 10.29px 18.8px 9.45px 100.75px;
+.badge-icon {
+  padding: 10px 9px 9px 56px;
+  display: inline;
 }
-.caption {
-  text-align: left;
-  font: normal normal 16px Lato;
-  letter-spacing: 0px;
+.badge-caption {
+  display: inline;
   color: #ffffff;
-  opacity: 1;
-  width: 112.56px;
-  line-height: 18px;
-}
-
-img {
-  width: 13px;
-  height: 20px;
-  padding: 10.29px 0 9.45px;
 }
 </style>

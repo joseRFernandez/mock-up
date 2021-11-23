@@ -40,12 +40,15 @@
     left: 290px;
   }
 }
-@media screen and(min-width: 769px) {
+@media screen and (min-width: 769px) {
   .maw-logo-container {
     top: 1132px;
     left: 232px;
     width: 186px;
     height: 64px;
+    background: transparent 0%
+      0% no-repeat padding-box;
+    opacity: 1;
   }
 }
 </style>
