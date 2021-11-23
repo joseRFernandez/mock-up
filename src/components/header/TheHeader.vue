@@ -1,4 +1,5 @@
 <template>
+<!-- this below is the yeloow input form container -->
   <div v-if="desktop" class="header-conditional-desktop-input-container"></div>
   <HeaderTitle />
   <HeaderImageMobile />
