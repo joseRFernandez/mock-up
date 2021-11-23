@@ -57,4 +57,9 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 769px) {
+  .ceo-paragraph-container {
+    left: 370px;
+  }
+}
 </style>

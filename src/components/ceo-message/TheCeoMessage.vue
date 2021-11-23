@@ -39,4 +39,12 @@ export default {
     opacity: 1;
   }
 }
+@media screen and (min-width: 769px) {
+  .ceo {
+    top: 3162px;
+    left: 0px;
+    width: 1366px;
+    height: 351px;
+  }
+}
 </style>

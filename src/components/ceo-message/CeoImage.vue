@@ -19,4 +19,10 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 760px) {
+  .ceo-image {
+    top: 225px;
+    left: 558px;
+  }
+}
 </style>
