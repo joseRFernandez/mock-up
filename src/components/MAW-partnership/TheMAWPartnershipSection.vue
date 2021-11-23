@@ -32,4 +32,12 @@ export default {
     background-color: #ffc60b;
   }
 }
+@media screen and (min-width: 769px) {
+  .maw-partnership-wrapper {
+    top: 2349px;
+    left: 0px;
+    width: 1366px;
+    height: 330px;
+  }
+}
 </style>
