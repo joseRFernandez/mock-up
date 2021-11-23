@@ -41,4 +41,13 @@ export default {
     width: 768px;
   }
 }
+@media screen and (min-width: 769px) {
+  .navbar-wrapper {
+    width: 1366px;
+    height: 70px;
+  }
+  .navbar-buzz-logo {
+    left: 90px;
+  }
+}
 </style>

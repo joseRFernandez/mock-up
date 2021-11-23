@@ -135,4 +135,52 @@ export default {
     font: normal normal medium 9px/14px Lato;
   }
 }
+@media screen and (min-width: 769px) {
+  .footer-logo {
+    top: 3641px;
+    left: 622px;
+    width: 164px;
+    height: 41px;
+  }
+  .footer-copyright {
+    top: 3706px;
+    left: 633px;
+    width: 146px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .footer-copyright-not-insurance {
+    top: 3729px;
+    left: 579px;
+    width: 254px;
+    height: 19px;
+    font: normal normal 16px Lato;
+  }
+  .fine-print-container-bold {
+    top: 3757px;
+    left: 464px;
+    width: 484px;
+    height: 38px;
+  }
+  .fine-print-container-normal {
+    top: 3793px;
+    left: 468px;
+    width: 476px;
+    height: 33px;
+    text-align: center;
+    font: normal normal medium 12px/18px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .dot-logo-mobile {
+    top: 3877px;
+    left: 634px;
+    width: 146px;
+    height: 27px;
+  }
+}
 </style>

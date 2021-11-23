@@ -62,4 +62,10 @@ p {
     height: 4107px;
   }
 }
+@media screen and (min-width: 769px) {
+  .body-container {
+    width: 1366px;
+    height: 3987px;
+  }
+}
 </style>

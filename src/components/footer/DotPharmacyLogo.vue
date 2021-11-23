@@ -14,12 +14,12 @@
   opacity: 1;
   background-size: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .footer-logo-pharmacy {
-    top: 4031px;
-    left: 328px;
-    width: 110px;
-    height: 21px;
+    top: 3877px;
+    left: 634px;
+    width: 146px;
+    height: 27px;
   }
 }
 </style>
