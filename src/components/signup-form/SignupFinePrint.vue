@@ -32,4 +32,12 @@
     height: 108px;
   }
 }
+@media screen and (min-width: 769px) {
+  .signup-fine-print-container {
+    top: 972px;
+    left: 133px;
+    width: 384px;
+    height: 129px;
+  }
+}
 </style>

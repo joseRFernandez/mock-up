@@ -26,4 +26,12 @@
     background-size: cover;
   }
 }
+@media screen and (min-width: 769px) {
+  .meet-audrey-body {
+    top: 1318px;
+    left: 683px;
+    width: 616px;
+    height: 925px;
+  }
+}
 </style>

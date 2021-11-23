@@ -43,4 +43,12 @@
     width: 232px;
   }
 }
+@media screen and(min-width: 769px) {
+  .badge-container {
+    top: 915px;
+    left: 193px;
+    width: 267px;
+    height: 40px;
+  }
+}
 </style>

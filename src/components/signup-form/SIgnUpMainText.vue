@@ -52,4 +52,48 @@
     font: normal normal bold 18px/22px Lato;
   }
 }
+@media screen and (min-width: 769px) {
+  .signup-first-container {
+    top: 228px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-text-paragraph-1 {
+    top: 20px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-second-container {
+    top: 307px;
+    left: 134px;
+    width: 384px;
+    height: 61px;
+    text-align: center;
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-text-paragraph-2 {
+    top: 22px;
+    left: 72px;
+    height: 22px;
+    text-align: center;
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+  }
+}
 </style>
