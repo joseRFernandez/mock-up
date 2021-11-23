@@ -19,6 +19,13 @@ export default {
       desktop: false,
     };
   },
+  beforeMount() {
+    if (document.documentElement.clientWidth > 768) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
   mounted() {
     window.addEventListener('resize', this.getDimensions);
   },

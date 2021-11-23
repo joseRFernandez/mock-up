@@ -34,6 +34,16 @@ export default {
 </script>
 
 <style scoped>
+.header-title {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 375px;
+  height: 129px;
+  background: #ffc700 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
 .header-p-container {
   padding: 31px 12px 22px;
 }
@@ -61,7 +71,7 @@ span {
 @media screen and (min-width: 769px) {
   .header-title {
     position: absolute;
-    top: 109px;
+    top: 99px;
     left: 134px;
     width: 384px;
     height: 76px;
@@ -70,6 +80,11 @@ span {
     letter-spacing: 0px;
     opacity: 1;
   }
+  .header-p-container {
+    position: absolute;
+    top: -20px;
+  }
+
   .header-conditional-form-white-background {
     position: absolute;
     top: 208px;

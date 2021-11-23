@@ -13,7 +13,7 @@
 
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
-// import TheHeader from './components/header/TheHeader.vue';
+import TheHeader from './components/header/TheHeader.vue';
 // import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
@@ -25,7 +25,7 @@ export default {
   name: 'App',
   components: {
     TheNavbar,
-    // TheHeader,
+    TheHeader,
     // TheSignUpForm,
     // TheMeetAudreySection,
     // TheMAWPartnershipSection,
