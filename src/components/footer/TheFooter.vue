@@ -94,4 +94,45 @@ export default {
     0% no-repeat padding-box;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .footer-logo {
+    top: 3851px;
+    left: 320px;
+    width: 125px;
+    height: 31px;
+  }
+  .footer-copyright {
+    top: 3901px;
+    left: 334px;
+    width: 100px;
+    height: 13px;
+    opacity: 1;
+  }
+  .footer-copyright-not-insurance {
+    top: 3918px;
+    left: 297px;
+    width: 175px;
+    height: 13px;
+    text-align: left;
+    font: normal normal 11px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .fine-print-container-bold {
+    top: 3940px;
+    left: 222px;
+    width: 324px;
+    height: 26px;
+    opacity: 1;
+    font: normal normal bold 8px/13px Lato;
+  }
+  .fine-print-container-normal {
+    top: 3967px;
+    left: 206px;
+    width: 356px;
+    height: 25px;
+    font: normal normal medium 9px/14px Lato;
+  }
+}
 </style>

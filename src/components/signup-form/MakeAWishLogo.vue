@@ -34,4 +34,10 @@
   position: absolute;
   top: 18px;
 }
+@media screen and (min-width: 376px) {
+  .maw-logo-container {
+    top: 1371px;
+    left: 290px;
+  }
+}
 </style>

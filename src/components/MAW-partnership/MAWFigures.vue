@@ -44,4 +44,17 @@ export default {
   height: 39px;
   text-align: center;
 }
+@media screen and (min-width: 376px) {
+  .maw-figures-wrapper {
+    top: 93px;
+    left: 580px;
+    width: 172px;
+    height: 187px;
+    text-align: center;
+    font: normal normal bold 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+}
 </style>

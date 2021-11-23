@@ -31,4 +31,16 @@
   color: #ffffff;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .badge-container {
+    top: 1187px;
+    left: 204px;
+    width: 360px;
+  }
+  .badge {
+    top: 9px;
+    left: 64px;
+    width: 232px;
+  }
+}
 </style>

@@ -23,4 +23,10 @@
 p {
   margin: 0;
 }
+@media screen and (min-width: 376px) {
+  .ceo-signature {
+    top: 240px;
+    left: 358px;
+  }
+}
 </style>
