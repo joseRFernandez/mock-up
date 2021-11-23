@@ -4,6 +4,7 @@
       v-for="placeholder in placeholders"
       :key="placeholder.id"
       :placeholder="placeholder.type"
+      class="base-input-item"
     />
   </div>
 </template>
@@ -40,6 +41,9 @@ export default {
     width: 384px;
     height: 461px;
     opacity: 1;
+  }
+  .base-input-item {
+    margin:
   }
 }
 </style>

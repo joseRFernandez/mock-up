@@ -1,38 +1,12 @@
 <template>
-  <span v-if="desktop" class="nav-link-1">HOW IT WORKS</span>
-  <span v-if="desktop" class="nav-link-2">GET A CARD</span>
-  <span v-if="desktop" class="nav-link-3">GIVING BACK</span>
-  <span v-if="desktop" class="nav-link-icon-1"></span>
-  <span v-if="desktop" class="nav-link-4">MORE</span>
+  <span class="nav-link-1">HOW IT WORKS</span>
+  <span class="nav-link-2">GET A CARD</span>
+  <span class="nav-link-3">GIVING BACK</span>
+  <span class="nav-link-icon-1"></span>
+  <span class="nav-link-4">MORE</span>
 
-  <span v-if="desktop" class="nav-link-icon-2"></span>
+  <span class="nav-link-icon-2"></span>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      desktop: null,
-    };
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
-        this.desktop = true;
-      } else {
-        this.desktop = false;
-      }
-    },
-  },
-};
-</script>
 
 <style scoped>
 .nav-link-1 {

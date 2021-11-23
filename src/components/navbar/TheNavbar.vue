@@ -1,8 +1,8 @@
 <template>
   <div class="navbar-wrapper">
     <BuzzRxLogo class="navbar-buzz-logo" />
-    <HamburgerBtn />
-    <NavLinks />
+    <HamburgerBtn v-if="!desktop"/>
+    <NavLinks v-if="desktop" />
   </div>
 </template>
 
@@ -16,6 +16,34 @@ export default {
     BuzzRxLogo,
     HamburgerBtn,
     NavLinks,
+  },
+  data() {
+    return {
+      desktop: '',
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth > 768) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width > 768) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
   },
 };
 </script>

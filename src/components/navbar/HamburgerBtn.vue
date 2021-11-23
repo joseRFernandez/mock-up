@@ -1,36 +1,10 @@
 <template>
-  <div  v-if="notDesktop" class="menu-container">
+  <div class="menu-container">
     <div class="navbar-hamburger-container">
       <img src="/assets/hamburger_icon.png" class="hamburger" />
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      notDesktop: null,
-    };
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
-        this.notDesktop = false;
-      } else {
-        this.notDesktop = true;
-      }
-    },
-  },
-};
-</script>
 
 <style scoped>
 .hamburger {
@@ -61,6 +35,5 @@ export default {
   }
 }
 @media screen and (min-width: 769px) {
-
 }
 </style>
