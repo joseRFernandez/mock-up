@@ -114,6 +114,10 @@ export default {
   width: 319px;
   height: 40px;
 }
+.GAC-badge-item {
+  padding-left: 78px;
+  width: 241px;
+}
 @media screen and (min-width: 376px) {
   .GAC-badge-container {
     display: flex;
@@ -125,6 +129,8 @@ export default {
   .GAC-badge-item {
     height: 40px;
     width: 181px;
+    padding-left: 0;
+
   }
 }
 @media screen and (min-width: 769px) {
