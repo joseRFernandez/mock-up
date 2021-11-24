@@ -130,7 +130,6 @@ export default {
     height: 40px;
     width: 181px;
     padding-left: 0;
-
   }
 }
 @media screen and (min-width: 769px) {
