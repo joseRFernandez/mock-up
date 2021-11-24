@@ -37,6 +37,7 @@ export default {
     return {
       mobile: null,
       tablet: null,
+      desktop: null,
       badges: [
         {
           id: 1,
@@ -61,12 +62,18 @@ export default {
     if (document.documentElement.clientWidth <= 375) {
       this.mobile = true;
       this.tablet = false;
+      this.desktop = false;
     } else if (
       document.documentElement.clientWidth > 375 &&
       document.documentElement.clientWidth <= 768
     ) {
       this.mobile = false;
       this.tablet = true;
+      this.desktop = false;
+    } else if (document.documentElement.clientWidth > 768) {
+      this.desktop = true;
+      this.mobile = false;
+      this.tablet = false;
     }
   },
   mounted() {
@@ -81,15 +88,18 @@ export default {
       if (this.width <= 375) {
         this.mobile = true;
         this.tablet = false;
+        this.desktop = false;
       } else if (
         document.documentElement.clientWidth > 375 &&
         document.documentElement.clientWidth <= 768
       ) {
         this.mobile = false;
         this.tablet = true;
-      }
-      else {
-        this.mobile = true;
+        this.desktop = false;
+      } else {
+        this.desktop = true;
+        this.tablet = false;
+        this.mobile = false;
       }
     },
   },
