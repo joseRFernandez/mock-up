@@ -20,12 +20,14 @@ export default {
   computed: {
     conditionalBadges() {
       if (this.mobile) {
-        console.log('2 badges');
         return this.badges.filter((el) => {
           return el.id < 3;
         });
+      } else if (this.tablet) {
+        const result = this.badges.slice().sort((a, b) => b.id - a.id);
+        console.log(result);
+        return result;
       } else {
-        console.log('should be 3');
         return this.badges;
       }
     },
@@ -34,6 +36,7 @@ export default {
   data() {
     return {
       mobile: null,
+      tablet: null,
       badges: [
         {
           id: 1,
@@ -57,8 +60,13 @@ export default {
   beforeMount() {
     if (document.documentElement.clientWidth <= 375) {
       this.mobile = true;
-    } else {
+      this.tablet = false;
+    } else if (
+      document.documentElement.clientWidth > 375 &&
+      document.documentElement.clientWidth <= 768
+    ) {
       this.mobile = false;
+      this.tablet = true;
     }
   },
   mounted() {
@@ -72,8 +80,16 @@ export default {
       this.width = document.documentElement.clientWidth;
       if (this.width <= 375) {
         this.mobile = true;
-      } else {
+        this.tablet = false;
+      } else if (
+        document.documentElement.clientWidth > 375 &&
+        document.documentElement.clientWidth <= 768
+      ) {
         this.mobile = false;
+        this.tablet = true;
+      }
+      else {
+        this.mobile = true;
       }
     },
   },
@@ -103,6 +119,7 @@ export default {
 }
 @media screen and (min-width: 769px) {
   .GAC-badge-container {
+    display: initial;
     position: absolute;
     top: 2882px;
     left: 874px;
