@@ -15,7 +15,7 @@
 <style scoped>
 .signup-fine-print-container {
   position: absolute;
-  top: 777px;
+  top: 1131px;
   left: 22px;
   width: 329px;
   height: 147px;
@@ -23,6 +23,9 @@
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;
   opacity: 1;
+}
+span {
+  color: #b33cc8;
 }
 @media screen and (min-width: 376px) {
   .signup-fine-print-container {

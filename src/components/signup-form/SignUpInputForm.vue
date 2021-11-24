@@ -33,6 +33,25 @@ export default {
 };
 </script>
 <style scoped>
+.input-section-wrapper {
+  position: absolute;
+  top: 519px;
+  left: 22px;
+  width: 331px;
+  height: 461px;
+}
+@media screen and (min-width: 376px) {
+  .input-section-wrapper {
+    top: 638px;
+    left: 110px;
+    width: 547px;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    opacity: 1;
+  }
+}
 @media screen and (min-width: 769px) {
   .input-section-wrapper {
     position: absolute;
@@ -40,10 +59,6 @@ export default {
     left: 134px;
     width: 384px;
     height: 461px;
-    opacity: 1;
-  }
-  .base-input-item {
-    margin:
   }
 }
 </style>

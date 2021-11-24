@@ -1,8 +1,7 @@
 <template>
   <div class="btn-wrapper">
-    <div v-if="icon" class="badge-icon">
-      <img :src="icon" />
-    </div>
+    <img v-if="icon" :src="icon" class="badge-icon" />
+
     <div class="badge-caption">
       {{ caption }}
     </div>
@@ -17,19 +16,46 @@ export default {
 
 <style scoped>
 .btn-wrapper {
-  width: 227px;
+  width: 319px;
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  /* text-align: center; */
+  margin-bottom: 13px;
 }
+@media screen and (min-width: 376px) {
+  .btn-wrapper {
+    width: 113px;
+    height: 18px;
+    margin-right: 24px;
+  }
+}
+
 .badge-icon {
-  padding: 10px 9px 9px 56px;
-  display: inline;
+  position: relative;
+  top: 10px;
+  left: 28px;
 }
 .badge-caption {
-  display: inline;
   color: #ffffff;
+  position: relative;
+  top: -17px;
+  left: 54px;
+}
+
+@media screen and (min-width: 769px) {
+  .badge-icon {
+    position: relative;
+    top: 13px;
+    left: 56.23px;
+    width: 13px;
+    height: 20px;
+  }
+  .badge-caption {
+    color: #ffffff;
+    position: relative;
+    top: -17px;
+    left: 78px;
+  }
 }
 </style>

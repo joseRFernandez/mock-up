@@ -11,7 +11,7 @@
 <style scoped>
 .badge-container {
   position: absolute;
-  top: 712px;
+  top: 1068px;
   left: 22px;
   width: 332px;
   height: 40px;
