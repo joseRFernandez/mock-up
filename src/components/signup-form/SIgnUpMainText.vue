@@ -16,7 +16,7 @@
 <style scoped>
 .signup-first-container {
   position: absolute;
-  top: 20px;
+  top: 374px;
   left: 22px;
   width: 331px;
   height: 74px;
@@ -28,28 +28,97 @@
 }
 .signup-second-container {
   position: absolute;
-  top: 94px;
+  top: 453px;
   left: 22px;
   width: 331px;
-  height: 74px;
+  height: 61px;
   text-align: center;
-  font: normal normal bold 17px Lato;
+  font: normal normal bold 18px/22px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
 }
 @media screen and (min-width: 376px) {
   .signup-first-container {
+    top: 524px;
     left: 42px;
     width: 683px;
-    height: 74px;
+    height: 35px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
   }
   .signup-second-container {
-    left: 49px;
+    top: 572px;
+    left: 42px;
     width: 683px;
     height: 61px;
     text-align: center;
     font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) {
+  .signup-first-container {
+    position: absolute;
+    top: 228px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-text-paragraph-1 {
+    top: 20px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-second-container {
+    top: 307px;
+    left: 134px;
+    width: 384px;
+    height: 61px;
+    text-align: center;
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .signup-text-paragraph-2 {
+    top: 22px;
+    left: 72px;
+    height: 22px;
+    text-align: center;
+    font: normal normal bold 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+  }
+}
+@media screen and (min-width: 769px) {
+  .signup-first-container {
+    position: absolute;
+    top: 228px;
+    left: 134px;
+    width: 384px;
+    height: 74px;
+    text-align: center;
+    font: normal normal normal 15px/17px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
   }
 }
 </style>

@@ -1,12 +1,11 @@
 <template>
-  <span>
-    <div class="btn" v-if="icon">
-      <img :src="icon" />
-    </div>
-    <div class="caption">
+  <div class="btn-wrapper">
+    <img v-if="icon" :src="icon" class="badge-icon" />
+
+    <div class="badge-caption">
       {{ caption }}
     </div>
-  </span>
+  </div>
 </template>
 
 <script>
@@ -16,33 +15,47 @@ export default {
 </script>
 
 <style scoped>
-span {
+.btn-wrapper {
+  width: 319px;
+  height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 319px;
-  height: 40px;
-  margin: 21px;
+  margin-bottom: 13px;
 }
-.btn {
-  padding: 10.29px 18.8px 9.45px 100.75px;
-}
-.caption {
-  text-align: left;
-  font: normal normal 16px Lato;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  width: 112.56px;
-  line-height: 18px;
+@media screen and (min-width: 376px) {
+  .btn-wrapper {
+    width: 113px;
+    height: 18px;
+    margin-right: 24px;
+  }
 }
 
-img {
-  width: 13px;
-  height: 20px;
-  padding: 10.29px 0 9.45px;
+.badge-icon {
+  position: relative;
+  top: 10px;
+  left: 28px;
+}
+.badge-caption {
+  color: #ffffff;
+  position: relative;
+  top: -17px;
+  left: 54px;
+}
+
+@media screen and (min-width: 769px) {
+  .badge-icon {
+    position: relative;
+    top: 13px;
+    left: 56.23px;
+    width: 13px;
+    height: 20px;
+  }
+  .badge-caption {
+    color: #ffffff;
+    position: relative;
+    top: -17px;
+    left: 78px;
+  }
 }
 </style>

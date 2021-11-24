@@ -1,5 +1,5 @@
 <template>
-  <div class="ceo">
+  <div class="ceo-section-wrapper">
     <MessageText />
     <CeoImage />
     <CeoSignature />
@@ -20,7 +20,7 @@ export default {
 };
 </script>
 <style scoped>
-.ceo {
+.ceo-section-wrapper {
   position: absolute;
   top: 4115px;
   left: 0px;
@@ -30,13 +30,21 @@ export default {
   opacity: 1;
 }
 @media screen and (min-width: 376px) {
-  .ceo {
+  .ceo-section-wrapper {
     top: 3417px;
     left: 0px;
     width: 768px;
     height: 351px;
     background: #1e5aaa 0% 0% no-repeat padding-box;
     opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) {
+  .ceo-section-wrapper {
+    top: 3162px;
+    left: 0px;
+    width: 1366px;
+    height: 351px;
   }
 }
 </style>

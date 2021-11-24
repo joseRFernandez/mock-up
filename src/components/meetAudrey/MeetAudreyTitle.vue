@@ -54,4 +54,14 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 769px) {
+  .meet-audrey-title {
+    top: 1200px;
+    left: 800px;
+  }
+  .meet-audrey-bottom-text {
+    top: 1225px;
+    left: 800px;
+  }
+}
 </style>

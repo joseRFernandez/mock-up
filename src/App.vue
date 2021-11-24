@@ -15,10 +15,10 @@
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
 import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
-import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
-import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
-import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
+import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
@@ -27,11 +27,11 @@ export default {
     TheNavbar,
     TheHeader,
     TheSignUpForm,
-    TheFooter,
-    TheCeoMessage,
-    TheGetACardSection,
-    TheMAWPartnershipSection,
     TheMeetAudreySection,
+    TheMAWPartnershipSection,
+    TheGetACardSection,
+    TheCeoMessage,
+    TheFooter,
   },
 };
 </script>
@@ -60,6 +60,12 @@ p {
   .body-container {
     width: 768px;
     height: 4107px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .body-container {
+    width: 1366px;
+    height: 3987px;
   }
 }
 </style>

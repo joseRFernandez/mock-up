@@ -29,4 +29,11 @@ p {
     left: 358px;
   }
 }
+@media screen and (min-width: 769px) {
+  .ceo-signature {
+    top: 240px;
+    left: 670px;
+    font: normal normal normal 14px/20px Lato;
+  }
+}
 </style>

@@ -1,18 +1,49 @@
 <template>
   <div class="navbar-wrapper">
     <BuzzRxLogo class="navbar-buzz-logo" />
-    <HamburgerBtn />
+    <HamburgerBtn v-if="!desktop"/>
+    <NavLinks v-if="desktop" />
   </div>
 </template>
 
 <script>
 import BuzzRxLogo from './BuzzRxLogo.vue';
 import HamburgerBtn from './HamburgerBtn.vue';
+import NavLinks from './NavLinks.vue';
 
 export default {
   components: {
     BuzzRxLogo,
     HamburgerBtn,
+    NavLinks,
+  },
+  data() {
+    return {
+      desktop: '',
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth > 768) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width > 768) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
   },
 };
 </script>
@@ -39,6 +70,15 @@ export default {
 @media screen and (min-width: 376px) {
   .navbar-wrapper {
     width: 768px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .navbar-wrapper {
+    width: 1366px;
+    height: 70px;
+  }
+  .navbar-buzz-logo {
+    left: 90px;
   }
 }
 </style>

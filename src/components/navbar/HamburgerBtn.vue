@@ -6,8 +6,6 @@
   </div>
 </template>
 
-<script></script>
-
 <style scoped>
 .hamburger {
   position: absolute;
@@ -35,5 +33,7 @@
     height: 17px;
     background: #b33cc8 0% 0% no-repeat padding-box;
   }
+}
+@media screen and (min-width: 769px) {
 }
 </style>

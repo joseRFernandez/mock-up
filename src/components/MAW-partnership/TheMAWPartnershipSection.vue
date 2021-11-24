@@ -21,6 +21,15 @@ export default {
 </script>
 
 <style scoped>
+.maw-partnership-wrapper {
+  position: absolute;
+  top: 2945px;
+  left: 0px;
+  width: 375px;
+  height: 644px;
+  opacity: 1;
+  background-color: #ffc60b;
+}
 @media screen and (min-width: 376px) {
   .maw-partnership-wrapper {
     position: absolute;
@@ -29,7 +38,14 @@ export default {
     width: 768px;
     height: 341px;
     opacity: 1;
-    background-color: #ffc60b;
+  }
+}
+@media screen and (min-width: 769px) {
+  .maw-partnership-wrapper {
+    top: 2349px;
+    left: 0px;
+    width: 1366px;
+    height: 330px;
   }
 }
 </style>

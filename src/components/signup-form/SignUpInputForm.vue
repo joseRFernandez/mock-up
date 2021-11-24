@@ -1,13 +1,19 @@
 <template>
-  <input
-    v-for="placeholder in placeholders"
-    :key="placeholder.id"
-    :placeholder="'   ' + placeholder.type"
-  />
+  <div class="input-section-wrapper">
+    <BaseInputBlock
+      v-for="placeholder in placeholders"
+      :key="placeholder.id"
+      :placeholder="placeholder.type"
+      class="base-input-item"
+    />
+  </div>
 </template>
 
 <script>
+import BaseInputBlock from '../../BaseInputBlock.vue';
+
 export default {
+  components: { BaseInputBlock },
   data() {
     return {
       placeholders: [
@@ -27,19 +33,32 @@ export default {
 };
 </script>
 <style scoped>
-input {
+.input-section-wrapper {
   position: absolute;
-  top: 165px;
+  top: 519px;
   left: 22px;
   width: 331px;
-  height: 40px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 1px solid #b2b2b2;
-  border-radius: 5px;
-  opacity: 1;
-  text-align: left;
-  font: normal normal 16px/19px Lato;
-  letter-spacing: 0px;
-  color: #b2b2b2;
+  height: 461px;
+}
+@media screen and (min-width: 376px) {
+  .input-section-wrapper {
+    top: 638px;
+    left: 110px;
+    width: 547px;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) {
+  .input-section-wrapper {
+    position: absolute;
+    top: 373px;
+    left: 134px;
+    width: 384px;
+    height: 461px;
+  }
 }
 </style>

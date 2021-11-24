@@ -2,8 +2,7 @@
   <header class="maw-header">
     <div class="maw-header-text-container">
       <p class="maw-header-caption">
-        OUR MAKE-A-WISH PARTNERSHIP:<br />
-        NATIONAL REACH, LOCAL IMPACT
+        OUR MAKE-A-WISH PARTNERSHIP: NATIONAL REACH, LOCAL IMPACT
       </p>
     </div>
   </header>
@@ -43,6 +42,26 @@
     height: 16px;
     text-align: center;
     font: normal normal medium 18px/22px Omnes;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) {
+  .maw-header {
+    top: 25px;
+    left: 0px;
+    width: 1366px;
+    height: 48px;
+  }
+  .maw-header-text-container {
+    top: 8px;
+    left: 263px;
+    width: 840px;
+    height: 30px;
+    text-align: center;
+    font: normal normal medium 24px/24px Omnes;
     letter-spacing: 0px;
     color: #ffffff;
     text-transform: uppercase;

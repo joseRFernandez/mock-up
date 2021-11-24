@@ -10,10 +10,10 @@
 <style scoped>
 .maw-logo-container {
   position: absolute;
-  top: 952px;
+  top: 1331px;
   left: 94px;
   width: 186px;
-  height: 64px;
+  height: 39px;
   opacity: 1;
 }
 .maw-header-container {
@@ -38,6 +38,16 @@
   .maw-logo-container {
     top: 1371px;
     left: 290px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .maw-logo-container {
+    top: 1132px;
+    left: 232px;
+    width: 186px;
+    height: 64px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
   }
 }
 </style>

@@ -11,7 +11,7 @@
 <style scoped>
 .badge-container {
   position: absolute;
-  top: 712px;
+  top: 1068px;
   left: 22px;
   width: 332px;
   height: 40px;
@@ -41,6 +41,21 @@
     top: 9px;
     left: 64px;
     width: 232px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .badge-container {
+    position: absolute;
+    top: 915px;
+    left: 193px;
+    width: 267px;
+    height: 40px;
+    background: #b33cc8 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+  }
+  .badge {
+    left: 25px;
   }
 }
 </style>

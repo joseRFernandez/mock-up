@@ -14,14 +14,14 @@
     </p>
 
     <br />
-    <p v-if="mobile">
+    <p v-if="!tablet" class="meet-audrey-subsequent-paragraph">
       For the past five years, she has been educated by tutors from noon to 5
       p.m. When she’s not at school, Audrey has doctor or therapy appointments
       to adjust her leg braces or medication. Sometimes, she has multiple
       doctor’s appointments on the same day.<br />
     </p>
     <br />
-    <p v-if="mobile">
+    <p v-if="!tablet" class="meet-audrey-subsequent-paragraph">
       “My daughter is probably one of the strongest people I know. She never
       complains about anything. Even if she’s having a bad seizure day, she’s
       like, ‘I got this,’ and it makes you appreciate the life that you have,”
@@ -33,8 +33,18 @@
 export default {
   data() {
     return {
-      mobile: false,
+      tablet: null,
     };
+  },
+  beforeMount() {
+    if (
+      document.documentElement.clientWidth > 376 &&
+      document.documentElement.clientWidth < 769
+    ) {
+      this.tablet = true;
+    } else {
+      this.tablet = false;
+    }
   },
   mounted() {
     window.addEventListener('resize', this.getDimensions);
@@ -45,10 +55,10 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width <= 375) {
-        this.mobile = true;
+      if (this.width > 376 && this.width < 769) {
+        this.tablet = true;
       } else {
-        this.mobile = false;
+        this.tablet = false;
       }
     },
   },
@@ -74,6 +84,14 @@ export default {
     top: 1799px;
     width: 266px;
     height: 476px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .meet-audrey-text {
+    top: 1518px;
+    left: 113px;
+    width: 408px;
+    height: 588px;
   }
 }
 </style>

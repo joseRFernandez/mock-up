@@ -1,8 +1,8 @@
 <template>
-    <MeetAudreyTitle />
-      <MeetAudreyImage />
-      <MeetAudreyQuote />
-      <MeetAudreyText />
+  <MeetAudreyTitle />
+  <MeetAudreyImage />
+  <MeetAudreyQuote />
+  <MeetAudreyText />
 </template>
 
 <script>
@@ -20,4 +20,3 @@ export default {
   },
 };
 </script>
-

@@ -1,12 +1,10 @@
 <template>
-  <div class="signup-wrapper">
     <SignUpMainText />
     <SignUpInputForm />
     <AgreeToVisit />
     <SignUpBadge />
     <SignupFinePrint />
     <MakeAWishLogo />
-  </div>
 </template>
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';
@@ -21,25 +19,11 @@ export default {
     SignUpInputForm,
     AgreeToVisit,
     SignUpBadge,
-    MakeAWishLogo,
     SignupFinePrint,
+    MakeAWishLogo,
   },
 };
 </script>
 
 <style scoped>
-.signup-wrapper {
-  position: absolute;
-  top: 354px;
-  width: 375px;
-  height: 952px;
-}
-@media screen and (min-width: 376px) {
-  .signup-wrapper {
-    position: absolute;
-    top: 488px;
-    width: 768px;
-    height: 883px;
-  }
-}
 </style>
