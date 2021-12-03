@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper">
     <BuzzRxLogo class="navbar-buzz-logo" />
-    <HamburgerBtn v-if="!desktop"/>
+    <HamburgerBtn v-if="!desktop" />
     <NavLinks v-if="desktop" />
   </div>
 </template>
@@ -53,7 +53,8 @@ export default {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 375px;
+  /* width: 375px; */
+  width: 100%;
   height: 70px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -69,12 +70,14 @@ export default {
 }
 @media screen and (min-width: 376px) {
   .navbar-wrapper {
-    width: 768px;
+    /* width: 768px; */
   }
 }
 @media screen and (min-width: 769px) {
   .navbar-wrapper {
-    width: 1366px;
+    /* width: 1366px; */
+    width: 100%;
+
     height: 70px;
   }
   .navbar-buzz-logo {

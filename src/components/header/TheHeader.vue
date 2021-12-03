@@ -1,5 +1,5 @@
 <template>
-<!-- this below is the yeloow input form container -->
+  <!-- this below is the yeloow input form container -->
   <div v-if="desktop" class="header-conditional-desktop-input-container"></div>
   <HeaderTitle />
   <HeaderImageMobile />
@@ -51,7 +51,9 @@ export default {
   position: absolute;
   top: 70px;
   left: 0px;
-  width: 375px;
+  /* width: 375px; */
+  width: 100%;
+
   height: 129px;
   background: #ffc700 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -59,7 +61,7 @@ export default {
 }
 @media screen and (min-width: 376px) {
   .header-title-container {
-    width: 768px;
+    /* width: 768px; */
     height: 84px;
   }
 }
