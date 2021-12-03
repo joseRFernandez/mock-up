@@ -150,10 +150,7 @@ export default {
     left: 633px;
     width: 146px;
     height: 19px;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
+    font-size: 16px;
   }
   .footer-copyright-not-insurance {
     top: 3729px;
@@ -167,6 +164,7 @@ export default {
     left: 464px;
     width: 484px;
     height: 38px;
+    font: normal normal bold 11px/19px Lato;
   }
   .fine-print-container-normal {
     top: 3793px;
@@ -174,7 +172,7 @@ export default {
     width: 476px;
     height: 33px;
     text-align: center;
-    font: normal normal medium 12px/18px Lato;
+    font: normal normal 12px/18px Lato;
     letter-spacing: 0px;
     color: #262626;
     opacity: 1;
