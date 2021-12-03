@@ -68,19 +68,15 @@ export default {
   height: 37px;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
-  .navbar-wrapper {
-    /* width: 768px; */
-  }
-}
 @media screen and (min-width: 769px) {
   .navbar-wrapper {
-    /* width: 1366px; */
     width: 100%;
 
     height: 70px;
   }
   .navbar-buzz-logo {
+    width: 159px;
+    height: 38px;
     left: 90px;
   }
 }

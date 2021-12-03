@@ -1,9 +1,7 @@
 <template>
-  <div class="menu-container">
-    <div class="navbar-hamburger-container">
-      <img src="/assets/hamburger_icon.png" class="hamburger" />
-    </div>
-  </div>
+  <!-- <div class="menu-container"> -->
+  <img src="/assets/hamburger_icon.png" class="hamburger" />
+  <!-- </div> -->
 </template>
 
 <style scoped>
@@ -17,23 +15,11 @@
   opacity: 1;
 }
 @media screen and (min-width: 376px) {
-  .menu-container {
-    position: absolute;
-    top: 8px;
-    left: 214px;
-    width: 544px;
-    height: 50px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
   .hamburger {
-    top: 17px;
-    left: 502px;
+    top: 25px;
+    left: 716px;
     width: 25px;
     height: 17px;
-    background: #b33cc8 0% 0% no-repeat padding-box;
   }
-}
-@media screen and (min-width: 769px) {
 }
 </style>
