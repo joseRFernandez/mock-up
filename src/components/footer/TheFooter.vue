@@ -1,6 +1,8 @@
 <template>
   <BuzzRxLogo class="footer-logo" />
-  <p class="footer-copyright">© 2020 <strong>BuzzRx.com</strong></p>
+  <p class="footer-copyright">
+    © 2020 <strong class="footer-copyright-bold">BuzzRx.com</strong>
+  </p>
   <p class="footer-copyright-not-insurance">
     This is not insurance. Full Disclaimer
   </p>
@@ -42,12 +44,13 @@ export default {
 .footer-copyright {
   position: absolute;
   top: 4672px;
-  left: 155px;
+  left: 156px;
   height: 8px;
   text-align: center;
   font: normal normal 7px Lato;
   letter-spacing: 0px;
   color: #262626;
+  opacity: 1;
 }
 .footer-copyright-not-insurance {
   position: absolute;
@@ -64,9 +67,9 @@ export default {
 .fine-print-container-bold {
   position: absolute;
   top: 4697px;
-  left: 86.5px;
+  left: 87px;
   width: 202px;
-  height: 8px;
+  height: 16px;
   text-align: center;
   font: normal normal bold 5px/8px Lato;
   letter-spacing: 0px;
@@ -106,7 +109,7 @@ export default {
     left: 334px;
     width: 100px;
     height: 13px;
-    opacity: 1;
+    font-size: 11px;
   }
   .footer-copyright-not-insurance {
     top: 3918px;
@@ -132,7 +135,7 @@ export default {
     left: 206px;
     width: 356px;
     height: 25px;
-    font: normal normal medium 9px/14px Lato;
+    font: normal normal 9px/14px Lato;
   }
 }
 @media screen and (min-width: 769px) {

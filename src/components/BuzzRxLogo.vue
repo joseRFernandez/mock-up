@@ -1,7 +1,5 @@
 <template>
-  <img src="/assets/BuzzRx_logo.png" class="logo" />
+  <img src="/assets/BRX_Logo.png" class="logo" />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
