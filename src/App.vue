@@ -1,37 +1,37 @@
 <template>
   <body class="body-container">
     <TheNavbar />
-    <TheHeader />
+    <!-- <TheHeader />
     <TheSignUpForm />
     <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
-    <TheFooter />
+    <TheFooter /> -->
   </body>
 </template>
 
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
-import TheHeader from './components/header/TheHeader.vue';
-import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
-import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
-import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
-import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
-import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
-import TheFooter from './components/footer/TheFooter.vue';
+// import TheHeader from './components/header/TheHeader.vue';
+// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+// import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+// import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
+// import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+// import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
+// import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
   name: 'App',
   components: {
     TheNavbar,
-    TheHeader,
-    TheSignUpForm,
-    TheMeetAudreySection,
-    TheMAWPartnershipSection,
-    TheGetACardSection,
-    TheCeoMessage,
-    TheFooter,
+    // TheHeader,
+    // TheSignUpForm,
+    // TheMeetAudreySection,
+    // TheMAWPartnershipSection,
+    // TheGetACardSection,
+    // TheCeoMessage,
+    // TheFooter,
   },
 };
 </script>
@@ -58,13 +58,11 @@ p {
 }
 @media screen and (min-width: 376px) {
   .body-container {
-    width: 768px;
     height: 4107px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .body-container {
-    width: 1366px;
     height: 3987px;
   }
 }

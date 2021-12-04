@@ -1,23 +1,31 @@
 <template>
-  <!-- <div class="menu-container"> -->
-  <img src="/assets/hamburger_icon.png" class="hamburger" />
-  <!-- </div> -->
+  <div class="navbar-hamburger-container">
+    <img src="/assets/hamburger_icon.png" class="hamburger" />
+  </div>
 </template>
 
 <style scoped>
 .hamburger {
   position: absolute;
   top: 28px;
-  left: 334px;
+  left: 89%;
   width: 16px;
   height: 12px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
+  .navbar-hamburger-container {
+    position: absolute;
+    top: 8px;
+    left: 214px;
+    width: 70.8%;
+    height: 50px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
   .hamburger {
     top: 25px;
-    left: 716px;
     width: 25px;
     height: 17px;
   }
