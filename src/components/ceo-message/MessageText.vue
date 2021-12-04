@@ -16,7 +16,6 @@
         sadness with joy.
       </p>
       <br />
-
       <p class="ceo-subsequent-paragraphs">
         Because of you, more wish kids will get the chance to experience the
         power and positivity that comes from having their wish granted. We are
@@ -37,7 +36,7 @@
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  line-height: 24px;
+  font: normal normal normal 16px/24px Lato;
 }
 .ceo-section-title {
   text-align: center;
@@ -45,16 +44,15 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
+ceo-subsequent-paragraphs-container {
+  font-weight: 300;
+}
 @media screen and (min-width: 376px) {
   .ceo-paragraph-container {
     top: 46px;
     left: 71px;
     width: 626px;
     height: 143px;
-    text-align: center;
-    letter-spacing: NaNpx;
-    color: #ffffff;
-    opacity: 1;
   }
 }
 @media screen and (min-width: 769px) {
