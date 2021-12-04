@@ -48,7 +48,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;

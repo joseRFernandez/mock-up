@@ -1,14 +1,5 @@
 <template>
-  <div v-if="desktop" class="conditional-sliver">
-    <img
-      src="/assets/mobile-header/header-audrey-side-sliver.png"
-      class="conditional-sliver-image"
-    />
-  </div>
-  <div v-if="desktop" class="conditional">
-    <img src="/assets/mobile-header/AudreyHeader-Large.png" />
-  </div>
-  <div v-else class="header-mobile-image"></div>
+  <div class="header-mobile-image"></div>
 </template>
 <script>
 export default {

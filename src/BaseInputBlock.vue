@@ -35,6 +35,7 @@ export default {
 @media screen and (min-width: 769px) {
   .input-base-block {
     width: 384px;
+    padding: 0;
   }
 }
 </style>

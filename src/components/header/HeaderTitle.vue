@@ -39,6 +39,7 @@ export default {
   top: 70px;
   left: 0px;
   width: 375px;
+  /* width: 100%; */
   height: 129px;
   background: #ffc700 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -61,7 +62,7 @@ span {
 }
 @media screen and (min-width: 376px) {
   .header-title {
-    width: 768px;
+    /* width: 768px; */
     height: 84px;
   }
   .header-p-container {
@@ -71,13 +72,14 @@ span {
 @media screen and (min-width: 769px) {
   .header-title {
     position: absolute;
-    top: 99px;
+    top: 109px;
     left: 134px;
     width: 384px;
     height: 76px;
     text-align: center;
-    font: normal normal medium 32px/36px Omnes;
+    font: normal normal lighter 32px/36px Omnes;
     letter-spacing: 0px;
+    box-shadow: none;
     opacity: 1;
   }
   .header-p-container {

@@ -3,7 +3,7 @@
   <div class="agree-text-container">
     <p>
       YES, I would like a BuzzRx Representative to visit my pharmacy and
-      occasionally bring FREE
+      occasionally bring treats.
     </p>
   </div>
 </template>

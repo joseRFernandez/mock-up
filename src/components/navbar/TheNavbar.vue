@@ -53,8 +53,7 @@ export default {
   position: absolute;
   top: 0px;
   left: 0px;
-  /* width: 375px; */
-  width: 100%;
+  width: 375px;
   height: 70px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;

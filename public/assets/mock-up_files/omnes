@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Omnes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Omnes'), url('https://fonts.cdnfonts.com/s/14172/omnes-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Omnes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Omnes'), url('https://fonts.cdnfonts.com/s/14172/omnes_extralight-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Omnes';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Omnes'), url('https://fonts.cdnfonts.com/s/14172/omnes_light-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Omnes';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Omnes'), url('https://fonts.cdnfonts.com/s/14172/omnes_medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Omnes';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Omnes'), url('https://fonts.cdnfonts.com/s/14172/omnes-semibold-webfont.woff') format('woff');
+}
+
+

@@ -1,18 +1,22 @@
 <template>
-  <!-- this below is the yeloow input form container -->
+  <!-- this below is the yellow input form container - unlock when ready-->
+  <HeaderDesktopImage v-if="desktop" />
   <div v-if="desktop" class="header-conditional-desktop-input-container"></div>
   <HeaderTitle />
-  <HeaderImageMobile />
+  <HeaderImageMobile v-if="!desktop" />
+
 </template>
 
 <script>
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
+import HeaderDesktopImage from './HeaderDesktopImage.vue';
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
+    HeaderDesktopImage,
   },
 
   data() {
@@ -51,8 +55,8 @@ export default {
   position: absolute;
   top: 70px;
   left: 0px;
-  /* width: 375px; */
-  width: 100%;
+  width: 375px;
+  /* width: 100%; */
 
   height: 129px;
   background: #ffc700 0% 0% no-repeat padding-box;
@@ -61,7 +65,7 @@ export default {
 }
 @media screen and (min-width: 376px) {
   .header-title-container {
-    /* width: 768px; */
+    width: 768px;
     height: 84px;
   }
 }

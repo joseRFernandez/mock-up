@@ -8,7 +8,8 @@
   </div>
   <div class="signup-second-container">
     <p class="signup-text-paragraph-2">
-      For every entry we receive we’ll donate $5, up to $10K, to Make-A-Wish®
+      For every entry we receive we’ll donate $5,
+      up to $10K, to Make-A-Wish®
     </p>
   </div>
 </template>

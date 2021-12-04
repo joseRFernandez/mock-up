@@ -47,7 +47,7 @@ export default {
     width: 547px;
     height: 40px;
     background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #b2b2b2;
+    /* border: 1px solid #b2b2b2; */
     border-radius: 5px;
     opacity: 1;
   }
@@ -59,6 +59,14 @@ export default {
     left: 134px;
     width: 384px;
     height: 461px;
+  }
+  .base-input-item {
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #b2b2b2;
+    opacity: 1;
+    padding-left: 10px;
   }
 }
 </style>
