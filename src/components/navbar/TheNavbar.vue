@@ -9,13 +9,13 @@
 <script>
 import BuzzRxLogo from './BuzzRxLogo.vue';
 import HamburgerBtn from './HamburgerBtn.vue';
-// import NavLinks from './NavLinks.vue';
+import NavLinks from './NavLinks.vue';
 
 export default {
   components: {
     BuzzRxLogo,
     HamburgerBtn,
-    // NavLinks,
+    NavLinks,
   },
   data() {
     return {
@@ -38,7 +38,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width > 1366) {
+      if (this.width >= 1366) {
         this.desktop = true;
       } else {
         this.desktop = false;
@@ -66,8 +66,6 @@ export default {
 
 @media screen and (min-width: 1366px) {
   .navbar-wrapper {
-    /* width: 100%; */
-
     height: 70px;
   }
   .navbar-buzz-logo {
