@@ -1,19 +1,31 @@
 <template>
-  <section class="maw-logo-container">
+<section class="maw-logo-flexbox">
+  <div class="maw-logo-container">
     <div class="maw-header-container">
       <p class="maw-logo-header-text">PROUD SUPPORTER OF</p>
     </div>
     <img src="assets/Make-A-Wish-Logo.png" class="maw-logo-image" />
+  </div>
   </section>
 </template>
 
 <style scoped>
-.maw-logo-container {
+/* .maw-logo-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 1331px;
+  top: 1306px;
+  width: 100%;
+} */
+.maw-logo-container {
+  /* position: absolute; */
+  top: 1306px;
+  left: 94px;
   width: 186px;
   height: 64px;
   opacity: 1;
+  box-sizing:border-box;
 }
 .maw-header-container {
   color: #0f70b8;
@@ -22,7 +34,8 @@
 }
 .maw-logo-header-text {
   font-size: 10px;
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   left: 14px;
 }
 .maw-logo-image {
@@ -30,7 +43,8 @@
   height: 39px;
   background: #0f70b8 0% 0% no-repeat padding-box;
   opacity: 1;
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   top: 18px;
 }
 @media screen and (min-width: 768px) {

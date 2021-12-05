@@ -35,6 +35,9 @@ export default {
 
 <style scoped>
 .header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 70px;
   left: 0px;
@@ -45,9 +48,12 @@ export default {
   opacity: 1;
 }
 .header-p-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 31px;
-  left: 12px;
+  /* left: 12px; */
   width: 93.6%;
   height: 76px;
   text-align: center;

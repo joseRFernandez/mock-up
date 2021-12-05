@@ -29,19 +29,12 @@
   position: relative;
   top: -15px;
   left: 28px;
-  right: 22px;
-  width: 100%;
-  display: inline;
-  height: 36px;
+  width: 90%;
   text-align: left;
   font: normal normal normal 14px/18px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-}
-.agree-text-paragraph {
-  /* width: 326 is 100% */
-  width: 91.41%;
 }
 @media screen and (min-width: 768px) {
   .checkbox {

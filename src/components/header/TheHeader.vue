@@ -1,7 +1,6 @@
 <template>
   <!-- this below is the yellow input form container - unlock when ready-->
   <HeaderDesktopImage v-if="desktop" />
-  <!-- <div v-if="desktop" class="header-conditional-desktop-input-container"></div> -->
   <HeaderTitle />
   <HeaderImageMobile v-if="!desktop" />
 
