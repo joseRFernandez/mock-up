@@ -18,7 +18,7 @@
   .navbar-hamburger-container {
     position: absolute;
     top: 8px;
-    left: 214px;
+    right: 10px;
     width: 70.8%;
     height: 50px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -27,6 +27,8 @@
   .hamburger {
     top: 25px;
     width: 25px;
+    left: unset;
+    right: 27px;
     height: 17px;
   }
 }

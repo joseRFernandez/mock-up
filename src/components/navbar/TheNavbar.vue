@@ -8,13 +8,13 @@
 
 <script>
 import BuzzRxLogo from './BuzzRxLogo.vue';
-// import HamburgerBtn from './HamburgerBtn.vue';
+import HamburgerBtn from './HamburgerBtn.vue';
 // import NavLinks from './NavLinks.vue';
 
 export default {
   components: {
     BuzzRxLogo,
-    // HamburgerBtn,
+    HamburgerBtn,
     // NavLinks,
   },
   data() {
