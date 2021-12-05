@@ -37,18 +37,32 @@ export default {
 </script>
 <style scoped>
 .header-mobile-image-container {
+  position: relative;
   width: 100%;
+  height: 155px;
+  top: 199px;
 }
 .header-mobile-image {
-  position: absolute;
-  top: 199px;
-  left: 0px;
-  min-width: 100%;
+  width: 100%;
   height: 155px;
   background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%
     no-repeat padding-box;
-    background-size: cover;
+  background-size: contain;
 }
+@media screen and (min-width: 376px) {
+  .header-mobile-image {
+    background: transparent url('/assets/mobile-header/mobile-header@2x.png') 0%
+      0% no-repeat padding-box;
+    background-size: contain;
+    height: 310px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .header-mobile-image {
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header-mobile-image {
     position: absolute;

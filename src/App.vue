@@ -14,8 +14,8 @@
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
-import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
-import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+// import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
@@ -26,8 +26,8 @@ export default {
   components: {
     TheNavbar,
     TheHeader,
-    TheSignUpForm,
-    TheMeetAudreySection,
+    // TheSignUpForm,
+    // TheMeetAudreySection,
     // TheMAWPartnershipSection,
     // TheGetACardSection,
     // TheCeoMessage,
@@ -45,6 +45,7 @@ body {
   margin: 0;
 }
 .body-container {
+  display: flex;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -56,7 +57,7 @@ body {
 p {
   margin: 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .body-container {
     height: 4107px;
   }

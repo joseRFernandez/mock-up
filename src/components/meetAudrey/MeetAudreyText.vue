@@ -68,7 +68,7 @@ export default {
 <style scoped>
 .meet-audrey-text {
   position: relative;
-  width: 332px;
+  width: 88.53%;
   top: 75px;
   height: 727px;
   text-align: left;

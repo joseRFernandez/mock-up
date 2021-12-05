@@ -8,29 +8,31 @@
 
 <script>
 import MAWHeader from './MAWHeader.vue';
-import MAWText from './MAWText.vue';
-import MAWFigures from './MAWFigures.vue';
+// import MAWText from './MAWText.vue';
+// import MAWFigures from './MAWFigures.vue';
 
 export default {
   components: {
     MAWHeader,
-    MAWText,
-    MAWFigures,
+    // MAWText,
+    // MAWFigures,
   },
 };
 </script>
 
 <style scoped>
 .maw-partnership-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  top: 2945px;
-  left: 0px;
-  width: 375px;
+  top: 2944px;
+  width: 100%;
   height: 644px;
   opacity: 1;
   background-color: #ffc60b;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-partnership-wrapper {
     position: absolute;
     top: 2409px;
@@ -40,7 +42,7 @@ export default {
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-partnership-wrapper {
     top: 2349px;
     left: 0px;

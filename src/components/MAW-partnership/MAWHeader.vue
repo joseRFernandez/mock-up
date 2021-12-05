@@ -1,10 +1,10 @@
 <template>
   <header class="maw-header">
-    <div class="maw-header-text-container">
+    <!-- <div class="maw-header-text-container">
       <p class="maw-header-caption">
         OUR MAKE-A-WISH PARTNERSHIP: NATIONAL REACH, LOCAL IMPACT
       </p>
-    </div>
+    </div> -->
   </header>
 </template>
 
@@ -13,7 +13,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   height: 60px;
   opacity: 1;
   background-color: #b33cc8;
@@ -31,7 +31,7 @@
   text-transform: uppercase;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-header {
     width: 768px;
     height: 34px;
@@ -48,7 +48,7 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-header {
     top: 25px;
     left: 0px;
