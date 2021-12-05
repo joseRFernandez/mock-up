@@ -13,7 +13,7 @@
   top: 1331px;
   left: 94px;
   width: 186px;
-  height: 39px;
+  height: 64px;
   opacity: 1;
 }
 .maw-header-container {
@@ -34,13 +34,13 @@
   position: absolute;
   top: 18px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-logo-container {
     top: 1371px;
     left: 290px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-logo-container {
     top: 1132px;
     left: 232px;

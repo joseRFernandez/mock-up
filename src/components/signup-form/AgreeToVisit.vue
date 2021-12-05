@@ -1,28 +1,40 @@
 <template>
-  <div class="checkbox"></div>
-  <div class="agree-text-container">
-    <p>
-      YES, I would like a BuzzRx Representative to visit my pharmacy and
-      occasionally bring treats.
-    </p>
+  <div class="agree-to-visit-container">
+    <div class="checkbox"></div>
+    <div class="agree-text-container">
+      <p class="agree-text-paragraph">
+        YES, I would like a BuzzRx Representative to visit my pharmacy and
+        occasionally bring treats.
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.checkbox {
+.agree-to-visit-container {
   position: absolute;
-  top: 1006px;
-  left: 27px;
+  top: 1002px;
+  /* left: 27px;
+  right: 22px; */
+  left: 7.2%;
+  right: 5.867%;
+  height: 36px;
+  background-color: khaki;
+}
+.checkbox {
   width: 13px;
   height: 13px;
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
+  /* display: inline; */
 }
 .agree-text-container {
-  position: absolute;
-  top: 1002px;
-  left: 55px;
-  width: 298px;
+  position: relative;
+  top: -15px;
+  left: 28px;
+  right: 22px;
+  width: 100%;
+  display: inline;
   height: 36px;
   text-align: left;
   font: normal normal normal 14px/18px Lato;
@@ -30,7 +42,11 @@
   color: #262626;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+.agree-text-paragraph {
+  /* width: 326 is 100% */
+  width: 91.41%;
+}
+@media screen and (min-width: 768px) {
   .checkbox {
     top: 1125px;
     left: 223px;
@@ -44,7 +60,7 @@
     height: 36px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .checkbox {
     position: absolute;
     top: 860px;
