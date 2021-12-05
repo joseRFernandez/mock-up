@@ -38,8 +38,8 @@ export default {
   },
   beforeMount() {
     if (
-      document.documentElement.clientWidth > 376 &&
-      document.documentElement.clientWidth < 769
+      document.documentElement.clientWidth >= 768 &&
+      document.documentElement.clientWidth < 1366
     ) {
       this.tablet = true;
     } else {
@@ -55,7 +55,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width > 376 && this.width < 769) {
+      if (this.width >= 768 && this.width <= 1366) {
         this.tablet = true;
       } else {
         this.tablet = false;
@@ -67,10 +67,9 @@ export default {
 
 <style scoped>
 .meet-audrey-text {
-  position: absolute;
-  top: 2174px;
-  left: 24px;
+  position: relative;
   width: 332px;
+  top: 75px;
   height: 727px;
   text-align: left;
   font: normal normal normal 16px/24px Lato;
@@ -79,14 +78,14 @@ export default {
   opacity: 1;
   line-height: 24px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .meet-audrey-text {
     top: 1799px;
     width: 266px;
     height: 476px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .meet-audrey-text {
     top: 1518px;
     left: 113px;

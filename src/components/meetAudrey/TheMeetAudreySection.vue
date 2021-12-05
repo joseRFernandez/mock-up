@@ -10,15 +10,15 @@
 <script>
 import MeetAudreyTitle from './MeetAudreyTitle.vue';
 import MeetAudreyImage from './MeetAudreyImage.vue';
-// import MeetAudreyQuote from './MeetAudreyQuote.vue';
-// import MeetAudreyText from './MeetAudreyText.vue';
+import MeetAudreyQuote from './MeetAudreyQuote.vue';
+import MeetAudreyText from './MeetAudreyText.vue';
 
 export default {
   components: {
     MeetAudreyTitle,
     MeetAudreyImage,
-    // MeetAudreyQuote,
-    // MeetAudreyText,
+    MeetAudreyQuote,
+    MeetAudreyText,
   },
 };
 </script>
@@ -28,9 +28,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   position: absolute;
   top: 1431px;
   width: 100%;
+  height: 1513px;
 }
 </style>
