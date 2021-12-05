@@ -17,7 +17,7 @@
   opacity: 1;
 }
 .maw-header-container {
-  color: #0f70b8;
+  color: #0F70B8;
   margin-left: 14px;
   letter-spacing: 2px;
 }
@@ -29,7 +29,7 @@
 .maw-logo-image {
   width: 186px;
   height: 39px;
-  background: #006fba 0% 0% no-repeat padding-box;
+  background: #0F70B8 0% 0% no-repeat padding-box;
   opacity: 1;
   position: absolute;
   top: 18px;

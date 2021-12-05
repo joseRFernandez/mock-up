@@ -14,7 +14,7 @@
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
-// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
@@ -26,7 +26,7 @@ export default {
   components: {
     TheNavbar,
     TheHeader,
-    // TheSignUpForm,
+    TheSignUpForm,
     // TheMeetAudreySection,
     // TheMAWPartnershipSection,
     // TheGetACardSection,

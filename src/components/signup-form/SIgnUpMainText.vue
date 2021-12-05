@@ -8,8 +8,7 @@
   </div>
   <div class="signup-second-container">
     <p class="signup-text-paragraph-2">
-      For every entry we receive we’ll donate $5,
-      up to $10K, to Make-A-Wish®
+      For every entry we receive we’ll donate $5, up to $10K, to Make-A-Wish®
     </p>
   </div>
 </template>
@@ -19,7 +18,8 @@
   position: absolute;
   top: 374px;
   left: 22px;
-  width: 331px;
+  /* width: 331px; */
+  width: 88.2%;
   height: 74px;
   text-align: center;
   font: normal normal normal 15px/17px Lato;
@@ -31,7 +31,8 @@
   position: absolute;
   top: 453px;
   left: 22px;
-  width: 331px;
+  /* width: 331px; */
+  width: 88.2%;
   height: 61px;
   text-align: center;
   font: normal normal bold 18px/22px Lato;
@@ -39,11 +40,12 @@
   color: #262626;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .signup-first-container {
     top: 524px;
-    left: 42px;
-    width: 683px;
+    /* left: 42px; */
+    left: 5.89%;
+    width: 88.26%;
     height: 35px;
     text-align: center;
     font: normal normal normal 15px/17px Lato;
@@ -53,8 +55,8 @@
   }
   .signup-second-container {
     top: 572px;
-    left: 42px;
-    width: 683px;
+    left: 5.89%;
+    width: 88.26%;
     height: 61px;
     text-align: center;
     font: normal normal bold 18px/22px Lato;
