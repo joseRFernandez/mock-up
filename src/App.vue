@@ -15,7 +15,7 @@
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
 import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
-// import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
+import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
@@ -27,7 +27,7 @@ export default {
     TheNavbar,
     TheHeader,
     TheSignUpForm,
-    // TheMeetAudreySection,
+    TheMeetAudreySection,
     // TheMAWPartnershipSection,
     // TheGetACardSection,
     // TheCeoMessage,

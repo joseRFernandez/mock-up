@@ -1,17 +1,25 @@
 <template>
-  <div class="meet-audrey-title">
-    <p class="purple">Meet Audrey</p>
-  </div>
-  <div class="meet-audrey-bottom-text">
+  <div class="meet-audrey-title-flex-container">
+    <div class="meet-audrey-title">
+      <p class="purple">Meet Audrey</p>
+    </div>
+    <div class="meet-audrey-bottom-text">
     <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
+  </div>
   </div>
 </template>
 
 <style scoped>
-.meet-audrey-title {
+.meet-audrey-title-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 1431px;
-  left: 34px;
+  width: 100%;
+}
+.meet-audrey-title {
   width: 308px;
   height: 42px;
   text-align: center;
@@ -24,9 +32,9 @@
   text-align: center;
 }
 .meet-audrey-bottom-text {
-  position: absolute;
+  /* position: absolute;
   top: 1471px;
-  left: 34px;
+  left: 34px; */
   width: 308px;
   height: 35px;
   text-align: center;
@@ -35,7 +43,7 @@
   letter-spacing: 0px;
   color: #262626;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 738px) {
   .meet-audrey-title {
     top: 1511px;
     left: 189px;

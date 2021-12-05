@@ -10,16 +10,15 @@
 </template>
 
 <style scoped>
-/* .maw-logo-flexbox {
+.maw-logo-flexbox {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   top: 1306px;
   width: 100%;
-} */
+}
 .maw-logo-container {
-  /* position: absolute; */
   top: 1306px;
   left: 94px;
   width: 186px;
