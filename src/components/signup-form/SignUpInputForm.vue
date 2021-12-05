@@ -40,7 +40,7 @@ export default {
   right: 22px;
   height: 461px;
 }
-@media screen and (min-width: 738px) {
+@media screen and (min-width: 768px) {
   .input-section-wrapper {
     top: 638px;
     left: 110px;
