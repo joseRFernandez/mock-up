@@ -6,15 +6,15 @@
 .meet-audrey-body {
   background: transparent url('/assets/AudreyChair.png') 0% 0% no-repeat
     padding-box;
-  position: absolute;
-  top: 1536px;
+  position: relative;
+  top: 30px;
   left: 0px;
-  width: 375px;
+  width: 100%;
   height: 563px;
   opacity: 1;
   background-size: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .meet-audrey-body {
     top: 1645px;
     left: 314px;

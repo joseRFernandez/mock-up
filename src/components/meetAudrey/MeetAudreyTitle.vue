@@ -1,24 +1,15 @@
 <template>
-  <div class="meet-audrey-title-flex-container">
+  <!-- <div class="meet-audrey-title-flex-container"> -->
     <div class="meet-audrey-title">
       <p class="purple">Meet Audrey</p>
     </div>
     <div class="meet-audrey-bottom-text">
     <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
   </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <style scoped>
-.meet-audrey-title-flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 1431px;
-  width: 100%;
-}
 .meet-audrey-title {
   width: 308px;
   height: 42px;
