@@ -14,12 +14,9 @@
 .agree-to-visit-container {
   position: absolute;
   top: 1002px;
-  /* left: 27px;
-  right: 22px; */
   left: 7.2%;
   right: 5.867%;
   height: 36px;
-  background-color: khaki;
 }
 .checkbox {
   width: 13px;

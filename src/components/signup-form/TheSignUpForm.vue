@@ -1,10 +1,12 @@
 <template>
+  <section class="signup-section-wrapper">
     <SignUpMainText />
     <SignUpInputForm />
     <AgreeToVisit />
     <SignUpBadge />
     <SignupFinePrint />
     <MakeAWishLogo />
+  </section>
 </template>
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';
@@ -12,7 +14,7 @@ import SignUpInputForm from './SignUpInputForm.vue';
 import AgreeToVisit from './AgreeToVisit.vue';
 import SignUpBadge from './SignUpBadge.vue';
 import SignupFinePrint from './SignupFinePrint.vue';
-// import MakeAWishLogo from './MakeAWishLogo.vue';
+import MakeAWishLogo from './MakeAWishLogo.vue';
 export default {
   components: {
     SignUpMainText,
@@ -20,10 +22,20 @@ export default {
     AgreeToVisit,
     SignUpBadge,
     SignupFinePrint,
-    // MakeAWishLogo,
+    MakeAWishLogo,
   },
 };
 </script>
 
 <style scoped>
+.signup-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* top: 354px; */
+  height: 907px;
+  width: 100%;
+}
 </style>

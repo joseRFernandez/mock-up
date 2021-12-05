@@ -17,7 +17,7 @@
 .signup-first-container {
   position: absolute;
   top: 374px;
-  left: 22px;
+  /* left: 22px; */
   /* width: 331px; */
   width: 88.2%;
   height: 74px;
