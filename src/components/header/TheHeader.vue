@@ -1,7 +1,7 @@
 <template>
   <!-- this below is the yellow input form container - unlock when ready-->
   <HeaderDesktopImage v-if="desktop" />
-  <div v-if="desktop" class="header-conditional-desktop-input-container"></div>
+  <!-- <div v-if="desktop" class="header-conditional-desktop-input-container"></div> -->
   <HeaderTitle />
   <HeaderImageMobile v-if="!desktop" />
 
@@ -25,7 +25,7 @@ export default {
     };
   },
   beforeMount() {
-    if (document.documentElement.clientWidth > 768) {
+    if (document.documentElement.clientWidth >= 1366) {
       this.desktop = true;
     } else {
       this.desktop = false;
@@ -40,7 +40,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
+      if (this.width >= 1366) {
         this.desktop = true;
       } else {
         this.desktop = false;
@@ -51,34 +51,11 @@ export default {
 </script>
 
 <style scoped>
-.header-title-container {
-  position: absolute;
-  top: 70px;
-  left: 0px;
-  width: 375px;
-  /* width: 100%; */
 
-  height: 129px;
-  background: #ffc700 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
-}
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .header-title-container {
-    width: 768px;
+    width: 100%;
     height: 84px;
-  }
-}
-@media screen and (min-width: 769px) {
-  .header-conditional-desktop-input-container {
-    position: absolute;
-    top: 70px;
-    left: 72px;
-    width: 498px;
-    height: 1200px;
-    background: #ffc700 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    opacity: 1;
   }
 }
 </style>

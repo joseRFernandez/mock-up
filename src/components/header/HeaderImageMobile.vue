@@ -1,5 +1,7 @@
 <template>
-  <div class="header-mobile-image"></div>
+  <section class="header-mobile-image-container">
+    <div class="header-mobile-image"></div>
+  </section>
 </template>
 <script>
 export default {
@@ -9,7 +11,7 @@ export default {
     };
   },
   beforeMount() {
-    if (document.documentElement.clientWidth > 768) {
+    if (document.documentElement.clientWidth >= 1366) {
       this.desktop = true;
     } else {
       this.desktop = false;
@@ -24,7 +26,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
+      if (this.width >= 1366) {
         this.desktop = true;
       } else {
         this.desktop = false;
@@ -34,29 +36,31 @@ export default {
 };
 </script>
 <style scoped>
+.header-mobile-image-container {
+  width: 100%;
+}
 .header-mobile-image {
   position: absolute;
   top: 199px;
   left: 0px;
-  width: 375px;
+  min-width: 100%;
   height: 155px;
   background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%
     no-repeat padding-box;
-  opacity: 1;
+    background-size: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .header-mobile-image {
     position: absolute;
     top: 154px;
     left: 0px;
-    width: 768px;
     height: 334px;
-    background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%
+    background: transparent url('/assets/tablet-header/tablet-header.png') 0% 0%
       no-repeat padding-box;
     background-size: cover;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .header-mobile-image {
     position: absolute;
     top: 70px;

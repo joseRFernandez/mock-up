@@ -38,15 +38,22 @@ export default {
   position: absolute;
   top: 70px;
   left: 0px;
-  width: 375px;
-  /* width: 100%; */
+  width: 100%;
   height: 129px;
   background: #ffc700 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
 .header-p-container {
-  padding: 31px 12px 22px;
+  position: absolute;
+  top: 31px;
+  left: 12px;
+  width: 93.6%;
+  height: 76px;
+  text-align: center;
+  font: normal normal medium 32px/36px Omnes;
+  letter-spacing: 0px;
+  opacity: 1;
 }
 p {
   text-align: center;
@@ -60,16 +67,19 @@ p {
 span {
   color: #b33cc8;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .header-title {
     /* width: 768px; */
     height: 84px;
   }
   .header-p-container {
-    padding: 20px 16px 19px;
+    width: 95.8%;
+    top: 25px;
+    left: 16px;
+    height: 40px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .header-title {
     position: absolute;
     top: 109px;

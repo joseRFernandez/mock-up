@@ -8,7 +8,7 @@
 .hamburger {
   position: absolute;
   top: 28px;
-  left: 89%;
+  right: 24.73px;
   width: 16px;
   height: 12px;
   background: #b33cc8 0% 0% no-repeat padding-box;
