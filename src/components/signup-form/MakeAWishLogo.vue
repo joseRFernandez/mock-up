@@ -1,11 +1,11 @@
 <template>
-<section class="maw-logo-flexbox">
-  <div class="maw-logo-container">
-    <div class="maw-header-container">
-      <p class="maw-logo-header-text">PROUD SUPPORTER OF</p>
+  <section class="maw-logo-flexbox">
+    <div class="maw-logo-container">
+      <div class="maw-header-container">
+        <p class="maw-logo-header-text">PROUD SUPPORTER OF</p>
+      </div>
+      <img src="assets/Make-A-Wish-Logo.png" class="maw-logo-image" />
     </div>
-    <img src="assets/Make-A-Wish-Logo.png" class="maw-logo-image" />
-  </div>
   </section>
 </template>
 
@@ -14,17 +14,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 1306px;
   width: 100%;
+  /* margin-top: 28px; */
 }
 .maw-logo-container {
-  top: 1306px;
-  left: 94px;
   width: 186px;
   height: 64px;
   opacity: 1;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 .maw-header-container {
   color: #0f70b8;

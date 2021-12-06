@@ -14,13 +14,8 @@
 
 <style scoped>
 .signup-fine-print-container {
-  position: absolute;
-  top: 1131px;
-  /* left: 22px; */
-  left: 5.867%;
-  /* width: 329px; */
+  margin: 23px 0 28px;
   width: 87.73%;
-  height: 147px;
   text-align: left;
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;

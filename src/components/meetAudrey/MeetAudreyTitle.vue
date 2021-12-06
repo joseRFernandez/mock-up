@@ -1,12 +1,10 @@
 <template>
-  <!-- <div class="meet-audrey-title-flex-container"> -->
     <div class="meet-audrey-title">
       <p class="purple">Meet Audrey</p>
     </div>
     <div class="meet-audrey-bottom-text">
     <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
   </div>
-  <!-- </div> -->
 </template>
 
 <style scoped>
@@ -28,7 +26,6 @@
   left: 34px; */
   width: 308px;
   height: 35px;
-  text-align: center;
   text-align: center;
   font: normal normal normal 28px/36px Omnes;
   letter-spacing: 0px;
@@ -53,7 +50,7 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .meet-audrey-title {
     top: 1200px;
     left: 800px;

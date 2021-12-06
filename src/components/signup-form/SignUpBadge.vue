@@ -12,18 +12,17 @@
 .badge-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
-  margin-top: 22px;
+  margin-top: 29px;
   width: 88.53%;
 }
 .badge {
-  width: 204px;
-  height: 18px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   font: normal normal bold 16px/19px Lato;
   letter-spacing: 0px;
   color: #ffffff;

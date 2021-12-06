@@ -6,9 +6,6 @@
 
 <style scoped>
 .meet-audrey-quote {
-  position: relative;
-  top: 56px;
-  left: 0px;
   height: 30px;
   text-align: center;
   font: normal normal normal 24px/28px Omnes;
@@ -18,8 +15,6 @@
 }
 @media screen and (min-width: 768px) {
   .meet-audrey-quote {
-    top: 1696px;
-    left: 24px;
     width: 266px;
     height: 71px;
     text-align: left;
@@ -28,8 +23,6 @@
 }
 @media screen and (min-width: 1366px) {
   .meet-audrey-quote {
-    top: 1456px;
-    left: 113px;
     width: 515px;
     height: 35px;
     text-align: left;
