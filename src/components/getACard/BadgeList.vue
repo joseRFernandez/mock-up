@@ -59,18 +59,18 @@ export default {
   },
 
   beforeMount() {
-    if (document.documentElement.clientWidth <= 375) {
+    if (document.documentElement.clientWidth < 768) {
       this.mobile = true;
       this.tablet = false;
       this.desktop = false;
     } else if (
-      document.documentElement.clientWidth > 375 &&
-      document.documentElement.clientWidth <= 768
+      document.documentElement.clientWidth >= 768 &&
+      document.documentElement.clientWidth < 1366
     ) {
       this.mobile = false;
       this.tablet = true;
       this.desktop = false;
-    } else if (document.documentElement.clientWidth > 768) {
+    } else if (document.documentElement.clientWidth >= 1366) {
       this.desktop = true;
       this.mobile = false;
       this.tablet = false;
@@ -85,13 +85,13 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width <= 375) {
+      if (this.width < 768) {
         this.mobile = true;
         this.tablet = false;
         this.desktop = false;
       } else if (
-        document.documentElement.clientWidth > 375 &&
-        document.documentElement.clientWidth <= 768
+        document.documentElement.clientWidth >= 768 &&
+        document.documentElement.clientWidth < 1366
       ) {
         this.mobile = false;
         this.tablet = true;
@@ -108,17 +108,14 @@ export default {
 
 <style scoped>
 .GAC-badge-container {
-  position: absolute;
-  top: 3933px;
-  left: 35px;
-  width: 319px;
   height: 40px;
+  margin-top: -30px;
 }
 .GAC-badge-item {
   padding-left: 78px;
   width: 241px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .GAC-badge-container {
     display: flex;
     top: 3294px;
@@ -132,7 +129,7 @@ export default {
     padding-left: 0;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .GAC-badge-container {
     display: initial;
     position: absolute;

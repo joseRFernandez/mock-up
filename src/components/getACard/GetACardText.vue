@@ -11,9 +11,6 @@ span {
   color: #b33cc8;
 }
 .get-a-card-paragraph {
-  position: absolute;
-  top: 3676px;
-  left: -37px;
   width: 449px;
   height: 23px;
   text-align: center;
@@ -21,7 +18,7 @@ span {
   letter-spacing: 0px;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .get-a-card-paragraph {
     top: 2844px;
     left: 160px;
@@ -32,7 +29,7 @@ span {
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .get-a-card-paragraph {
     top: 2823px;
     left: 765px;

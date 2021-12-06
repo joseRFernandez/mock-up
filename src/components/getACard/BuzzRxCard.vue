@@ -4,16 +4,13 @@
 
 <style scoped>
 .buzz-card {
-  position: absolute;
-  top: 3733px;
-  left: 53px;
   width: 283px;
   height: 178px;
   border: 1px solid #707070;
   border-radius: 9px;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .buzz-card {
     top: 2912px;
     left: 140px;
@@ -24,7 +21,7 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .buzz-card {
     top: 2771px;
     left: 185px;

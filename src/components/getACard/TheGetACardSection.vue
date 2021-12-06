@@ -1,7 +1,9 @@
 <template>
+  <section class="GAC-section-wrapper">
     <GetACardText />
     <BuzzRxCard />
     <BadgeList />
+  </section>
 </template>
 
 <script>
@@ -19,4 +21,11 @@ export default {
 </script>
 
 <style scoped>
+.GAC-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 526px;
+}
 </style>

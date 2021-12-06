@@ -16,14 +16,14 @@ export default {
 
 <style scoped>
 .btn-wrapper {
-  width: 319px;
+  width: 85%;
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
   margin-bottom: 13px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .btn-wrapper {
     width: 113px;
     height: 18px;

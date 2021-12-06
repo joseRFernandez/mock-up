@@ -28,7 +28,6 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* height: 644px; */
   opacity: 1;
   background-color: #ffc60b;
   margin-top: 60px;
