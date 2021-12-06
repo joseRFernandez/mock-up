@@ -67,10 +67,8 @@ export default {
 
 <style scoped>
 .meet-audrey-text {
-  position: relative;
   width: 88.53%;
-  top: 75px;
-  height: 727px;
+  margin-top: 17px;
   text-align: left;
   font: normal normal normal 16px/24px Lato;
   letter-spacing: 0px;
@@ -80,15 +78,12 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .meet-audrey-text {
-    top: 1799px;
     width: 266px;
     height: 476px;
   }
 }
 @media screen and (min-width: 1366px) {
   .meet-audrey-text {
-    top: 1518px;
-    left: 113px;
     width: 408px;
     height: 588px;
   }

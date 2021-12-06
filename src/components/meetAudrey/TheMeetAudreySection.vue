@@ -28,14 +28,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: center; */
   width: 100%;
+  margin: 60px 0 43px;
   height: 1513px;
-  margin-top: 30px;
-}
-@media screen and (min-width: 400px) {
-  .meet-audrey-wrapper {
-    /* margin-top: 80px; */
-  }
 }
 </style>

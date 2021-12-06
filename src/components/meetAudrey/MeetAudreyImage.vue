@@ -9,7 +9,17 @@
   width: 100%;
   height: 563px;
   opacity: 1;
-  background-size: contain;
+  background-size: cover;
+  margin: 30px 0 28px;
+}
+@media screen and (min-width: 450px) {
+  .meet-audrey-image-container {
+    background: transparent
+      url('/assets/Real_AudreyChair/IMG_0308@2x.png') 0% 0% no-repeat
+      padding-box;
+      background-size: cover;
+      background-position: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .meet-audrey-image-container {
