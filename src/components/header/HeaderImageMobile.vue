@@ -1,7 +1,5 @@
 <template>
-  <!-- <section class="header-mobile-image-container"> -->
   <div class="header-mobile-image"></div>
-  <!-- </section> -->
 </template>
 <script>
 export default {
@@ -36,17 +34,9 @@ export default {
 };
 </script>
 <style scoped>
-/* .header-mobile-image-container {
-  position: relative;
-  width: 100%;
-  height: 155px;
-  top: 199px;
-} */
 .header-mobile-image {
-  position: relative;
   width: 100%;
   height: 155px;
-  top: 199px;
   width: 100%;
   height: 155px;
   background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%

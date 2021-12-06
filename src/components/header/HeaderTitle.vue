@@ -1,6 +1,8 @@
 <template>
-  <div class="header-p-container">
-    <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+  <div class="header-title-wrapper">
+    <div class="header-p-container">
+      <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+    </div>
   </div>
   <div class="header-conditional-form-white-background"></div>
 </template>
@@ -32,6 +34,16 @@ export default {
 </script>
 
 <style scoped>
+.header-title-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffc700 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
 .header-p-container {
   padding: 31px 12px 22px;
 }

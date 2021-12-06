@@ -14,7 +14,7 @@
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
-// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 // import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 // import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
@@ -26,7 +26,7 @@ export default {
   components: {
     TheNavbar,
     TheHeader,
-    // TheSignUpForm,
+    TheSignUpForm,
     // TheMeetAudreySection,
     // TheMAWPartnershipSection,
     // TheGetACardSection,
@@ -45,8 +45,6 @@ body {
   margin: 0;
 }
 .body-container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;

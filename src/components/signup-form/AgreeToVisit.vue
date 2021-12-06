@@ -4,7 +4,7 @@
     <div class="agree-text-container">
       <p class="agree-text-paragraph">
         YES, I would like a BuzzRx Representative to visit my pharmacy and
-        occasionally bring treats.
+        occasionally bring FREE treats.
       </p>
     </div>
   </div>
@@ -12,10 +12,8 @@
 
 <style scoped>
 .agree-to-visit-container {
-  position: absolute;
-  top: 1002px;
-  left: 7.2%;
-  right: 5.867%;
+  margin-top: 22px;
+  width: 86.9%;
   height: 36px;
 }
 .checkbox {

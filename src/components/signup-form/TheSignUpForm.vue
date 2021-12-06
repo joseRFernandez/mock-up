@@ -10,16 +10,16 @@
 </template>
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';
-// import SignUpInputForm from './SignUpInputForm.vue';
-// import AgreeToVisit from './AgreeToVisit.vue';
+import SignUpInputForm from './SignUpInputForm.vue';
+import AgreeToVisit from './AgreeToVisit.vue';
 // import SignUpBadge from './SignUpBadge.vue';
 // import SignupFinePrint from './SignupFinePrint.vue';
 // import MakeAWishLogo from './MakeAWishLogo.vue';
 export default {
   components: {
     SignUpMainText,
-    // SignUpInputForm,
-    // AgreeToVisit,
+    SignUpInputForm,
+    AgreeToVisit,
     // SignUpBadge,
     // SignupFinePrint,
     // MakeAWishLogo,
@@ -29,17 +29,31 @@ export default {
 
 <style scoped>
 .signup-wrapper {
-  position: absolute;
   height: 923.84px;
   width: 100%;
-  top: 354px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
   .signup-wrapper {
-   margin-top: 22px;
-   /* position: initial; */
+    margin-top: -20%;
+  }
+}
+@media screen and (min-width: 485px) {
+  .signup-wrapper {
+    margin-top: -15%;
+  }
+  @media screen and (min-width: 550px) {
+    .signup-wrapper {
+      margin-top: 0;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    .signup-wrapper {
+      margin-top: 22px;
+    }
   }
 }
 </style>

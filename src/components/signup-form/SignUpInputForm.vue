@@ -34,10 +34,7 @@ export default {
 </script>
 <style scoped>
 .input-section-wrapper {
-  position: absolute;
-  top: 519px;
-  left: 22px;
-  right: 22px;
+  width: 88.27%;
   height: 461px;
 }
 @media screen and (min-width: 768px) {
