@@ -4,14 +4,11 @@
 
 <style scoped>
 .navbar-buzz-logo {
-  position: absolute;
+  position: relative;
   top: 16px;
   left: 8px;
   width: 154px;
   height: 37px;
   opacity: 1;
-}
-@media screen and (min-width: 768px) {
-
 }
 </style>

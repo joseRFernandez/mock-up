@@ -50,18 +50,11 @@ export default {
 
 <style scoped>
 .navbar-wrapper {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   width: 100%;
   height: 70px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
-}
-
-@media screen and (min-width: 768px) {
-  /* nothing of note */
 }
 
 @media screen and (min-width: 1366px) {

@@ -1,21 +1,22 @@
 <template>
   <!-- this below is the yellow input form container - unlock when ready-->
   <HeaderDesktopImage v-if="desktop" />
-  <HeaderTitle />
-  <HeaderImageMobile v-if="!desktop" />
-
+  <div class="header-mobile-wrapper">
+    <HeaderTitle />
+    <!-- <HeaderImageMobile v-if="!desktop" /> -->
+  </div>
 </template>
 
 <script>
 import HeaderTitle from './HeaderTitle.vue';
-import HeaderImageMobile from './HeaderImageMobile.vue';
-import HeaderDesktopImage from './HeaderDesktopImage.vue';
+// import HeaderImageMobile from './HeaderImageMobile.vue';
+// import HeaderDesktopImage from './HeaderDesktopImage.vue';
 
 export default {
   components: {
     HeaderTitle,
-    HeaderImageMobile,
-    HeaderDesktopImage,
+    // HeaderImageMobile,
+    // HeaderDesktopImage,
   },
 
   data() {
@@ -50,7 +51,15 @@ export default {
 </script>
 
 <style scoped>
-
+.header-mobile-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffc700 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
 @media screen and (min-width: 768px) {
   .header-title-container {
     width: 100%;

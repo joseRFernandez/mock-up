@@ -46,9 +46,7 @@ body {
 }
 .body-container {
   display: flex;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  flex-direction: column;
   width: 100%;
   height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;

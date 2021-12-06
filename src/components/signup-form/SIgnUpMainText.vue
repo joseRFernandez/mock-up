@@ -6,19 +6,17 @@
       part of our mission to give back.
     </p>
   </div>
-  <div class="signup-second-container">
+  <!-- <div class="signup-second-container">
     <p class="signup-text-paragraph-2">
       For every entry we receive we’ll donate $5, up to $10K, to Make-A-Wish®
     </p>
-  </div>
+  </div> -->
 </template>
 
 <style scoped>
 .signup-first-container {
-  position: absolute;
-  top: 374px;
-  left: 22px;
-  /* width: 331px; */
+  /* position: relative;
+  top: 22px; */
   width: 88.2%;
   height: 74px;
   text-align: center;
@@ -40,6 +38,12 @@
   color: #262626;
   opacity: 1;
 }
+@media screen and (min-width: 376px) {
+  .signup-first-container {
+    top:
+  }
+}
+
 @media screen and (min-width: 768px) {
   .signup-first-container {
     top: 524px;

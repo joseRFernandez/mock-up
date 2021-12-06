@@ -1,8 +1,6 @@
 <template>
-  <div class="header-title">
-    <div class="header-p-container">
-      <p>Help us grant more wishes <span>like Audrey’s!</span></p>
-    </div>
+  <div class="header-p-container">
+    <p>Help us grant more wishes <span>like Audrey’s!</span></p>
   </div>
   <div class="header-conditional-form-white-background"></div>
 </template>
@@ -34,41 +32,14 @@ export default {
 </script>
 
 <style scoped>
-.header-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 70px;
-  left: 0px;
-  width: 100%;
-  height: 129px;
-  background: #ffc700 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
-}
 .header-p-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 31px;
-  /* left: 12px; */
-  width: 93.6%;
-  height: 76px;
-  text-align: center;
-  font: normal normal medium 32px/36px Omnes;
-  letter-spacing: 0px;
-  opacity: 1;
+  padding: 31px 12px 22px;
 }
 p {
   text-align: center;
   font-weight: 500;
   font-size: 32px;
   font-family: omnes;
-  letter-spacing: 0px;
-  opacity: 1;
-  margin: 0;
 }
 span {
   color: #b33cc8;
