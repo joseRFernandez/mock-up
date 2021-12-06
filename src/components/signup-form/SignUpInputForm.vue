@@ -36,6 +36,7 @@ export default {
 .input-section-wrapper {
   width: 88.27%;
   height: 461px;
+  margin-top: 5px;
 }
 @media screen and (min-width: 768px) {
   .input-section-wrapper {

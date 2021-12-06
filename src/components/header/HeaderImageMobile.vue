@@ -33,6 +33,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .header-mobile-image {
   width: 100%;

@@ -10,19 +10,15 @@
 
 <style scoped>
 .badge-container {
-
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 1068px;
-  left: 22px;
-  right: 21px;
-  /* width: 332px; */
   height: 40px;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
+  margin-top: 22px;
+  width: 88.53%;
 }
 .badge {
   width: 204px;
@@ -35,7 +31,6 @@
 }
 .agree-badge-text {
   margin: 0;
-
 }
 @media screen and (min-width: 768px) {
   .badge-container {
