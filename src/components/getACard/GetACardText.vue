@@ -11,7 +11,6 @@ span {
   color: #b33cc8;
 }
 .get-a-card-paragraph {
-  width: 449px;
   height: 23px;
   text-align: center;
   font: normal normal bold 19px/46px Lato;

@@ -49,6 +49,7 @@ body {
   height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
+  box-sizing: border-box;
 }
 p {
   margin: 0;

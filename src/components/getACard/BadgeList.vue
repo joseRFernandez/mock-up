@@ -108,13 +108,21 @@ export default {
 
 <style scoped>
 .GAC-badge-container {
-  height: 40px;
   margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 85%;
 }
 .GAC-badge-item {
-  padding-left: 78px;
-  width: 241px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 13px;
 }
+
 @media screen and (min-width: 768px) {
   .GAC-badge-container {
     display: flex;
