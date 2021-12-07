@@ -24,5 +24,9 @@
     background: #ffffff 0% 0% no-repeat padding-box;
     opacity: 1;
   }
+  .hamburger {
+    width: 25px;
+    height: 17px;
+  }
 }
 </style>
