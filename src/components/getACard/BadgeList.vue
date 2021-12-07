@@ -113,7 +113,8 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 85%;
+  /* width: 319px; */
+  width: 88%;
 }
 .GAC-badge-item {
   display: flex;
