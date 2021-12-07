@@ -30,12 +30,13 @@ export default {
   opacity: 1;
   font-weight: 300;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .ceo-signature-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 24px;
 }
 .ceo-signature-header {
   font-size: 16px;
@@ -50,9 +51,10 @@ export default {
 }
 @media screen and (min-width: 769px) {
   .ceo-signature {
-    top: 240px;
-    left: 670px;
     font: normal normal normal 14px/20px Lato;
+  }
+  .ceo-signature-text-container {
+    margin-left: 24px;
   }
 }
 </style>

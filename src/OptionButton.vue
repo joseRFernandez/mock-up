@@ -31,7 +31,7 @@ export default {
   color: #ffffff;
   display: inline;
   position: relative;
-  left: 18px;
+  left: 10px;
 }
 @media screen and (min-width: 768px) {
   .btn-wrapper {
@@ -40,7 +40,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .badge-icon {
     position: relative;
   }
