@@ -59,20 +59,29 @@ export default {
 
 @media screen and (min-width: 750px) {
   .header-mobile-image {
-    background: transparent url('/assets/tablet-header/tablet-header.png') 0% 0%
-      no-repeat padding-box;
-    /* background-size: cover; */
-    background-position: 50px;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .header-mobile-image {
     height: 334px;
-    background: transparent url('/assets/tablet-header/tablet-header@2x.png') 0% 0%
+    background: transparent url('/assets/tablet-header/tablet-header.png') 0% 0%
       no-repeat padding-box;
-    background-size: contain;
+    background-size: cover;
   }
 }
+
+@media screen and (min-width:950px) {
+  .header-mobile-image {
+    background: transparent url('/assets/tablet-header/tablet-header@2x.png') 0% 0%
+      no-repeat padding-box;
+      background-position: 50% 100%;
+      background-size: contain;
+  }
+}
+
+
+
 @media screen and (min-width: 1366px) {
   .header-mobile-image {
     position: absolute;

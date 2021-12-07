@@ -9,13 +9,13 @@
 
 <script>
 import HeaderTitle from './HeaderTitle.vue';
-// import HeaderImageMobile from './HeaderImageMobile.vue';
+import HeaderImageMobile from './HeaderImageMobile.vue';
 // import HeaderDesktopImage from './HeaderDesktopImage.vue';
 
 export default {
   components: {
     HeaderTitle,
-    // HeaderImageMobile,
+    HeaderImageMobile,
     // HeaderDesktopImage,
   },
 
