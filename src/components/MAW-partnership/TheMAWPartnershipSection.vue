@@ -31,12 +31,14 @@ export default {
   opacity: 1;
   background-color: #ffc60b;
   margin-top: 60px;
+  height: 704px;
 }
 .maw-figures-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 644px;
 }
 @media screen and (min-width: 768px) {
   .maw-partnership-wrapper {

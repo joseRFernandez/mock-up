@@ -19,7 +19,7 @@ import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.v
 import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
-// import TheFooter from './components/footer/TheFooter.vue';
+import TheFooter from './components/footer/TheFooter.vue';
 
 export default {
   name: 'App',
@@ -31,7 +31,7 @@ export default {
     TheMAWPartnershipSection,
     TheGetACardSection,
     TheCeoMessage,
-    // TheFooter,
+    TheFooter,
   },
 };
 </script>

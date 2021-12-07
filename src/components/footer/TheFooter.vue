@@ -39,87 +39,89 @@ export default {
 </script>
 
 <style scoped>
-.footer-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 211px;
-}
-.footer-logo {
-  width: 80px;
-  height: 20px;
-  opacity: 1;
-}
-.footer-copyright-and-fine-print-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 55px;
-  justify-content: space-between;
-}
-.footer-copyright-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 19px;
-}
-.footer-copyright {
-  height: 8px;
-  text-align: center;
-  font: normal normal 7px Lato;
-  letter-spacing: 0px;
-  color: #262626;
-  opacity: 1;
-}
-.footer-copyright-not-insurance {
-  width: 111px;
-  font: normal normal 7px Lato;
-  letter-spacing: 0px;
-  color: #262626;
-  opacity: 1;
-}
-.fine-print-container-bold {
-  width: 202px;
-  height: 16px;
-  text-align: center;
-  font: normal normal bold 5px/8px Lato;
-  letter-spacing: 0px;
-  color: #262626;
-}
-.fine-print-container-normal {
-  width: 198px;
-  height: 14px;
-  text-align: center;
-  font: normal normal 5px Lato;
-  letter-spacing: 0px;
-  color: #262626;
-  opacity: 1;
-}
-.dot-logo-mobile {
-  width: 71px;
-  height: 13px;
-  background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
-    0% no-repeat padding-box;
-  opacity: 1;
+@media screen and (min-width: 0px) {
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 211px;
+  }
+  .footer-logo {
+    width: 80px;
+    height: 20px;
+    opacity: 1;
+  }
+  .footer-copyright-and-fine-print-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55px;
+    justify-content: space-between;
+  }
+  .footer-copyright-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 19px;
+  }
+  .footer-copyright {
+    height: 8px;
+    text-align: center;
+    font: normal normal 7px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .footer-copyright-not-insurance {
+    width: 111px;
+    font: normal normal 7px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .fine-print-container-bold {
+    width: 202px;
+    height: 16px;
+    text-align: center;
+    font: normal normal bold 5px/8px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+  }
+  .fine-print-container-normal {
+    width: 198px;
+    height: 14px;
+    text-align: center;
+    font: normal normal 5px Lato;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+  }
+  .dot-logo-mobile {
+    width: 71px;
+    height: 13px;
+    background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png')
+      0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
 }
 @media screen and (min-width: 768px) {
+  .footer-wrapper {
+    height: 339px;
+  }
+  .footer-copyright-and-fine-print-container {
+    height: 91px;
+  }
   .footer-logo {
-    top: 3851px;
-    left: 320px;
     width: 125px;
     height: 31px;
   }
   .footer-copyright {
-    top: 3901px;
-    left: 334px;
     width: 100px;
     height: 13px;
     font-size: 11px;
   }
   .footer-copyright-not-insurance {
-    top: 3918px;
-    left: 297px;
     width: 175px;
     height: 13px;
     text-align: left;
@@ -129,16 +131,12 @@ export default {
     opacity: 1;
   }
   .fine-print-container-bold {
-    top: 3940px;
-    left: 222px;
     width: 324px;
     height: 26px;
     opacity: 1;
     font: normal normal bold 8px/13px Lato;
   }
   .fine-print-container-normal {
-    top: 3967px;
-    left: 206px;
     width: 356px;
     height: 25px;
     font: normal normal 9px/14px Lato;

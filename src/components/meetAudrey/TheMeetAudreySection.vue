@@ -53,6 +53,7 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    height: 980px;
   }
   .meet-audrey-quote-and-text-small-container {
     display: flex;
