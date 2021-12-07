@@ -67,6 +67,9 @@ export default {
 
 <style scoped>
 .meet-audrey-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 88.53%;
   margin-top: 17px;
   text-align: left;

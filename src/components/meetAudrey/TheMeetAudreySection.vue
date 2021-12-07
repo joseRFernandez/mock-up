@@ -51,9 +51,14 @@ export default {
 @media screen and (min-width: 768px) {
   .meet-audrey-image-and-text-container {
     display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .meet-audrey-quote-and-text-small-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 50%;
   }
 }
 </style>
