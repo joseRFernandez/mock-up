@@ -28,8 +28,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
   width: 100%;
-  margin-top: 60px;
+  height: 1522px;
 }
 </style>

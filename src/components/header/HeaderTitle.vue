@@ -36,6 +36,7 @@ export default {
 <style scoped>
 .header-title-wrapper {
   width: 100%;
+  height: 129px;
   display: flex;
   flex-direction: column;
   justify-content: center;

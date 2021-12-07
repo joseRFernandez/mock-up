@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .signup-wrapper {
-  height: 1016px;
+  height: 1077px;
   width: 100%;
   display: flex;
   flex-direction: column;
