@@ -3,24 +3,18 @@
 </template>
 <style>
 .ceo-image {
-  position: absolute;
-  top: 354px;
-  left: 59px;
   width: 88px;
   height: 88px;
   opacity: 1;
-  opacity: 1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .ceo-image {
-    top: 225px;
-    left: 246px;
     width: 88px;
     height: 88px;
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .ceo-image {
     top: 225px;
     left: 558px;
