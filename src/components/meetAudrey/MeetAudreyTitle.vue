@@ -1,9 +1,11 @@
 <template>
+  <div class="meet-audrey-title-and-text-container">
     <div class="meet-audrey-title">
       <p class="purple">Meet Audrey</p>
     </div>
     <div class="meet-audrey-bottom-text">
-    <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
+      <p class="bottom-text">Our 500<sup>th</sup> Wish Granted</p>
+    </div>
   </div>
 </template>
 
@@ -21,9 +23,6 @@
   text-align: center;
 }
 .meet-audrey-bottom-text {
-  /* position: absolute;
-  top: 1471px;
-  left: 34px; */
   width: 308px;
   height: 35px;
   text-align: center;

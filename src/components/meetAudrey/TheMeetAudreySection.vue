@@ -1,9 +1,13 @@
 <template>
   <section class="meet-audrey-wrapper">
     <MeetAudreyTitle />
-    <MeetAudreyImage />
-    <MeetAudreyQuote />
-    <MeetAudreyText />
+    <div class="meet-audrey-image-and-text-container">
+      <MeetAudreyImage />
+      <div class="meet-audrey-quote-and-text-small-container">
+        <MeetAudreyQuote />
+        <MeetAudreyText />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -30,6 +34,26 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 1522px;
+  margin-top: 60px;
+}
+.meet-audrey-image-and-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.meet-audrey-quote-and-text-small-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .meet-audrey-image-and-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 </style>
