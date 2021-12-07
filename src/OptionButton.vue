@@ -37,23 +37,16 @@ export default {
   .btn-wrapper {
     width: 113px;
     height: 18px;
-    margin-right: 24px;
   }
 }
 
 @media screen and (min-width: 769px) {
   .badge-icon {
     position: relative;
-    top: 13px;
-    left: 56.23px;
-    width: 13px;
-    height: 20px;
   }
   .badge-caption {
     color: #ffffff;
-    position: relative;
-    top: -17px;
-    left: 78px;
+    left: 6px;
   }
 }
 </style>

@@ -127,15 +127,15 @@ export default {
 @media screen and (min-width: 768px) {
   .GAC-badge-container {
     display: flex;
-    top: 3294px;
-    left: 89px;
-    width: 591px;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 77%;
     height: 40px;
   }
   .GAC-badge-item {
     height: 40px;
     width: 181px;
-    padding-left: 0;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1366px) {

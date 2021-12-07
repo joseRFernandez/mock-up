@@ -28,4 +28,9 @@ export default {
   flex-direction: column;
   height: 526px;
 }
+@media screen  and (min-width: 768px) {
+  .GAC-section-wrapper {
+    height: 667px;
+  }
+}
 </style>
