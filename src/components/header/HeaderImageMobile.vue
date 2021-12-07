@@ -61,7 +61,8 @@ export default {
   .header-mobile-image {
     background: transparent url('/assets/tablet-header/tablet-header.png') 0% 0%
       no-repeat padding-box;
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: 50px;
   }
 }
 @media screen and (min-width: 768px) {

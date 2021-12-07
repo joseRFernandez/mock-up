@@ -46,27 +46,21 @@ export default {
   opacity: 1;
 }
 .header-p-container {
-  padding: 31px 12px 22px;
+  width: 94%;
 }
 p {
   text-align: center;
   font-weight: 500;
   font-size: 32px;
   font-family: omnes;
+
 }
 span {
   color: #b33cc8;
 }
 @media screen and (min-width: 768px) {
-  .header-title {
-    /* width: 768px; */
+  .header-title-wrapper {
     height: 84px;
-  }
-  .header-p-container {
-    width: 95.8%;
-    top: 25px;
-    left: 16px;
-    height: 40px;
   }
 }
 @media screen and (min-width: 1366px) {
