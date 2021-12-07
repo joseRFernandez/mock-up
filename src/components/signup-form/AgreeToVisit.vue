@@ -21,7 +21,6 @@
   height: 13px;
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
-  /* display: inline; */
 }
 .agree-text-container {
   position: relative;
@@ -35,16 +34,14 @@
   opacity: 1;
 }
 @media screen and (min-width: 768px) {
+  .agree-to-visit-container {
+    width: 42.45%;
+  }
   .checkbox {
-    top: 1125px;
-    left: 223px;
     width: 13px;
     height: 13px;
   }
   .agree-text-container {
-    top: 1121px;
-    left: 251px;
-    width: 298px;
     height: 36px;
   }
 }

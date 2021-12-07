@@ -24,19 +24,7 @@ export default {
 ::placeholder {
   color: #b2b2b2;
 }
-@media screen and (min-width: 768px) {
-  .input-base-block {
-    top: 638px;
-    left: 110px;
-    width: 547px;
-    height: 40px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #b2b2b2;
-    border-radius: 5px;
-    opacity: 1;
-  }
-}
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .input-base-block {
     width: 384px;
     padding: 0;

@@ -13,7 +13,6 @@
   </div>
 </template>
 
-
 <style scoped>
 .signup-first-container {
   width: 88.2%;
@@ -36,15 +35,8 @@
 
 @media screen and (min-width: 768px) {
   .signup-first-container {
-    top: 524px;
-    left: 5.89%;
-    width: 88.26%;
+    width: 88.93%;
     height: 35px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .signup-second-container {
     top: 572px;
@@ -58,7 +50,7 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .signup-first-container {
     position: absolute;
     top: 228px;
@@ -101,20 +93,6 @@
     font: normal normal bold 18px/22px Lato;
     letter-spacing: 0px;
     color: #262626;
-  }
-}
-@media screen and (min-width: 769px) {
-  .signup-first-container {
-    position: absolute;
-    top: 228px;
-    left: 134px;
-    width: 384px;
-    height: 74px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
 }
 </style>

@@ -40,14 +40,9 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .input-section-wrapper {
-    top: 638px;
-    left: 110px;
-    width: 547px;
-    height: 40px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #b2b2b2;
+    width: 71.22%;
+    height: 461px;
     border-radius: 5px;
-    opacity: 1;
   }
 }
 @media screen and (min-width: 1366px) {

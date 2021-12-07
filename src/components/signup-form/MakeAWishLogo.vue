@@ -15,7 +15,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* margin-top: 28px; */
 }
 .maw-logo-container {
   width: 186px;
@@ -30,7 +29,6 @@
 }
 .maw-logo-header-text {
   font-size: 10px;
-  /* position: absolute; */
   position: relative;
   left: 14px;
 }
@@ -39,7 +37,6 @@
   height: 39px;
   background: #0f70b8 0% 0% no-repeat padding-box;
   opacity: 1;
-  /* position: absolute; */
   position: relative;
   top: 18px;
 }
@@ -49,6 +46,7 @@
     left: 290px;
   }
 }
+
 @media screen and (min-width: 1366px) {
   .maw-logo-container {
     top: 1132px;

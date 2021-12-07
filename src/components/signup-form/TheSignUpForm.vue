@@ -14,7 +14,7 @@ import SignUpInputForm from './SignUpInputForm.vue';
 import AgreeToVisit from './AgreeToVisit.vue';
 import SignUpBadge from './SignUpBadge.vue';
 import SignupFinePrint from './SignupFinePrint.vue';
-import MakeAWishLogo from './MakeAWishLogo.vue';
+// import MakeAWishLogo from './MakeAWishLogo.vue';
 export default {
   components: {
     SignUpMainText,
@@ -22,7 +22,7 @@ export default {
     AgreeToVisit,
     SignUpBadge,
     SignupFinePrint,
-    MakeAWishLogo,
+    // MakeAWishLogo,
   },
 };
 </script>
@@ -35,5 +35,10 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .signup-wrapper {
+    height: 947px;
+  }
 }
 </style>

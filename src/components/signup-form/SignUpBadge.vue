@@ -33,9 +33,7 @@
 }
 @media screen and (min-width: 768px) {
   .badge-container {
-    top: 1187px;
-    left: 204px;
-    width: 360px;
+    width: 46.88%;
   }
   .badge {
     top: 9px;
