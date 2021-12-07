@@ -40,18 +40,18 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .maw-partnership-wrapper {
-    position: absolute;
-    top: 2409px;
-    left: 0px;
-    width: 768px;
+    margin-top: 0;
     height: 341px;
     opacity: 1;
+  }
+  .maw-figures-container {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1366px) {
   .maw-partnership-wrapper {
-    top: 2349px;
-    left: 0px;
     width: 1366px;
     height: 330px;
   }

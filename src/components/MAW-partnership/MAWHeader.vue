@@ -27,27 +27,17 @@
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
-}
-@media screen and (min-width: 600px) {
-.maw-header-text-container {
-  align-self: flex-end;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .maw-header {
-    width: 768px;
+    width: 100%;
     height: 34px;
   }
   .maw-header-text-container {
-    left: 16px;
-    width: 736px;
     height: 16px;
-    text-align: center;
-    font: normal normal medium 18px/22px Omnes;
-    letter-spacing: 0px;
-    color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
   }
 }
 @media screen and (min-width: 1366px) {

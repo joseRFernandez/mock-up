@@ -25,7 +25,6 @@
 }
 @media screen and (min-width: 768px) {
   .maw-text-wrapper-main {
-    left: 16px;
     width: 539px;
     height: 187px;
     text-align: left;
