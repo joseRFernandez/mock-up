@@ -1,22 +1,24 @@
 <template>
   <!-- this below is the yellow input form container - unlock when ready-->
-  <HeaderDesktopImage v-if="desktop" />
-  <div class="header-mobile-wrapper">
+  <header-desktop-image v-if="desktop">
+    <HeaderTitle v-if="desktop" />
+  </header-desktop-image>
+  <div class="header-mobile-wrapper" v-if="!desktop">
     <HeaderTitle />
+    <HeaderImageMobile />
   </div>
-  <HeaderImageMobile v-if="!desktop" />
 </template>
 
 <script>
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
-// import HeaderDesktopImage from './HeaderDesktopImage.vue';
+import HeaderDesktopImage from './HeaderDesktopImage.vue';
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
-    // HeaderDesktopImage,
+    HeaderDesktopImage,
   },
 
   data() {
@@ -50,6 +52,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
