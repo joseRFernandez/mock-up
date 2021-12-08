@@ -32,8 +32,6 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .signup-fine-print-container {
-    top: 972px;
-    left: 133px;
     width: 384px;
     height: 129px;
   }

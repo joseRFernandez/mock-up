@@ -36,8 +36,6 @@
 
 @media screen and (min-width: 1366px) {
   .maw-logo-container {
-    top: 1132px;
-    left: 232px;
     width: 186px;
     height: 64px;
     background: transparent 0% 0% no-repeat padding-box;

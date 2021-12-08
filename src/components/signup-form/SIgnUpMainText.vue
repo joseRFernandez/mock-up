@@ -52,9 +52,6 @@
 }
 @media screen and (min-width: 1366px) {
   .signup-first-container {
-    position: absolute;
-    top: 228px;
-    left: 134px;
     width: 384px;
     height: 74px;
     text-align: center;
@@ -64,8 +61,6 @@
     opacity: 1;
   }
   .signup-text-paragraph-1 {
-    top: 20px;
-    left: 134px;
     width: 384px;
     height: 74px;
     text-align: center;
@@ -75,7 +70,6 @@
     opacity: 1;
   }
   .signup-second-container {
-    position: relative;
     width: 384px;
     height: 61px;
     text-align: center;
@@ -85,8 +79,6 @@
     opacity: 1;
   }
   .signup-text-paragraph-2 {
-    top: 22px;
-    left: 72px;
     height: 22px;
     text-align: center;
     font: normal normal bold 18px/22px Lato;

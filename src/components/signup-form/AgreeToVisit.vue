@@ -46,17 +46,16 @@
   }
 }
 @media screen and (min-width: 1366px) {
+  .agree-to-visit-container {
+    width: unset;
+
+  }
   .checkbox {
-    position: absolute;
-    top: 860px;
-    left: 148px;
     width: 13px;
     height: 13px;
     opacity: 1;
   }
   .agree-text-container {
-    top: 856px;
-    left: 176px;
     width: 336px;
     height: 36px;
     text-align: left;

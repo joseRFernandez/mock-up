@@ -2,7 +2,7 @@
   <body class="body-container">
     <TheNavbar />
     <TheHeader />
-    <TheSignUpForm />
+    <TheSignUpForm v-if="!desktop"/>
     <TheMeetAudreySection />
     <TheMAWPartnershipSection />
     <TheGetACardSection />
@@ -14,7 +14,7 @@
 <script>
 import TheNavbar from './components/navbar/TheNavbar.vue';
 import TheHeader from './components/header/TheHeader.vue';
-// import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
+import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
 import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
@@ -26,16 +26,43 @@ export default {
   components: {
     TheNavbar,
     TheHeader,
-    // TheSignUpForm,
+    TheSignUpForm,
     TheMeetAudreySection,
     TheMAWPartnershipSection,
     TheGetACardSection,
     TheCeoMessage,
     TheFooter,
   },
+  data() {
+    return {
+      desktop: null,
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth >= 1366) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width >= 1366) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
+  },
 };
 </script>
-
 
 <style>
 html {

@@ -47,9 +47,11 @@ export default {
 }
 @media screen and (min-width: 1366px) {
   .input-section-wrapper {
-    position: absolute;
-    top: 373px;
-    left: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 384px;
     height: 461px;
   }
