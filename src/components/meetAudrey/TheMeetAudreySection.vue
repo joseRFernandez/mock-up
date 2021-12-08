@@ -1,5 +1,5 @@
 <template>
-  <section class="meet-audrey-wrapper">
+  <section class="meet-audrey-wrapper" v-if="!this.desktop">
     <MeetAudreyTitle />
     <div class="meet-audrey-image-and-text-container">
       <MeetAudreyImage />
@@ -7,6 +7,16 @@
         <MeetAudreyQuote />
         <MeetAudreyText />
       </div>
+    </div>
+  </section>
+  <section class="meet-audrey-desktop-wrapper" v-else>
+    <div class="meet-audrey-quote-and-text-desktop-container">
+      <MeetAudreyQuote />
+      <MeetAudreyText />
+    </div>
+    <div class="meet-audrey-title-and-image-desktop-container">
+      <MeetAudreyTitle />
+      <MeetAudreyImage />
     </div>
   </section>
 </template>
@@ -23,6 +33,35 @@ export default {
     MeetAudreyImage,
     MeetAudreyQuote,
     MeetAudreyText,
+  },
+
+  data() {
+    return {
+      desktop: null,
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth >= 1366) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width >= 1366) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
   },
 };
 </script>
@@ -63,8 +102,22 @@ export default {
   }
 }
 @media screen and (min-width: 1366px) {
-  .meet-audrey-wrapper {
+  .meet-audrey-desktop-wrapper {
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    height: 1222px;
+  }
+  .meet-audrey-quote-and-text-desktop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .meet-audrey-title-and-image-desktop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 </style>

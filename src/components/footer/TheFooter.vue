@@ -143,36 +143,33 @@ export default {
   }
 }
 @media screen and (min-width: 1366px) {
+  .footer-wrapper {
+    height: 474px;
+  }
+  .footer-copyright-and-fine-print-container {
+    height: 122px;
+  }
   .footer-logo {
-    top: 3641px;
-    left: 622px;
     width: 164px;
     height: 41px;
   }
   .footer-copyright {
-    top: 3706px;
-    left: 633px;
     width: 146px;
     height: 19px;
     font-size: 16px;
   }
   .footer-copyright-not-insurance {
-    top: 3729px;
-    left: 579px;
     width: 254px;
     height: 19px;
     font: normal normal 16px Lato;
   }
   .fine-print-container-bold {
-    top: 3757px;
-    left: 464px;
     width: 484px;
     height: 38px;
     font: normal normal bold 11px/19px Lato;
+    margin-top: 9px;
   }
   .fine-print-container-normal {
-    top: 3793px;
-    left: 468px;
     width: 476px;
     height: 33px;
     text-align: center;
@@ -182,8 +179,6 @@ export default {
     opacity: 1;
   }
   .dot-logo-mobile {
-    top: 3877px;
-    left: 634px;
     width: 146px;
     height: 27px;
   }

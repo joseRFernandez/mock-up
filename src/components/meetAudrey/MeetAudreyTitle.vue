@@ -50,13 +50,14 @@
   }
 }
 @media screen and (min-width: 1366px) {
-  .meet-audrey-title {
-    top: 1200px;
-    left: 800px;
+  .meet-audrey-title-and-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .meet-audrey-bottom-text {
-    top: 1225px;
-    left: 800px;
+  .meet-audrey-title {
+    width: 515px;
   }
 }
 </style>

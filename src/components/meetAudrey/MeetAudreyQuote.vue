@@ -25,7 +25,6 @@
   .meet-audrey-quote {
     width: 515px;
     height: 35px;
-    text-align: left;
     font: normal normal normal 28px/36px Omnes;
     letter-spacing: 0px;
     color: #262626;
