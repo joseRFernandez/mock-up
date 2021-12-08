@@ -2,6 +2,7 @@
   <section class="header-desktop-wrapper" v-if="desktop">
     <div class="header-desktop-image-container"></div>
   </section>
+
   <div class="header-mobile-wrapper" v-else>
     <HeaderTitle />
     <HeaderImageMobile />
@@ -12,14 +13,14 @@
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 // import HeaderQuote from './HeaderQuote.vue';
-// import HeaderDeskTopTitle from './HeaderDeskTopTitle.vue'
+// import HeaderDeskTopTitle from './HeaderDeskTopTitle.vue';
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
     // HeaderQuote,
-    // HeaderDeskTopTitle
+    // HeaderDeskTopTitle,
   },
 
   data() {
@@ -60,28 +61,22 @@ export default {
     flex-direction: row;
     height: 1200px;
     width: 100%;
+    box-sizing: border-box;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
       0% 0% no-repeat;
-    width: 108%;
-    height: 100%;
     opacity: 1;
-    background-size: cover;
     margin-left: -2.5%;
-    box-sizing: border-box;
+    height: 1056px;
+    width: 108%;
+    object-fit: cover;
   }
-}
-@media screen and (min-width:1500px) {
-  .header-desktop-image-container {
-     background: transparent
-      url('/assets/mobile-header/IMG_0049/IMG_0049.png') no-repeat top/80% padding-box;
-  }
-}
-@media screen and (min-width: 2000px) {
-  .header-desktop-image-container {
-    background: transparent
-      url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png') no-repeat top/80% padding-box;
+  @media screen and (min-width: 1400px) {
+    .header-desktop-image-container {
+      margin-top: 1%;
+      background-position-x: center;
+    }
   }
 }
 </style>
