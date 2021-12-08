@@ -1,10 +1,8 @@
 <template>
-  <!-- this below is the yellow input form container - unlock when ready-->
-  <header-desktop-image v-if="desktop">
-    <HeaderDeskTopTitle />
-    <HeaderQuote />
-  </header-desktop-image>
-  <div class="header-mobile-wrapper" v-if="!desktop">
+  <section class="header-desktop-wrapper" v-if="desktop">
+    <div class="header-desktop-image-container"></div>
+  </section>
+  <div class="header-mobile-wrapper" v-else>
     <HeaderTitle />
     <HeaderImageMobile />
   </div>
@@ -13,17 +11,15 @@
 <script>
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
-import HeaderDesktopImage from './HeaderDesktopImage.vue';
-import HeaderQuote from './HeaderQuote.vue';
-import HeaderDeskTopTitle from './HeaderDeskTopTitle.vue'
+// import HeaderQuote from './HeaderQuote.vue';
+// import HeaderDeskTopTitle from './HeaderDeskTopTitle.vue'
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
-    HeaderDesktopImage,
-    HeaderQuote,
-    HeaderDeskTopTitle
+    // HeaderQuote,
+    // HeaderDeskTopTitle
   },
 
   data() {
@@ -57,4 +53,35 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+@media screen and (min-width: 1366px) {
+  .header-desktop-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 1200px;
+    width: 100%;
+  }
+  .header-desktop-image-container {
+    background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
+      0% 0% no-repeat;
+    width: 108%;
+    height: 100%;
+    opacity: 1;
+    background-size: cover;
+    margin-left: -2.5%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width:1500px) {
+  .header-desktop-image-container {
+     background: transparent
+      url('/assets/mobile-header/IMG_0049/IMG_0049.png') no-repeat top/80% padding-box;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .header-desktop-image-container {
+    background: transparent
+      url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png') no-repeat top/80% padding-box;
+  }
+}
+</style>
