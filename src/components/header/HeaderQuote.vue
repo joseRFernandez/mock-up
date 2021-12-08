@@ -9,16 +9,17 @@
 <style scoped>
 @media screen and (min-width: 1366px) {
   .header-desktop-quote {
-    height: 71px;
     text-align: right;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: white;
     text-shadow: 0px 3px 6px #00000029;
     opacity: 1;
-    width: 6.89%;
+    height: 71px;
+    display: inline-block;
   }
   .header-desktop-quote-text {
     font: italic normal normal 12px/14px Lato;
+    width: 94px;
   }
 }
 </style>

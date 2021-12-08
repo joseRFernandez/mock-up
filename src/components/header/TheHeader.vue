@@ -2,7 +2,11 @@
   <section class="header-desktop-wrapper" v-if="desktop">
     <div class="header-desktop-image-container">
       <div class="header-signup-form-container">
+        <HeaderTitle />
         <TheSignUpForm />
+      </div>
+      <div class="header-quote-desktop-container">
+        <HeaderQuote />
       </div>
     </div>
   </section>
@@ -17,14 +21,14 @@
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 import TheSignUpForm from '../signup-form/TheSignUpForm.vue';
-// import HeaderQuote from './HeaderQuote.vue';
+import HeaderQuote from './HeaderQuote.vue';
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
     TheSignUpForm,
-    // HeaderQuote,
+    HeaderQuote,
   },
 
   data() {
@@ -61,16 +65,11 @@ export default {
 <style scoped>
 @media screen and (min-width: 1366px) {
   .header-desktop-wrapper {
-    display: flex;
-    flex-direction: row;
     height: 1200px;
     width: 100%;
     box-sizing: border-box;
-  }
-  .header-signup-form-container {
-    width: 486px;
-    height: 1200px;
-    background-color: #ffc700;
+    display: flex;
+    justify-content: center;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
@@ -80,12 +79,26 @@ export default {
     height: 1056px;
     width: 1366px;
     object-fit: cover;
-
+    display: flex;
   }
   .header-signup-form-container {
-    position: relative;
-    left:100px;
+    width: 486px;
+    height: 1200px;
+    background-color: #ffc700;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
+  .header-quote-desktop-container {
+    width: 96px;
+    height: 71px;
+    position: relative;
+    top: 608px;
+    left: 604px;
+  }
+
   @media screen and (min-width: 1400px) {
     .header-desktop-image-container {
       margin-top: 2%;

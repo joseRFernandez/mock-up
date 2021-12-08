@@ -8,6 +8,7 @@
     <MakeAWishLogo />
   </div>
 </template>
+
 <script>
 import SignUpMainText from './SIgnUpMainText.vue';
 import SignUpInputForm from './SignUpInputForm.vue';
@@ -24,8 +25,37 @@ export default {
     SignupFinePrint,
     MakeAWishLogo,
   },
+  data() {
+    return {
+      desktop: false,
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth >= 1366) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width >= 1366) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
+  },
 };
 </script>
+};
 
 <style scoped>
 .signup-wrapper {
@@ -43,9 +73,6 @@ export default {
 }
 @media screen and (min-width: 1366px) {
   .signup-wrapper {
-    position: relative;
-    left: 32px;
-    top: 147px;
     height: 1019px;
     width: 423px;
     background-color: white;

@@ -61,9 +61,14 @@ span {
 @media screen and (min-width: 768px) {
   .header-title-wrapper {
     height: 84px;
+    box-shadow: unset;
   }
 }
 @media screen and (min-width: 1366px) {
+  .header-conditional-form-white-background {
+    display: flex;
+    align-items: center;
+  }
   .header-title {
     width: 384px;
     height: 76px;
