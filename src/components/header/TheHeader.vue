@@ -1,7 +1,8 @@
 <template>
   <!-- this below is the yellow input form container - unlock when ready-->
   <header-desktop-image v-if="desktop">
-    <HeaderTitle v-if="desktop" />
+    <HeaderDeskTopTitle />
+    <HeaderQuote />
   </header-desktop-image>
   <div class="header-mobile-wrapper" v-if="!desktop">
     <HeaderTitle />
@@ -13,12 +14,16 @@
 import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 import HeaderDesktopImage from './HeaderDesktopImage.vue';
+import HeaderQuote from './HeaderQuote.vue';
+import HeaderDeskTopTitle from './HeaderDeskTopTitle.vue'
 
 export default {
   components: {
     HeaderTitle,
     HeaderImageMobile,
     HeaderDesktopImage,
+    HeaderQuote,
+    HeaderDeskTopTitle
   },
 
   data() {

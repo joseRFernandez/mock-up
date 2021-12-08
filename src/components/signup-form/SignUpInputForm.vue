@@ -57,7 +57,6 @@ export default {
     text-align: left;
     font: normal normal normal 16px/19px Lato;
     letter-spacing: 0px;
-    /* color: #a88b8b; */
     color: red;
     opacity: 1;
     padding-left: 10px;

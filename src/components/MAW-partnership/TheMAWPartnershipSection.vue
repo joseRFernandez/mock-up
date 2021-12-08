@@ -53,9 +53,6 @@ export default {
   }
 }
 @media screen and (min-width: 1366px) {
-  .maw-partnership-wrapper {
-    width: 1366px;
-    height: 330px;
-  }
+
 }
 </style>

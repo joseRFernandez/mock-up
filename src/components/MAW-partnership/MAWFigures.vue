@@ -54,10 +54,7 @@ export default {
 }
 @media screen and (min-width: 1366px) {
   .maw-figures-wrapper {
-    top: 118px;
-    left: 899px;
     width: 180px;
-    height: 24px;
   }
 }
 </style>

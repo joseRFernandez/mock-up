@@ -1,10 +1,11 @@
 <template>
-  <div class="header-title-wrapper">
-    <div class="header-p-container">
-      <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+  <div class="header-conditional-form-white-background">
+    <div class="header-title-wrapper">
+      <div class="header-p-container">
+        <p>Help us grant more wishes <span>like Audrey’s!</span></p>
+      </div>
     </div>
   </div>
-  <div class="header-conditional-form-white-background"></div>
 </template>
 
 <script>
@@ -53,7 +54,6 @@ p {
   font-weight: 500;
   font-size: 32px;
   font-family: omnes;
-
 }
 span {
   color: #b33cc8;
@@ -65,30 +65,12 @@ span {
 }
 @media screen and (min-width: 1366px) {
   .header-title {
-    position: absolute;
-    top: 109px;
-    left: 134px;
     width: 384px;
     height: 76px;
     text-align: center;
     font: normal normal lighter 32px/36px Omnes;
     letter-spacing: 0px;
     box-shadow: none;
-    opacity: 1;
-  }
-  .header-p-container {
-    position: absolute;
-    top: -20px;
-  }
-
-  .header-conditional-form-white-background {
-    position: absolute;
-    top: 208px;
-    left: 115px;
-    width: 423px;
-    height: 1019px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border-radius: 10px;
     opacity: 1;
   }
 }

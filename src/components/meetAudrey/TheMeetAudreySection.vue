@@ -62,4 +62,9 @@ export default {
     width: 50%;
   }
 }
+@media screen and (min-width: 1366px) {
+  .meet-audrey-wrapper {
+    flex-direction: row;
+  }
+}
 </style>

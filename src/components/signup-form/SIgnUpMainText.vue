@@ -75,8 +75,7 @@
     opacity: 1;
   }
   .signup-second-container {
-    top: 307px;
-    left: 134px;
+    position: relative;
     width: 384px;
     height: 61px;
     text-align: center;

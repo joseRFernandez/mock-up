@@ -1,15 +1,14 @@
 <template>
   <div class="header-desktop-image-wrapper">
     <div class="header-desktop-image-container">
-      <div class="header-desktop-image"></div>
-    </div>
-    <div class="header-desktop-quote">
-      <p class="header-desktop-quote-text">
-        I wish to star in a fashion shoot Audrey, 12 nervous system disorder
-      </p>
+      <div class="header-desktop-image">
+      </div>
     </div>
   </div>
 </template>
+
+<script>
+</script>
 
 <style scoped>
 .header-desktop-image-wrapper {
@@ -32,17 +31,6 @@
   left: -2.4%;
 }
 
-.header-desktop-quote {
-  height: 71px;
-  text-align: right;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
-}
-.header-desktop-quote-text {
-  font: italic normal normal 12px/14px Lato;
-}
 @media screen and (min-width: 2600px) {
   .header-desktop-image {
     background: transparent

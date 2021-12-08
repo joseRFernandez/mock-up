@@ -42,16 +42,11 @@
 }
 @media screen and (min-width: 1366px) {
   .maw-header {
+    min-height: 48px;
+    position: relative;
     top: 25px;
-    left: 0px;
-    width: 1366px;
-    height: 48px;
   }
   .maw-header-text-container {
-    top: 8px;
-    left: 263px;
-    width: 840px;
-    height: 30px;
     text-align: center;
     font: normal normal medium 24px/24px Omnes;
     letter-spacing: 0px;
