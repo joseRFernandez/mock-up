@@ -141,11 +141,8 @@ export default {
 @media screen and (min-width: 1366px) {
   .GAC-badge-container {
     display: initial;
-    position: absolute;
-    top: 2882px;
-    left: 874px;
     width: 229px;
-    height: 134px;
+    height: 146px;
     opacity: 1;
   }
   .GAC-badge-item {

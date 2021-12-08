@@ -17,7 +17,7 @@ import TheHeader from './components/header/TheHeader.vue';
 // import TheSignUpForm from './components/signup-form/TheSignUpForm.vue';
 // import TheMeetAudreySection from './components/meetAudrey/TheMeetAudreySection.vue';
 import TheMAWPartnershipSection from './components/MAW-partnership/TheMAWPartnershipSection.vue';
-// import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
+import TheGetACardSection from './components/getACard/TheGetACardSection.vue';
 // import TheCeoMessage from './components/ceo-message/TheCeoMessage.vue';
 // import TheFooter from './components/footer/TheFooter.vue';
 
@@ -29,7 +29,7 @@ export default {
     // TheSignUpForm,
     // TheMeetAudreySection,
     TheMAWPartnershipSection,
-    // TheGetACardSection,
+    TheGetACardSection,
     // TheCeoMessage,
     // TheFooter,
   },

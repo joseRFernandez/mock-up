@@ -1,5 +1,6 @@
 <template>
-  <div class="buzz-card"></div>
+  <div class="buzz-card">
+  </div>
   <!-- <img class="buzz-card" src="/assets/buzzCards/buzzCard.png" /> -->
 </template>
 
@@ -25,13 +26,9 @@
 }
 @media screen and (min-width: 1366px) {
   .buzz-card {
-    top: 2771px;
-    left: 185px;
     width: 489px;
     height: 308px;
-    border: 1px solid #707070;
-    border-radius: 24px;
-    opacity: 1;
+    display: inline-block;
   }
 }
 </style>

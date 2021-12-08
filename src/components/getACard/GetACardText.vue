@@ -23,10 +23,5 @@ span {
     font: normal normal bold 24px/46px Lato;
   }
 }
-@media screen and (min-width: 1366px) {
-  .get-a-card-paragraph {
-    top: 2823px;
-    left: 765px;
-  }
-}
+
 </style>
