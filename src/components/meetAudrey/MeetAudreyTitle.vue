@@ -56,8 +56,5 @@
     justify-content: center;
     align-items: center;
   }
-  .meet-audrey-title {
-    width: 515px;
-  }
 }
 </style>

@@ -5,6 +5,9 @@
         <HeaderTitle />
         <TheSignUpForm />
       </div>
+      <div class="header-meet-audrey-title-container">
+        <MeetAudreyTitle />
+      </div>
       <div class="header-quote-desktop-container">
         <HeaderQuote />
       </div>
@@ -22,6 +25,7 @@ import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 import TheSignUpForm from '../signup-form/TheSignUpForm.vue';
 import HeaderQuote from './HeaderQuote.vue';
+import MeetAudreyTitle from '../meetAudrey/MeetAudreyTitle.vue'
 
 export default {
   components: {
@@ -29,6 +33,7 @@ export default {
     HeaderImageMobile,
     TheSignUpForm,
     HeaderQuote,
+    MeetAudreyTitle,
   },
 
   data() {
@@ -83,26 +88,30 @@ export default {
   }
   .header-signup-form-container {
     width: 486px;
-    height: 1200px;
+    height: 1248px;
     background-color: #ffc700;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .header-quote-desktop-container {
     width: 96px;
     height: 71px;
     position: relative;
     top: 608px;
-    left: 604px;
+  }
+  .header-meet-audrey-title-container {
+    height: 1248px;
+    display: flex;
+    align-items: flex-end;
   }
 
   @media screen and (min-width: 1400px) {
     .header-desktop-image-container {
       margin-top: 2%;
       background-position-x: center;
+      justify-content: space-evenly;
     }
   }
 }

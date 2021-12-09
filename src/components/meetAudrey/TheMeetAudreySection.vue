@@ -15,7 +15,7 @@
       <MeetAudreyText />
     </div>
     <div class="meet-audrey-title-and-image-desktop-container">
-      <MeetAudreyTitle />
+      <!-- <MeetAudreyTitle /> -->
       <MeetAudreyImage />
     </div>
   </section>
