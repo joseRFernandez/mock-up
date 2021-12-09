@@ -85,7 +85,7 @@ export default {
 @media screen and (min-width: 1366px) {
   .header-desktop-wrapper {
     height: 2279px;
-    width: 108%;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +151,7 @@ export default {
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png')
       0% 0% no-repeat;
+      background-size: cover;
   }
 }
 </style>
