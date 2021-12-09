@@ -37,6 +37,7 @@ export default {
     return {
       mobile: null,
       tablet: null,
+      desktop: null,
       badges: [
         {
           id: 1,
@@ -58,15 +59,21 @@ export default {
   },
 
   beforeMount() {
-    if (document.documentElement.clientWidth <= 375) {
+    if (document.documentElement.clientWidth < 768) {
       this.mobile = true;
       this.tablet = false;
+      this.desktop = false;
     } else if (
-      document.documentElement.clientWidth > 375 &&
-      document.documentElement.clientWidth <= 768
+      document.documentElement.clientWidth >= 768 &&
+      document.documentElement.clientWidth < 1366
     ) {
       this.mobile = false;
       this.tablet = true;
+      this.desktop = false;
+    } else if (document.documentElement.clientWidth >= 1366) {
+      this.desktop = true;
+      this.mobile = false;
+      this.tablet = false;
     }
   },
   mounted() {
@@ -78,18 +85,21 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width <= 375) {
+      if (this.width < 768) {
         this.mobile = true;
         this.tablet = false;
+        this.desktop = false;
       } else if (
-        document.documentElement.clientWidth > 375 &&
-        document.documentElement.clientWidth <= 768
+        document.documentElement.clientWidth >= 768 &&
+        document.documentElement.clientWidth < 1366
       ) {
         this.mobile = false;
         this.tablet = true;
-      }
-      else {
-        this.mobile = true;
+        this.desktop = false;
+      } else {
+        this.desktop = true;
+        this.tablet = false;
+        this.mobile = false;
       }
     },
   },
@@ -98,33 +108,41 @@ export default {
 
 <style scoped>
 .GAC-badge-container {
-  position: absolute;
-  top: 3933px;
-  left: 35px;
-  width: 319px;
-  height: 40px;
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 319px; */
+  width: 88%;
 }
-@media screen and (min-width: 376px) {
+.GAC-badge-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
   .GAC-badge-container {
     display: flex;
-    top: 3294px;
-    left: 89px;
-    width: 591px;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 77%;
     height: 40px;
   }
   .GAC-badge-item {
     height: 40px;
     width: 181px;
+    justify-content: center;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .GAC-badge-container {
     display: initial;
-    position: absolute;
-    top: 2882px;
-    left: 874px;
     width: 229px;
-    height: 134px;
+    height: 146px;
     opacity: 1;
   }
   .GAC-badge-item {

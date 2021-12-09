@@ -37,17 +37,12 @@ export default {
 </script>
 <style scoped>
 .maw-figures-wrapper {
-  position: absolute;
-  top: 433px;
-  left: 98px;
   width: 180px;
-  height: 39px;
   text-align: center;
+  margin-top: 39px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-figures-wrapper {
-    top: 93px;
-    left: 580px;
     width: 172px;
     height: 187px;
     text-align: center;
@@ -57,12 +52,9 @@ export default {
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-figures-wrapper {
-    top: 118px;
-    left: 899px;
     width: 180px;
-    height: 24px;
   }
 }
 </style>

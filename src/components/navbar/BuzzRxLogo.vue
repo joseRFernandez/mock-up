@@ -1,6 +1,14 @@
 <template>
-  <img src="/assets/BuzzRx_logo.png" class="logo" />
+  <img src="/assets/BRX_Logo.png" class="navbar-buzz-logo" />
 </template>
 
 <style scoped>
+.navbar-buzz-logo {
+  position: relative;
+  top: 16px;
+  left: 8px;
+  width: 154px;
+  height: 37px;
+  opacity: 1;
+}
 </style>

@@ -14,11 +14,8 @@
 
 <style scoped>
 .signup-fine-print-container {
-  position: absolute;
-  top: 1131px;
-  left: 22px;
-  width: 329px;
-  height: 147px;
+  margin: 23px 0 28px;
+  width: 87.73%;
   text-align: left;
   font: normal normal normal 14px/16px Lato;
   letter-spacing: 0px;
@@ -27,18 +24,14 @@
 span {
   color: #b33cc8;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .signup-fine-print-container {
-    top: 1242px;
-    left: 110px;
-    width: 547px;
+    width: 71.22%;
     height: 108px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .signup-fine-print-container {
-    top: 972px;
-    left: 133px;
     width: 384px;
     height: 129px;
   }

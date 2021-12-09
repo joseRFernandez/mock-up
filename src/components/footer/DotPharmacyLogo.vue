@@ -4,9 +4,6 @@
 
 <style scoped>
 .footer-logo-pharmacy {
-  position: absolute;
-  top: 4756px;
-  left: 152px;
   width: 71px;
   height: 13px;
   background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
@@ -14,7 +11,7 @@
   opacity: 1;
   background-size: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .footer-logo-pharmacy {
     top: 4031px;
     left: 328px;
@@ -22,7 +19,7 @@
     height: 21px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .footer-logo-pharmacy {
     top: 3877px;
     left: 634px;

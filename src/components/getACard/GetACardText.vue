@@ -10,32 +10,18 @@
 span {
   color: #b33cc8;
 }
-.get-a-card-paragraph {
-  position: absolute;
-  top: 3676px;
-  left: -37px;
-  width: 449px;
+.GAC-text-container {
   height: 23px;
   text-align: center;
   font: normal normal bold 19px/46px Lato;
   letter-spacing: 0px;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
-  .get-a-card-paragraph {
-    top: 2844px;
-    left: 160px;
-    width: 449px;
+@media screen and (min-width: 768px) {
+  .GAC-text-container {
     height: 29px;
     font: normal normal bold 24px/46px Lato;
-    letter-spacing: 0px;
-    opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
-  .get-a-card-paragraph {
-    top: 2823px;
-    left: 765px;
-  }
-}
+
 </style>

@@ -15,10 +15,7 @@
 
 <style scoped>
 .signup-first-container {
-  position: absolute;
-  top: 374px;
-  left: 22px;
-  width: 331px;
+  width: 88.2%;
   height: 74px;
   text-align: center;
   font: normal normal normal 15px/17px Lato;
@@ -27,10 +24,7 @@
   opacity: 1;
 }
 .signup-second-container {
-  position: absolute;
-  top: 453px;
-  left: 22px;
-  width: 331px;
+  width: 88.2%;
   height: 61px;
   text-align: center;
   font: normal normal bold 18px/22px Lato;
@@ -38,22 +32,16 @@
   color: #262626;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+
+@media screen and (min-width: 768px) {
   .signup-first-container {
-    top: 524px;
-    left: 42px;
-    width: 683px;
+    width: 88.93%;
     height: 35px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .signup-second-container {
     top: 572px;
-    left: 42px;
-    width: 683px;
+    left: 5.89%;
+    width: 88.26%;
     height: 61px;
     text-align: center;
     font: normal normal bold 18px/22px Lato;
@@ -62,11 +50,8 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .signup-first-container {
-    position: absolute;
-    top: 228px;
-    left: 134px;
     width: 384px;
     height: 74px;
     text-align: center;
@@ -76,8 +61,6 @@
     opacity: 1;
   }
   .signup-text-paragraph-1 {
-    top: 20px;
-    left: 134px;
     width: 384px;
     height: 74px;
     text-align: center;
@@ -87,8 +70,6 @@
     opacity: 1;
   }
   .signup-second-container {
-    top: 307px;
-    left: 134px;
     width: 384px;
     height: 61px;
     text-align: center;
@@ -98,27 +79,11 @@
     opacity: 1;
   }
   .signup-text-paragraph-2 {
-    top: 22px;
-    left: 72px;
     height: 22px;
     text-align: center;
     font: normal normal bold 18px/22px Lato;
     letter-spacing: 0px;
     color: #262626;
-  }
-}
-@media screen and (min-width: 769px) {
-  .signup-first-container {
-    position: absolute;
-    top: 228px;
-    left: 134px;
-    width: 384px;
-    height: 74px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
 }
 </style>

@@ -10,19 +10,16 @@
 
 <style scoped>
 .maw-header {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   height: 60px;
   opacity: 1;
   background-color: #b33cc8;
 }
 .maw-header-text-container {
-  position: absolute;
-  top: 9px;
-  left: 24px;
-  width: 327px;
+  width: 87.2%;
   height: 44px;
   text-align: center;
   font: normal normal medium 18px/22px Omnes;
@@ -30,36 +27,26 @@
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-header {
-    width: 768px;
+    width: 100%;
     height: 34px;
   }
   .maw-header-text-container {
-    left: 16px;
-    width: 736px;
     height: 16px;
-    text-align: center;
-    font: normal normal medium 18px/22px Omnes;
-    letter-spacing: 0px;
-    color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-header {
+    min-height: 48px;
+    position: relative;
     top: 25px;
-    left: 0px;
-    width: 1366px;
-    height: 48px;
   }
   .maw-header-text-container {
-    top: 8px;
-    left: 263px;
-    width: 840px;
-    height: 30px;
     text-align: center;
     font: normal normal medium 24px/24px Omnes;
     letter-spacing: 0px;

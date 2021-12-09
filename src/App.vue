@@ -2,8 +2,8 @@
   <body class="body-container">
     <TheNavbar />
     <TheHeader />
-    <TheSignUpForm />
-    <TheMeetAudreySection />
+    <TheSignUpForm v-if="!desktop"/>
+    <TheMeetAudreySection v-if="!desktop"/>
     <TheMAWPartnershipSection />
     <TheGetACardSection />
     <TheCeoMessage />
@@ -33,6 +33,34 @@ export default {
     TheCeoMessage,
     TheFooter,
   },
+  data() {
+    return {
+      desktop: null,
+    };
+  },
+  beforeMount() {
+    if (document.documentElement.clientWidth >= 1366) {
+      this.desktop = true;
+    } else {
+      this.desktop = false;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getDimensions);
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.getDimensions);
+  },
+  methods: {
+    getDimensions() {
+      this.width = document.documentElement.clientWidth;
+      if (this.width >= 1366) {
+        this.desktop = true;
+      } else {
+        this.desktop = false;
+      }
+    },
+  },
 };
 </script>
 
@@ -45,26 +73,23 @@ body {
   margin: 0;
 }
 .body-container {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 375px;
+  width: 100%;
   height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 p {
   margin: 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .body-container {
-    width: 768px;
     height: 4107px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .body-container {
-    width: 1366px;
     height: 3987px;
   }
 }

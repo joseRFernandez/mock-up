@@ -15,20 +15,16 @@
 
 <style scoped>
 .maw-text-wrapper-main {
-  position: absolute;
-  top: 87px;
-  left: 24px;
-  width: 327px;
-  height: 307px;
+  width: 87.2%;
   text-align: left;
   font: normal normal normal 16px/24px Lato;
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
+  margin-top: 34px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .maw-text-wrapper-main {
-    left: 16px;
     width: 539px;
     height: 187px;
     text-align: left;
@@ -38,7 +34,7 @@
     opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .maw-text-wrapper-main {
     top: 118px;
     left: 287px;

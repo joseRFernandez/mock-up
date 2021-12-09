@@ -10,31 +10,24 @@ export default {
 
 <style scoped>
 .input-base-block {
-  width: 313px;
+  box-sizing: border-box;
+  width: 100%;
   height: 40px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #b2b2b2;
   border-radius: 5px;
   opacity: 1;
-  margin-bottom: 4px;
+  margin-bottom: 7px;
   color: #b2b2b2;
   padding-left: 18px;
 }
-@media screen and (min-width: 376px) {
-  .input-base-block {
-    top: 638px;
-    left: 110px;
-    width: 547px;
-    height: 40px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #b2b2b2;
-    border-radius: 5px;
-    opacity: 1;
-  }
+::placeholder {
+  color: #b2b2b2;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .input-base-block {
     width: 384px;
+    padding: 0;
   }
 }
 </style>

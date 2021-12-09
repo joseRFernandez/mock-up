@@ -1,14 +1,5 @@
 <template>
-  <div v-if="desktop" class="conditional-sliver">
-    <img
-      src="/assets/mobile-header/header-audrey-side-sliver.png"
-      class="conditional-sliver-image"
-    />
-  </div>
-  <div v-if="desktop" class="conditional">
-    <img src="/assets/mobile-header/AudreyHeader-Large.png" />
-  </div>
-  <div v-else class="header-mobile-image"></div>
+  <div class="header-mobile-image"></div>
 </template>
 <script>
 export default {
@@ -18,7 +9,7 @@ export default {
     };
   },
   beforeMount() {
-    if (document.documentElement.clientWidth > 768) {
+    if (document.documentElement.clientWidth >= 1366) {
       this.desktop = true;
     } else {
       this.desktop = false;
@@ -33,7 +24,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
+      if (this.width >= 1366) {
         this.desktop = true;
       } else {
         this.desktop = false;
@@ -42,30 +33,56 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .header-mobile-image {
-  position: absolute;
-  top: 199px;
-  left: 0px;
-  width: 375px;
+  width: 100%;
   height: 155px;
   background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%
     no-repeat padding-box;
-  opacity: 1;
+  background-size: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .header-mobile-image {
-    position: absolute;
-    top: 154px;
-    left: 0px;
-    width: 768px;
+    background: transparent url('/assets/mobile-header/mobile-header@2x.png') 0%
+      0% no-repeat padding-box;
+    background-size: contain;
+    height: 310px;
+    margin-bottom: -50px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .header-mobile-image {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .header-mobile-image {
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-mobile-image {
     height: 334px;
-    background: transparent url('/assets/mobile-header/mobile-header.png') 0% 0%
+    background: transparent url('/assets/tablet-header/tablet-header.png') 0% 0%
       no-repeat padding-box;
     background-size: cover;
   }
 }
-@media screen and (min-width: 769px) {
+
+@media screen and (min-width:950px) {
+  .header-mobile-image {
+    background: transparent url('/assets/tablet-header/tablet-header@2x.png') 0% 0%
+      no-repeat padding-box;
+      background-position: 50% 100%;
+      background-size: contain;
+  }
+}
+
+
+
+@media screen and (min-width: 1366px) {
   .header-mobile-image {
     position: absolute;
     top: 70px;

@@ -10,32 +10,30 @@
 
 <style scoped>
 .badge-container {
-  position: absolute;
-  top: 1068px;
-  left: 22px;
-  width: 332px;
-  height: 40px;
+  display: flex;
+  justify-content: center;
   background: #b33cc8 0% 0% no-repeat padding-box;
   border-radius: 28px;
   opacity: 1;
+  margin-top: 29px;
+  width: 88.53%;
 }
 .badge {
-  position: absolute;
-  top: 9px;
-  left: 64.22px;
-  width: 204px;
-  height: 18px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   font: normal normal bold 16px/19px Lato;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
 }
-@media screen and (min-width: 376px) {
+.agree-badge-text {
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
   .badge-container {
-    top: 1187px;
-    left: 204px;
-    width: 360px;
+    width: 46.88%;
   }
   .badge {
     top: 9px;
@@ -43,11 +41,8 @@
     width: 232px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .badge-container {
-    position: absolute;
-    top: 915px;
-    left: 193px;
     width: 267px;
     height: 40px;
     background: #b33cc8 0% 0% no-repeat padding-box;

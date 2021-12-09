@@ -34,31 +34,34 @@ export default {
 </script>
 <style scoped>
 .input-section-wrapper {
-  position: absolute;
-  top: 519px;
-  left: 22px;
-  width: 331px;
+  width: 88.27%;
   height: 461px;
+  margin-top: 5px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .input-section-wrapper {
-    top: 638px;
-    left: 110px;
-    width: 547px;
-    height: 40px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #b2b2b2;
+    width: 71.22%;
+    height: 461px;
     border-radius: 5px;
-    opacity: 1;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1366px) {
   .input-section-wrapper {
-    position: absolute;
-    top: 373px;
-    left: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 384px;
     height: 461px;
+  }
+  .base-input-item {
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: red;
+    opacity: 1;
+    padding-left: 10px;
   }
 }
 </style>
