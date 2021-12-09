@@ -81,10 +81,12 @@ export default {
       0% 0% no-repeat;
     opacity: 1;
     margin-left: -2.5%;
+    margin-right: -2.5%;
     height: 1056px;
-    width: 1366px;
-    object-fit: cover;
+    width: 109%;
+    background-size: cover;
     display: flex;
+    justify-content: space-around;
   }
   .header-signup-form-container {
     width: 486px;
@@ -105,14 +107,6 @@ export default {
     height: 1248px;
     display: flex;
     align-items: flex-end;
-  }
-
-  @media screen and (min-width: 1400px) {
-    .header-desktop-image-container {
-      margin-top: 2%;
-      background-position-x: center;
-      justify-content: space-evenly;
-    }
   }
 }
 </style>
