@@ -84,7 +84,7 @@ export default {
     margin-right: -2.5%;
     height: 1056px;
     width: 109%;
-    background-size: cover;
+    background-size: 108%;
     display: flex;
     justify-content: space-around;
   }

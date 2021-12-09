@@ -78,6 +78,7 @@ body {
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 p {
   margin: 0;
