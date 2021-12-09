@@ -1,6 +1,6 @@
 <template>
+  <div class="header-desktop-image-container" v-if="desktop"></div>
   <section class="header-desktop-wrapper" v-if="desktop">
-    <div class="header-desktop-image-container"></div>
     <div class="header-signup-form-and-text-container">
       <div class="header-signup-mini-container">
         <HeaderTitle />
@@ -94,13 +94,9 @@ export default {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
       0% 0% no-repeat;
     opacity: 1;
-    margin-left: -2.5%;
-    margin-right: -6%;
-    height: 1056px;
+    height: 1057px;
     width: 100%;
     background-size: cover;
-    display: flex;
-    justify-content: space-around;
     position: absolute;
   }
   .header-signup-form-and-text-container {
@@ -149,6 +145,12 @@ export default {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .header-desktop-image-container {
+    background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png')
+      0% 0% no-repeat;
   }
 }
 </style>
