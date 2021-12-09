@@ -5,12 +5,13 @@
         <HeaderTitle />
         <TheSignUpForm />
       </div>
-      <div class="header-meet-audrey-title-container">
+      <div class="header-meet-audrey-title-and-audrey-chair-container">
         <MeetAudreyTitle />
+        <MeetAudreyImage />
       </div>
-      <div class="header-quote-desktop-container">
-        <HeaderQuote />
-      </div>
+    </div>
+    <div class="header-quote-desktop-container">
+      <HeaderQuote />
     </div>
   </section>
 
@@ -25,7 +26,8 @@ import HeaderTitle from './HeaderTitle.vue';
 import HeaderImageMobile from './HeaderImageMobile.vue';
 import TheSignUpForm from '../signup-form/TheSignUpForm.vue';
 import HeaderQuote from './HeaderQuote.vue';
-import MeetAudreyTitle from '../meetAudrey/MeetAudreyTitle.vue'
+import MeetAudreyTitle from '../meetAudrey/MeetAudreyTitle.vue';
+import MeetAudreyImage from '../meetAudrey/MeetAudreyImage.vue';
 
 export default {
   components: {
@@ -34,6 +36,7 @@ export default {
     TheSignUpForm,
     HeaderQuote,
     MeetAudreyTitle,
+    MeetAudreyImage
   },
 
   data() {
@@ -70,23 +73,23 @@ export default {
 <style scoped>
 @media screen and (min-width: 1366px) {
   .header-desktop-wrapper {
-    height: 1200px;
-    width: 100%;
+    height: 2279px;
+    width: 108%;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
       0% 0% no-repeat;
     opacity: 1;
     margin-left: -2.5%;
-    margin-right: -2.5%;
+    margin-right: -6%;
     height: 1056px;
-    width: 109%;
-    background-size: 108%;
+    width: 100%;
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .header-signup-form-container {
     width: 486px;
@@ -102,11 +105,13 @@ export default {
     height: 71px;
     position: relative;
     top: 608px;
+    right: 7.25%;
   }
-  .header-meet-audrey-title-container {
-    height: 1248px;
+  .header-meet-audrey-title-and-audrey-chair-container{
+    height: 2279px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>

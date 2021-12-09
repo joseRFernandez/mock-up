@@ -105,7 +105,7 @@ export default {
   .meet-audrey-desktop-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 1222px;
   }
   .meet-audrey-quote-and-text-desktop-container {
