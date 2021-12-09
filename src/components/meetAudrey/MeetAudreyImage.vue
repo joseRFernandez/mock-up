@@ -33,8 +33,6 @@
 }
 @media screen and (min-width: 1366px) {
   .meet-audrey-image-container {
-    top: 1318px;
-    left: 683px;
     width: 616px;
     height: 925px;
   }

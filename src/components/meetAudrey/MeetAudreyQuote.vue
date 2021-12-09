@@ -29,6 +29,7 @@
     letter-spacing: 0px;
     color: #262626;
     opacity: 1;
+    text-align: center;
   }
 }
 </style>

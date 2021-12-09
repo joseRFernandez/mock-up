@@ -1,12 +1,21 @@
 <template>
   <section class="header-desktop-wrapper" v-if="desktop">
-    <div class="header-desktop-image-container">
-      <div class="header-signup-form-container">
+    <div class="header-desktop-image-container"></div>
+    <div class="header-signup-form-and-text-container">
+      <div class="header-signup-mini-container">
         <HeaderTitle />
         <TheSignUpForm />
       </div>
-      <div class="header-meet-audrey-title-and-audrey-chair-container">
+      <div class="header-meet-audrey-quote-and-text-container">
+        <MeetAudreyQuoteAndText />
+      </div>
+    </div>
+    <div class="header-meet-audrey-title-and-chair-image-container">
+      <div class="header-meet-audrey-title-container">
         <MeetAudreyTitle />
+      </div>
+
+      <div class="header-meet-audrey-chair-image">
         <MeetAudreyImage />
       </div>
     </div>
@@ -27,6 +36,7 @@ import HeaderImageMobile from './HeaderImageMobile.vue';
 import TheSignUpForm from '../signup-form/TheSignUpForm.vue';
 import HeaderQuote from './HeaderQuote.vue';
 import MeetAudreyTitle from '../meetAudrey/MeetAudreyTitle.vue';
+import MeetAudreyQuoteAndText from '../meetAudrey/MeetAudreyQuoteAndText.vue';
 import MeetAudreyImage from '../meetAudrey/MeetAudreyImage.vue';
 
 export default {
@@ -36,7 +46,8 @@ export default {
     TheSignUpForm,
     HeaderQuote,
     MeetAudreyTitle,
-    MeetAudreyImage
+    MeetAudreyQuoteAndText,
+    MeetAudreyImage,
   },
 
   data() {
@@ -77,7 +88,7 @@ export default {
     width: 108%;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
@@ -89,9 +100,25 @@ export default {
     width: 100%;
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    position: absolute;
   }
-  .header-signup-form-container {
+  .header-signup-form-and-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8.27%;
+  }
+  .header-meet-audrey-title-and-chair-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 4.9%;
+  }
+  .header-signup-mini-container {
     width: 486px;
     height: 1248px;
     background-color: #ffc700;
@@ -99,18 +126,28 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    z-index: 1;
+  }
+  .header-meet-audrey-quote-and-text-container {
+    height: 1015px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
   }
   .header-quote-desktop-container {
     width: 96px;
     height: 71px;
-    position: relative;
-    top: 608px;
-    right: 7.25%;
+    position: absolute;
+    top: 700px;
+    right: 7.4%;
   }
-  .header-meet-audrey-title-and-audrey-chair-container{
-    height: 2279px;
+  .header-meet-audrey-title-container {
+    height: 1200px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
   }
 }
