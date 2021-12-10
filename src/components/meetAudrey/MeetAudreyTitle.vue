@@ -21,6 +21,7 @@
 }
 .purple {
   text-align: center;
+  font-weight: 300;
 }
 .meet-audrey-bottom-text {
   width: 308px;
@@ -29,11 +30,10 @@
   font: normal normal normal 28px/36px Omnes;
   letter-spacing: 0px;
   color: #262626;
+  font-weight: 300;
 }
 @media screen and (min-width: 738px) {
   .meet-audrey-title {
-    top: 1511px;
-    left: 189px;
     width: 391px;
     height: 42px;
     text-align: center;
@@ -43,8 +43,6 @@
     opacity: 1;
   }
   .meet-audrey-bottom-text {
-    top: 1551px;
-    left: 189px;
     width: 391px;
     opacity: 1;
   }

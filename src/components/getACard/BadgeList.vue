@@ -129,6 +129,7 @@ export default {
     flex-direction: row;
     width: 77%;
     height: 40px;
+    margin-top: unset;
   }
   .GAC-badge-item {
     height: 40px;

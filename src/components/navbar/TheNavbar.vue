@@ -1,8 +1,10 @@
 <template>
   <div class="navbar-wrapper">
-    <BuzzRxLogo class="navbar-buzz-logo" />
-    <HamburgerBtn v-if="!desktop" />
-    <NavLinks v-if="desktop" />
+    <div class="navbar-logo-and-content-container">
+      <BuzzRxLogo />
+      <HamburgerBtn v-if="!desktop" />
+      <NavLinks v-if="desktop" />
+    </div>
   </div>
 </template>
 
@@ -51,12 +53,18 @@ export default {
 <style scoped>
 .navbar-wrapper {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 70px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
+}
+.navbar-logo-and-content-container {
+  display: flex;
+  width: 93.6%;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 1366px) {
@@ -68,6 +76,5 @@ export default {
     height: 38px;
     left: 90px;
   }
-
 }
 </style>

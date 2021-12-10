@@ -21,7 +21,6 @@
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin-top: 34px;
 }
 @media screen and (min-width: 768px) {
   .maw-text-wrapper-main {

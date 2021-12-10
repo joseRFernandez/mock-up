@@ -116,7 +116,7 @@ export default {
   }
   .header-signup-mini-container {
     width: 486px;
-    height: 1248px;
+    height: 1200px;
     background-color: #ffc700;
     display: flex;
     flex-direction: column;

@@ -39,7 +39,6 @@ export default {
 .maw-figures-wrapper {
   width: 180px;
   text-align: center;
-  margin-top: 39px;
 }
 @media screen and (min-width: 768px) {
   .maw-figures-wrapper {

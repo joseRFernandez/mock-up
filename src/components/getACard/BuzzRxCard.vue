@@ -8,17 +8,14 @@
 .buzz-card {
   width: 283px;
   height: 178px;
-  border: 1px solid #707070;
-  border-radius: 9px;
   opacity: 1;
-  background: url('/assets/buzzCards/buzzCard.png') 0% 0% no-repeat padding-box;
+  background: url('/assets/BRXCA-PHMW-WEB /BRXCA-PHMW-WEB.png') 0% 0% no-repeat padding-box;
   background-size: contain;
 }
 @media screen and (min-width: 768px) {
   .buzz-card {
     width: 489px;
     height: 308px;
-    border-radius: 24px;
     background: url('/assets/buzzCards/BRXCA-PHMW-WEB@2x.png') 0% 0% no-repeat
       padding-box;
       background-size: cover;
