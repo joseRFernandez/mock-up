@@ -14,9 +14,17 @@
   background: #b33cc8 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+.navbar-hamburger-container {
+    position: relative;
+    top: 8px;
+    right: 10px;
+    width: 70.8%;
+    height: 50px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
 @media screen and (min-width: 768px) {
   .navbar-hamburger-container {
-    position: absolute;
     top: 8px;
     right: 10px;
     width: 70.8%;

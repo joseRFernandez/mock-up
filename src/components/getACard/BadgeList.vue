@@ -4,7 +4,7 @@
       v-for="badge in conditionalBadges"
       :key="badge.id"
       :icon="badge.icon"
-      :caption="badge.caption"
+      :caption="badge.caption.toUpperCase()"
       class="GAC-badge-item"
     />
   </div>
@@ -25,7 +25,6 @@ export default {
         });
       } else if (this.tablet) {
         const result = this.badges.slice().sort((a, b) => b.id - a.id);
-        console.log(result);
         return result;
       } else {
         return this.badges;
@@ -42,17 +41,17 @@ export default {
         {
           id: 1,
           icon: 'assets/text/text.png',
-          caption: 'TEXT CARD',
+          caption: 'Text Card',
         },
         {
           id: 2,
           icon: 'assets/email/email.png',
-          caption: 'EMAIL CARD',
+          caption: 'Email Card',
         },
         {
           id: 3,
           icon: 'assets/print.svg',
-          caption: 'PRINT CARD',
+          caption: 'Print Card',
         },
       ],
     };
@@ -113,7 +112,6 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* width: 319px; */
   width: 88%;
 }
 .GAC-badge-item {

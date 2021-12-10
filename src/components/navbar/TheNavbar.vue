@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      desktop: '',
+      desktop: null,
     };
   },
   beforeMount() {
@@ -50,6 +50,8 @@ export default {
 
 <style scoped>
 .navbar-wrapper {
+  display: flex;
+
   width: 100%;
   height: 70px;
   background: #ffffff 0% 0% no-repeat padding-box;

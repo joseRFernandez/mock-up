@@ -1,12 +1,11 @@
 <template>
   <div class="badge-container">
     <div class="badge">
-      <p class="agree-badge-text">Sign Up To Give Back</p>
+      <p class="agree-badge-text">{{"Sign Up To Give Back".toUpperCase()}}</p>
     </div>
   </div>
 </template>
 
-<script></script>
 
 <style scoped>
 .badge-container {
