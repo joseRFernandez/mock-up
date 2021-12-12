@@ -16,7 +16,7 @@
 }
 .hamburger {
   position: relative;
-  right: 2%;
+  right: 5%;
   width: 16px;
   height: 12px;
   background: #b33cc8 0% 0% no-repeat padding-box;

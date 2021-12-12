@@ -41,7 +41,7 @@
   color: #ffffff;
 }
 ceo-subsequent-paragraphs-container {
-  font-weight: 300;
+  font-weight: 200;
 }
 @media screen and (min-width: 768px) {
   .ceo-paragraph-container {

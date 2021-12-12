@@ -1,7 +1,9 @@
 <template>
   <div class="header-meet-audrey-quote-and-text-container">
-    <MeetAudreyQuote />
-    <MeetAudreyText />
+    <div class="meet-audrey-quote-and-text-content">
+      <MeetAudreyQuote />
+      <MeetAudreyText />
+    </div>
   </div>
 </template>
 
@@ -23,8 +25,14 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 925px;
+  }
+  .meet-audrey-quote-and-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     height: 650px;
-    margin-bottom: 6.9%;
   }
 }
 </style>

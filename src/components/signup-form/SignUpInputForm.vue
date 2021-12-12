@@ -61,7 +61,7 @@ export default {
     letter-spacing: 0px;
     color: red;
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 1.15em;
   }
 }
 </style>
