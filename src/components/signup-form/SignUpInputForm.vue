@@ -38,6 +38,9 @@ export default {
   height: 461px;
   margin-top: 5px;
 }
+.base-input-item:hover {
+  border: 3px solid #b33cc8;
+}
 @media screen and (min-width: 768px) {
   .input-section-wrapper {
     width: 71.22%;
