@@ -44,9 +44,6 @@
   .badge-container {
     width: 267px;
     height: 40px;
-    background: #b33cc8 0% 0% no-repeat padding-box;
-    border-radius: 28px;
-    opacity: 1;
   }
   .badge {
     left: 25px;

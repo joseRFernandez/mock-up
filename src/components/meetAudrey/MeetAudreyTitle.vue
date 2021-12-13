@@ -30,21 +30,16 @@
   font: normal normal normal 28px/36px Omnes;
   letter-spacing: 0px;
   color: #262626;
+
+    opacity: 1;
   font-weight: 300;
 }
 @media screen and (min-width: 738px) {
   .meet-audrey-title {
     width: 391px;
-    height: 42px;
-    text-align: center;
-    font: normal normal normal 34px/36px Omnes;
-    letter-spacing: 0px;
-    color: #b33cc8;
-    opacity: 1;
   }
   .meet-audrey-bottom-text {
     width: 391px;
-    opacity: 1;
   }
 }
 @media screen and (min-width: 1366px) {

@@ -29,13 +29,6 @@ export default {
 @media screen and (min-width: 768px) {
   .ceo-section-wrapper {
     height: 351px;
-    background: #1e5aaa 0% 0% no-repeat padding-box;
-    opacity: 1;
   }
 }
-/* @media screen and (min-width: 1366px) {
-  .ceo-section-wrapper {
-    height: 351px;
-  }
-} */
 </style>

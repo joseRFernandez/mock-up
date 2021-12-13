@@ -33,7 +33,6 @@
 }
 @media screen and (min-width: 768px) {
   .maw-header {
-    width: 100%;
     height: 34px;
   }
   .maw-header-text-container {
@@ -47,12 +46,8 @@
     top: 25px;
   }
   .maw-header-text-container {
-    text-align: center;
-    font: normal normal medium 24px/24px Omnes;
-    letter-spacing: 0px;
-    color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
+    font: normal normal normal 24px/24px Omnes;
+    font-weight: 300;
   }
 }
 </style>

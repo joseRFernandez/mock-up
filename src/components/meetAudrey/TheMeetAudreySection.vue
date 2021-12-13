@@ -89,15 +89,11 @@ export default {
 }
 @media screen and (min-width: 768px) {
   .meet-audrey-image-and-text-container {
-    display: flex;
     flex-direction: row-reverse;
     width: 100%;
     height: 829px;
   }
   .meet-audrey-quote-and-text-small-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 50%;
   }
 }

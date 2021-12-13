@@ -55,36 +55,17 @@
   .signup-first-container {
     width: 384px;
     height: 74px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .signup-text-paragraph-1 {
     width: 384px;
     height: 74px;
-    text-align: center;
-    font: normal normal normal 15px/17px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .signup-second-container {
     width: 384px;
     height: 61px;
-    text-align: center;
-    font: normal normal bold 18px/22px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .signup-text-paragraph-2 {
     height: 22px;
-    text-align: center;
-    font: normal normal bold 18px/22px Lato;
-    letter-spacing: 0px;
-    color: #262626;
   }
 }
 </style>

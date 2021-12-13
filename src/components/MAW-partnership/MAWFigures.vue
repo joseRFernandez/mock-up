@@ -44,7 +44,6 @@ export default {
   .maw-figures-wrapper {
     width: 172px;
     height: 187px;
-    text-align: center;
     font: normal normal bold 20px/24px Lato;
     letter-spacing: 0px;
     color: #262626;

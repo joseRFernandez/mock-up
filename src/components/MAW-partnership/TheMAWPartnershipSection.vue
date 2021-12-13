@@ -44,7 +44,6 @@ export default {
   .maw-partnership-wrapper {
     margin-top: 0;
     height: 341px;
-    opacity: 1;
   }
   .maw-figures-container {
     width: 100%;
@@ -53,5 +52,8 @@ export default {
   }
 }
 @media screen and (min-width: 1366px) {
+  .maw-figures-container {
+    height: 337px;
+  }
 }
 </style>

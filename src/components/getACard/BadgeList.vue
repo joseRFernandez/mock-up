@@ -124,7 +124,6 @@ export default {
 
 @media screen and (min-width: 768px) {
   .GAC-badge-container {
-    display: flex;
     justify-content: space-around;
     flex-direction: row;
     width: 77%;

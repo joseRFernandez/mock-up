@@ -29,6 +29,7 @@
     </p>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -55,7 +56,7 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      if (this.width >= 768 && this.width <= 1366) {
+      if (this.width >= 768 && this.width < 1366) {
         this.tablet = true;
       } else {
         this.tablet = false;
@@ -77,7 +78,6 @@ export default {
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  line-height: 24px;
 }
 @media screen and (min-width: 768px) {
   .meet-audrey-text {

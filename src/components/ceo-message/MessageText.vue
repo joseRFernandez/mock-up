@@ -27,7 +27,7 @@
 
 <style scoped>
 .ceo-paragraph-container {
-  width: 88.7%;
+  width: 88%;
   text-align: center;
   letter-spacing: 0px;
   color: #ffffff;
@@ -40,20 +40,13 @@
   letter-spacing: 0px;
   color: #ffffff;
 }
-ceo-subsequent-paragraphs-container {
+.ceo-subsequent-paragraphs-container {
   font-weight: 200;
 }
 @media screen and (min-width: 768px) {
   .ceo-paragraph-container {
-    top: 46px;
-    left: 71px;
     width: 626px;
     height: 143px;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .ceo-paragraph-container {
-    left: 370px;
   }
 }
 </style>

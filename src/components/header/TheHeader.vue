@@ -86,9 +86,7 @@ export default {
   .header-desktop-wrapper {
     height: 2279px;
     width: 108%;
-    box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
@@ -124,6 +122,7 @@ export default {
     align-items: center;
     justify-content: space-evenly;
     z-index: 1;
+    box-shadow: 0px 3px 6px #00000029;
   }
   .header-meet-audrey-quote-and-text-container {
     height: 925px;

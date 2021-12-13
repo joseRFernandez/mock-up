@@ -22,7 +22,6 @@
   .meet-audrey-image-container {
     background: transparent url('/assets/Real_AudreyChair/IMG_0308@2x.png') 0%
       0% no-repeat padding-box;
-    background-size: cover;
     background-position: center;
   }
 }
@@ -30,9 +29,6 @@
   .meet-audrey-image-container {
     width: 453px;
     height: 680px;
-    background: transparent url('/assets/Real_AudreyChair/IMG_0308@2x.png') 0%
-      0% no-repeat padding-box;
-    opacity: 1;
     background-size: contain;
   }
 }

@@ -16,16 +16,9 @@
   .buzz-card {
     width: 489px;
     height: 308px;
-    background: url('/assets/buzzCards/BRXCA-PHMW-WEB@2x.png') 0% 0% no-repeat
+    background: url('/assets/BRXCA-PHMW-WEB /BRXCA-PHMW-WEB@2x.png') 0% 0% no-repeat
       padding-box;
       background-size: cover;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .buzz-card {
-    width: 489px;
-    height: 308px;
-    display: inline-block;
   }
 }
 </style>

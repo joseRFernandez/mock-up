@@ -75,12 +75,6 @@ export default {
   .navbar-logo-and-content-container {
   display: flex;
   width: 82%;
-  justify-content: space-between;
 }
-  .navbar-buzz-logo {
-    width: 159px;
-    height: 38px;
-    left: 90px;
-  }
 }
 </style>
