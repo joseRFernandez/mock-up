@@ -21,30 +21,16 @@
   letter-spacing: 0px;
   color: #262626;
   opacity: 1;
-  margin-top: 34px;
 }
 @media screen and (min-width: 768px) {
   .maw-text-wrapper-main {
     width: 539px;
     height: 187px;
-    text-align: left;
-    font: normal normal normal 16px/24px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
 }
 @media screen and (min-width: 1366px) {
   .maw-text-wrapper-main {
-    top: 118px;
-    left: 287px;
     width: 588px;
-    height: 187px;
-    text-align: left;
-    font: normal normal normal 16px/24px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
 }
 </style>

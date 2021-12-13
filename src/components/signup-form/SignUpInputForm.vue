@@ -51,7 +51,6 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     width: 384px;
     height: 461px;
   }
@@ -59,9 +58,8 @@ export default {
     text-align: left;
     font: normal normal normal 16px/19px Lato;
     letter-spacing: 0px;
-    color: red;
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 1.15em;
   }
 }
 </style>

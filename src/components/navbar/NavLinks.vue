@@ -54,7 +54,6 @@
 .nav-link-icon-1 {
   position: absolute;
   top: 32px;
-  /* left: 1162px; */
   right: 192px;
   width: 12px;
   height: 7px;
@@ -77,7 +76,6 @@
   position: absolute;
   text-align: center;
   top: 26px;
-  /* left: 1197px; */
   right: 83px;
   width: 86px;
   height: 29px;

@@ -79,40 +79,4 @@ export default {
       background-size: contain;
   }
 }
-
-
-
-@media screen and (min-width: 1366px) {
-  .header-mobile-image {
-    position: absolute;
-    top: 70px;
-    left: 569px;
-    width: 1432px;
-    height: 1057px;
-    background: transparent url('/assets/mobile-header/mobile-header@2x.png') 0%
-      0% no-repeat padding-box;
-    background-size: cover;
-    opacity: 1;
-  }
-  .conditional-sliver {
-    position: absolute;
-    top: 70px;
-    width: 73px;
-    height: 1057pxpx;
-    background: transparent 0% 0% no-repeat padding-box;
-    object-fit: cover;
-  }
-  .conditional-sliver-image {
-    width: 73px;
-    height: 1057px;
-  }
-  .conditional {
-    position: absolute;
-    top: 70px;
-    left: 569px;
-    width: 1432px;
-    height: 1057px;
-    background: transparent 0% 0% no-repeat padding-box;
-  }
-}
 </style>

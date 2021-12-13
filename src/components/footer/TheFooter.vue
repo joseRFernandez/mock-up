@@ -1,31 +1,32 @@
 <template>
   <section class="footer-wrapper">
-    <BuzzRxLogo class="footer-logo" />
-    <div class="footer-copyright-and-fine-print-container">
-      <div class="footer-copyright-container">
-        <p class="footer-copyright">
-          © 2020 <strong class="footer-copyright-bold">BuzzRx.com</strong>
-        </p>
-        <p class="footer-copyright-not-insurance">
-          This is not insurance. Full Disclaimer
-        </p>
+    <div class="footer-container">
+      <BuzzRxLogo class="footer-logo" />
+      <div class="footer-copyright-and-fine-print-container">
+        <div class="footer-copyright-container">
+          <p class="footer-copyright">
+            © 2020 <strong class="footer-copyright-bold">BuzzRx.com</strong>
+          </p>
+          <p class="footer-copyright-not-insurance">
+            This is not insurance. Full Disclaimer
+          </p>
+        </div>
+        <div class="fine-print-container-bold">
+          <p class="small-print-text bold">
+            The BuzzRx prescription discount program is not available for use in
+            the state of Tennessee.
+          </p>
+        </div>
+        <div class="fine-print-container-normal">
+          <p class="small-print-text">
+            All trademarks, brands, logos and copyright images are property of
+            their respective owners and rights holders and are used solely to
+            represent the products of these rights holders.
+          </p>
+        </div>
       </div>
-      <div class="fine-print-container-bold">
-        <p class="small-print-text bold">
-          The BuzzRx prescription discount program is not available for use in
-          the state of Tennessee.
-        </p>
-      </div>
-      <div class="fine-print-container-normal">
-        <p class="small-print-text">
-          All trademarks, brands, logos and copyright images are property of
-          their respective owners and rights holders and are used solely to
-          represent the products of these rights holders.
-        </p>
-      </div>
+      <DotPharmacyLogo />
     </div>
-
-    <DotPharmacyLogo />
   </section>
 </template>
 
@@ -46,6 +47,13 @@ export default {
     align-items: center;
     justify-content: space-evenly;
     height: 211px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 260px;
   }
   .footer-logo {
     width: 80px;
@@ -126,9 +134,6 @@ export default {
     height: 13px;
     text-align: left;
     font: normal normal 11px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .fine-print-container-bold {
     width: 324px;
@@ -145,6 +150,9 @@ export default {
 @media screen and (min-width: 1366px) {
   .footer-wrapper {
     height: 474px;
+  }
+  .footer-container {
+    height: 295px;
   }
   .footer-copyright-and-fine-print-container {
     height: 122px;
@@ -172,11 +180,7 @@ export default {
   .fine-print-container-normal {
     width: 476px;
     height: 33px;
-    text-align: center;
     font: normal normal 12px/18px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
   .dot-logo-mobile {
     width: 146px;

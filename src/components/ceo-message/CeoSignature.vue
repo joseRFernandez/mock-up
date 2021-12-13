@@ -43,18 +43,9 @@ export default {
   font-weight: bold;
   text-align: left;
 }
-@media screen and (min-width: 376px) {
-  .ceo-signature {
-    top: 240px;
-    left: 358px;
-  }
-}
 @media screen and (min-width: 769px) {
   .ceo-signature {
     font: normal normal normal 14px/20px Lato;
-  }
-  .ceo-signature-text-container {
-    margin-left: 24px;
   }
 }
 </style>
