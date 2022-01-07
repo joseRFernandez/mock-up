@@ -61,20 +61,19 @@ export default {
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
- .navbar-logo-and-content-container {
+.navbar-logo-and-content-container {
   display: flex;
   width: 96%;
   justify-content: space-between;
 }
-
 
 @media screen and (min-width: 1366px) {
   .navbar-wrapper {
     height: 70px;
   }
   .navbar-logo-and-content-container {
-  display: flex;
-  width: 82%;
-}
+    display: flex;
+    width: 82%;
+  }
 }
 </style>
