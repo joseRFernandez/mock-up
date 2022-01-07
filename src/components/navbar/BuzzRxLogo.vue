@@ -1,15 +1,23 @@
 <template>
   <div class="navbar-logo-container">
-    <img src= "assets/BRX_Logo.png" class="navbar-buzz-logo" />
+    <img :src="image" class="navbar-buzz-logo" />
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      image: 'assets/BRX_Logo.png',
+    };
+  },
+};
+</script>
 
 <style scoped>
 .navbar-logo-container {
   display: flex;
   align-items: center;
-
 }
 .navbar-buzz-logo {
   width: 154px;
