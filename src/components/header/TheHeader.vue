@@ -85,7 +85,8 @@ export default {
 @media screen and (min-width: 1366px) {
   .header-desktop-wrapper {
     height: 2279px;
-    width: 108%;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
   }
   .header-desktop-image-container {
