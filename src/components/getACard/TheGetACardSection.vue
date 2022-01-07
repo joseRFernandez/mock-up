@@ -81,7 +81,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100%;
+    height: 308px;
   }
 }
 </style>

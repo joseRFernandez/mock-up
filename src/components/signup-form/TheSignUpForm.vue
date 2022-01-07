@@ -59,12 +59,13 @@ export default {
 
 <style scoped>
 .signup-wrapper {
-  height: 1077px;
+  height: 1023px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 1% 0%;
 }
 @media screen and (min-width: 768px) {
   .signup-wrapper {

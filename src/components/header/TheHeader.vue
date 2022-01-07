@@ -88,7 +88,6 @@ export default {
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
   }
   .header-desktop-image-container {
     background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
@@ -104,31 +103,35 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-left: 8.27%;
+    margin-left: 90px;
   }
   .header-meet-audrey-title-and-chair-image-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     position: absolute;
     right: 4.9%;
+    height: 2279px;
   }
   .header-signup-mini-container {
     width: 486px;
-    height: 1248px;
+    height: 1200px;
     background-color: #ffc700;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     z-index: 1;
+    box-shadow: 0px 3px 6px #00000029;
   }
   .header-meet-audrey-quote-and-text-container {
-    height: 1015px;
+    height: 925px;
     display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     z-index: 1;
   }
@@ -149,9 +152,9 @@ export default {
 }
 @media screen and (min-width: 2000px) {
   .header-desktop-image-container {
-    background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png')
-      0% 0% no-repeat;
-      background-size: cover;
+    background: transparent
+      url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png') 0% 0% no-repeat;
+    background-size: cover;
   }
 }
 </style>

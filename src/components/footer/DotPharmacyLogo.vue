@@ -13,16 +13,12 @@
 }
 @media screen and (min-width: 768px) {
   .footer-logo-pharmacy {
-    top: 4031px;
-    left: 328px;
     width: 110px;
     height: 21px;
   }
 }
 @media screen and (min-width: 1366px) {
   .footer-logo-pharmacy {
-    top: 3877px;
-    left: 634px;
     width: 146px;
     height: 27px;
   }

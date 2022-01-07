@@ -21,6 +21,7 @@
   height: 13px;
   background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
+    opacity: 1;
 }
 .agree-text-container {
   position: relative;
@@ -37,10 +38,6 @@
   .agree-to-visit-container {
     width: 42.45%;
   }
-  .checkbox {
-    width: 13px;
-    height: 13px;
-  }
   .agree-text-container {
     height: 36px;
   }
@@ -50,19 +47,9 @@
     width: unset;
 
   }
-  .checkbox {
-    width: 13px;
-    height: 13px;
-    opacity: 1;
-  }
   .agree-text-container {
     width: 336px;
     height: 36px;
-    text-align: left;
-    font: normal normal normal 14px/18px Lato;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
   }
 }
 </style>

@@ -38,6 +38,9 @@ export default {
   height: 461px;
   margin-top: 5px;
 }
+.base-input-item:hover {
+  border: 3px solid #b33cc8;
+}
 @media screen and (min-width: 768px) {
   .input-section-wrapper {
     width: 71.22%;
@@ -51,7 +54,6 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     width: 384px;
     height: 461px;
   }
@@ -59,9 +61,8 @@ export default {
     text-align: left;
     font: normal normal normal 16px/19px Lato;
     letter-spacing: 0px;
-    color: red;
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 1.15em;
   }
 }
 </style>

@@ -74,7 +74,6 @@ body {
 }
 .body-container {
   width: 100%;
-  height: 4796px;
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
   box-sizing: border-box;
@@ -82,15 +81,5 @@ body {
 }
 p {
   margin: 0;
-}
-@media screen and (min-width: 768px) {
-  .body-container {
-    height: 4107px;
-  }
-}
-@media screen and (min-width: 1366px) {
-  .body-container {
-    height: 3987px;
-  }
 }
 </style>
