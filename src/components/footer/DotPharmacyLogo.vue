@@ -6,7 +6,7 @@
 .footer-logo-pharmacy {
   width: 71px;
   height: 13px;
-  background: transparent url('/assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
+  background: transparent url('../../assets/dotPharmacyLogos/dotPharmacyLogo.png') 0%
     0% no-repeat padding-box;
   opacity: 1;
   background-size: cover;

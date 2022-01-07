@@ -13,14 +13,14 @@
   margin: 30px 0 28px;
 }
 .meet-audrey-image {
-  background: transparent url('/assets/Real_AudreyChair/IMG_0308.png') 0% 0%
-    no-repeat padding-box;
+  background: transparent url('../../assets/Real_AudreyChair/IMG_0308.png') 0%
+    0% no-repeat padding-box;
   background-size: cover;
   height: 100%;
 }
 @media screen and (min-width: 450px) {
   .meet-audrey-image-container {
-    background: transparent url('/assets/Real_AudreyChair/IMG_0308@2x.png') 0%
+    background: transparent url('../../assets/Real_AudreyChair/IMG_0308.png') 0%
       0% no-repeat padding-box;
     background-position: center;
   }

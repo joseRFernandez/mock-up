@@ -90,7 +90,7 @@ export default {
     display: flex;
   }
   .header-desktop-image-container {
-    background: transparent url('/assets/mobile-header/IMG_0049/IMG_0049.png')
+    background: transparent url('../../assets/mobile-header/IMG_0049/IMG_0049.png')
       0% 0% no-repeat;
     opacity: 1;
     height: 1057px;
@@ -153,7 +153,7 @@ export default {
 @media screen and (min-width: 2000px) {
   .header-desktop-image-container {
     background: transparent
-      url('/assets/mobile-header/IMG_0049/IMG_0049@2x.png') 0% 0% no-repeat;
+      url('../../assets/mobile-header/IMG_0049/IMG_0049@2x.png') 0% 0% no-repeat;
     background-size: cover;
   }
 }
