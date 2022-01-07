@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-hamburger-container">
-    <img src="assets/hamburger_icon.png" class="hamburger" />
+    <img src="@/assets/hamburger_icon.png" class="hamburger" />
   </div>
 </template>
 

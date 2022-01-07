@@ -3,19 +3,10 @@
       <div class="maw-header-container">
         <p class="maw-logo-header-text">PROUD SUPPORTER OF</p>
       </div>
-      <img :src="image" class="maw-logo-image" />
+      <img src="@/assets/Make-A-Wish-Logo.png" class="maw-logo-image" />
     </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      image: "assets/Make-A-Wish-Logo.png"
-    }
-  }
-}
-</script>
 
 <style scoped>
 .maw-logo-container {
