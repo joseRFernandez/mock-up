@@ -57,7 +57,7 @@
   right: 192px;
   width: 12px;
   height: 7px;
-  background: transparent url('/assets/nav-bar-icon.png') 0% 0% no-repeat
+  background: transparent url('../../assets/nav-bar-icon.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
 }
@@ -67,7 +67,7 @@
   left: 49px;
   width: 12px;
   height: 7px;
-  background: transparent url('/assets/nav-bar-icon.png') 0% 0% no-repeat
+  background: transparent url('../../assets/nav-bar-icon.png') 0% 0% no-repeat
     padding-box;
   opacity: 1;
   display: inline;
