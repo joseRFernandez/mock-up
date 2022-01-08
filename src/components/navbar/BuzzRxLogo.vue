@@ -1,23 +1,24 @@
 <template>
   <div class="navbar-logo-container">
-    <img :src="image" class="navbar-buzz-logo" />
+    <BuzzRxLogo class="navbar-buzz-logo" />
   </div>
 </template>
 
+
 <script>
+import BuzzRxLogo from '../BuzzRxLogo.vue'
 export default {
-  data() {
-    return {
-      image: 'assets/BRX_Logo.png',
-    };
-  },
-};
+components: {
+  BuzzRxLogo
+}
+}
 </script>
 
 <style scoped>
 .navbar-logo-container {
   display: flex;
   align-items: center;
+
 }
 .navbar-buzz-logo {
   width: 154px;
