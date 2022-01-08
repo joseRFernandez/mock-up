@@ -13,8 +13,11 @@
 }
 @media screen and (min-width: 768px) {
   .footer-logo-pharmacy {
+    background: transparent url('../../assets/dotPharmacyLogos/dotPharmacyLogo@2x.png') 0%
+    0% no-repeat padding-box;
     width: 110px;
     height: 21px;
+    background-size: contain;
   }
 }
 @media screen and (min-width: 1366px) {

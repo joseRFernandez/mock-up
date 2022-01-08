@@ -53,7 +53,9 @@ export default {
 }
 @media screen and (min-width: 1366px) {
   .maw-figures-container {
-    height: 337px;
+    height: 268px;
+    justify-content: center;
+    padding-top: 35px;
   }
 }
 </style>
