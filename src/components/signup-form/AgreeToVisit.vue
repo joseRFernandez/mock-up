@@ -19,7 +19,7 @@
 .checkbox {
   width: 13px;
   height: 13px;
-  background: transparent url('/assets/check-box/check-box.png') 0% 0% no-repeat
+  background: transparent url('../../assets/check-box/check-box.png') 0% 0% no-repeat
     padding-box;
     opacity: 1;
 }

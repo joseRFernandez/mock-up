@@ -40,17 +40,17 @@ export default {
       badges: [
         {
           id: 1,
-          icon: 'assets/text/text.png',
+          icon: 'https://github.com/joseRFernandez/mock-up/blob/main/src/assets/text/text.png?raw=true',
           caption: 'Text Card',
         },
         {
           id: 2,
-          icon: 'assets/email/email.png',
+          icon: 'https://raw.githubusercontent.com/joseRFernandez/mock-up/main/src/assets/email/email.png',
           caption: 'Email Card',
         },
         {
           id: 3,
-          icon: 'assets/print.svg',
+          icon: 'https://raw.githubusercontent.com/joseRFernandez/mock-up/612cb76989926bf043fe626715c2c364480f18cf/src/assets/print.svg',
           caption: 'Print Card',
         },
       ],
