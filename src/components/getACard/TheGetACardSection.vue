@@ -17,40 +17,14 @@
 import GetACardText from './GetACardText.vue';
 import BuzzRxCard from './BuzzRxCard.vue';
 import BadgeList from './BadgeList.vue';
+import Resize from '../../mixins/resize';
 
 export default {
+  mixins: [Resize],
   components: {
     GetACardText,
     BuzzRxCard,
     BadgeList,
-  },
-  data() {
-    return {
-      desktop: null,
-    };
-  },
-  beforeMount() {
-    if (document.documentElement.clientWidth >= 1366) {
-      this.desktop = true;
-    } else {
-      this.desktop = false;
-    }
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width >= 1366) {
-        this.desktop = true;
-      } else {
-        this.desktop = false;
-      }
-    },
   },
 };
 </script>

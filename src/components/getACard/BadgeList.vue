@@ -1,22 +1,17 @@
 <template>
   <div class="GAC-badge-container">
-    <OptionButton
-      v-for="badge in conditionalBadges"
-      :key="badge.id"
-      :icon="badge.icon"
-      :caption="badge.caption.toUpperCase()"
-      class="GAC-badge-item"
-    />
+    <OptionButton v-for="badge in conditionalBadges" :key="badge.id" :icon="badge.icon" :caption="badge.caption.toUpperCase()" class="GAC-badge-item" />
   </div>
 </template>
 
 <script>
 import OptionButton from '../../OptionButton.vue';
-
+import Resize from "../../mixins/resize"
 export default {
   components: {
     OptionButton,
   },
+  mixins: [Resize],
   computed: {
     conditionalBadges() {
       if (this.mobile) {
@@ -34,9 +29,7 @@ export default {
   props: ['icon', 'caption'],
   data() {
     return {
-      mobile: null,
-      tablet: null,
-      desktop: null,
+
       badges: [
         {
           id: 1,
@@ -55,52 +48,6 @@ export default {
         },
       ],
     };
-  },
-
-  beforeMount() {
-    if (document.documentElement.clientWidth < 768) {
-      this.mobile = true;
-      this.tablet = false;
-      this.desktop = false;
-    } else if (
-      document.documentElement.clientWidth >= 768 &&
-      document.documentElement.clientWidth < 1366
-    ) {
-      this.mobile = false;
-      this.tablet = true;
-      this.desktop = false;
-    } else if (document.documentElement.clientWidth >= 1366) {
-      this.desktop = true;
-      this.mobile = false;
-      this.tablet = false;
-    }
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width < 768) {
-        this.mobile = true;
-        this.tablet = false;
-        this.desktop = false;
-      } else if (
-        document.documentElement.clientWidth >= 768 &&
-        document.documentElement.clientWidth < 1366
-      ) {
-        this.mobile = false;
-        this.tablet = true;
-        this.desktop = false;
-      } else {
-        this.desktop = true;
-        this.tablet = false;
-        this.mobile = false;
-      }
-    },
   },
 };
 </script>

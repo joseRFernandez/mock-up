@@ -16,6 +16,7 @@ import AgreeToVisit from './AgreeToVisit.vue';
 import SignUpBadge from './SignUpBadge.vue';
 import SignupFinePrint from './SignupFinePrint.vue';
 import MakeAWishLogo from './MakeAWishLogo.vue';
+import Resize from '../../mixins/resize';
 export default {
   components: {
     SignUpMainText,
@@ -25,37 +26,9 @@ export default {
     SignupFinePrint,
     MakeAWishLogo,
   },
-  data() {
-    return {
-      desktop: false,
-    };
-  },
-  beforeMount() {
-    if (document.documentElement.clientWidth >= 1366) {
-      this.desktop = true;
-    } else {
-      this.desktop = false;
-    }
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width >= 1366) {
-        this.desktop = true;
-      } else {
-        this.desktop = false;
-      }
-    },
-  },
+  mixins: [Resize],
 };
 </script>
-};
 
 <style scoped>
 .signup-wrapper {

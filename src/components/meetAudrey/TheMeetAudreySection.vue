@@ -26,6 +26,7 @@ import MeetAudreyTitle from './MeetAudreyTitle.vue';
 import MeetAudreyImage from './MeetAudreyImage.vue';
 import MeetAudreyQuote from './MeetAudreyQuote.vue';
 import MeetAudreyText from './MeetAudreyText.vue';
+import Resize from '../../mixins/resize';
 
 export default {
   components: {
@@ -34,35 +35,7 @@ export default {
     MeetAudreyQuote,
     MeetAudreyText,
   },
-
-  data() {
-    return {
-      desktop: null,
-    };
-  },
-  beforeMount() {
-    if (document.documentElement.clientWidth >= 1366) {
-      this.desktop = true;
-    } else {
-      this.desktop = false;
-    }
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width >= 1366) {
-        this.desktop = true;
-      } else {
-        this.desktop = false;
-      }
-    },
-  },
+  mixins: [Resize],
 };
 </script>
 

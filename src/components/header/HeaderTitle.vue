@@ -9,28 +9,9 @@
 </template>
 
 <script>
+import Resize from '../../mixins/resize';
 export default {
-  data() {
-    return {
-      desktop: false,
-    };
-  },
-  mounted() {
-    window.addEventListener('resize', this.getDimensions);
-  },
-  unmounted() {
-    window.removeEventListener('resize', this.getDimensions);
-  },
-  methods: {
-    getDimensions() {
-      this.width = document.documentElement.clientWidth;
-      if (this.width > 768) {
-        this.desktop = true;
-      } else {
-        this.desktop = false;
-      }
-    },
-  },
+  mixins: [Resize],
 };
 </script>
 
