@@ -1,4 +1,3 @@
-# mock-up
 
 ## Project setup
 ```
